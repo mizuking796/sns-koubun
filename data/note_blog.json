@@ -10,7 +10,7 @@
       "phrases": [
         {
           "text": "〜だった話",
-          "position": "title",
+          "position": "opening",
           "reality": "「話」を付けるだけで何でもコンテンツになる魔法の語尾。居酒屋の雑談レベルでも記事っぽくなる。",
           "example": "転職して年収が倍になった話",
           "intensity": 2,
@@ -21,7 +21,7 @@
         },
         {
           "text": "〜してみた",
-          "position": "title",
+          "position": "opening",
           "reality": "YouTubeの「やってみた」文化のブログ版。やっただけで結論がないことも多い。",
           "example": "ChatGPTに小説を書かせてみた",
           "intensity": 2,
@@ -32,7 +32,7 @@
         },
         {
           "text": "〜した結果",
-          "position": "title",
+          "position": "opening",
           "reality": "結果を示唆して釣るが、結果が「特に何も変わらなかった」ということもしばしば。",
           "example": "毎朝5時起きを1年続けた結果",
           "intensity": 3,
@@ -44,7 +44,7 @@
         },
         {
           "text": "〜した結果がヤバかった",
-          "position": "title",
+          "position": "opening",
           "reality": "「ヤバい」の安売り。全然ヤバくない結果を誇大表現で盛る定番手法。",
           "example": "副業を3つ同時に始めた結果がヤバかった",
           "intensity": 4,
@@ -56,7 +56,7 @@
         },
         {
           "text": "〜が変わった",
-          "position": "title",
+          "position": "opening",
           "reality": "ビフォーアフターを匂わせるが、変化の程度は主観的で検証不能。",
           "example": "朝活を始めたら人生が変わった",
           "intensity": 3,
@@ -68,7 +68,7 @@
         },
         {
           "text": "〜して気づいたこと",
-          "position": "title",
+          "position": "opening",
           "reality": "「気づき」は便利なワード。何でも気づきにすれば学びっぽくなる。",
           "example": "フリーランスになって3年目に気づいたこと",
           "intensity": 2,
@@ -80,7 +80,7 @@
         },
         {
           "text": "〜して学んだこと",
-          "position": "title",
+          "position": "opening",
           "reality": "「気づいたこと」の上位互換。教訓っぽさを出すが内容は薄いことが多い。",
           "example": "起業に失敗して学んだ5つのこと",
           "intensity": 2,
@@ -92,7 +92,7 @@
         },
         {
           "text": "〜したら人生変わった",
-          "position": "title",
+          "position": "opening",
           "reality": "人生が変わるハードルが異常に低い世界観。サプリ飲んだだけで人生変わる。",
           "example": "サウナに通い始めたら人生変わった",
           "intensity": 4,
@@ -111,7 +111,7 @@
       "phrases": [
         {
           "text": "〜が最強だった",
-          "position": "title",
+          "position": "opening",
           "reality": "個人の感想を「最強」で装飾。比較検証なしの主観レビュー。",
           "example": "コスパ最強だったワイヤレスイヤホンがこれ",
           "intensity": 3,
@@ -123,7 +123,7 @@
         },
         {
           "text": "〜は神",
-          "position": "title",
+          "position": "opening",
           "reality": "神のインフレ。良かった程度のものを神格化する語彙力の貧困。",
           "example": "このアプリは神。もう手放せない",
           "intensity": 4,
@@ -135,7 +135,7 @@
         },
         {
           "text": "〜一択",
-          "position": "title",
+          "position": "opening",
           "reality": "選択肢を排除することで断言感を演出。実際は他にもいい選択肢がある。",
           "example": "ブログで稼ぐならWordPress一択",
           "intensity": 3,
@@ -147,7 +147,7 @@
         },
         {
           "text": "〜が最適解",
-          "position": "title",
+          "position": "opening",
           "reality": "「一択」の意識高い版。最適解という言葉自体がビジネス臭い。",
           "example": "副業の最適解はこれだった",
           "intensity": 3,
@@ -159,7 +159,7 @@
         },
         {
           "text": "〜が最高すぎる",
-          "position": "title",
+          "position": "opening",
           "reality": "「すぎる」を付けて感情の過剰さを演出。最高の安売り。",
           "example": "リモートワークが最高すぎる件について",
           "intensity": 3,
@@ -171,7 +171,7 @@
         },
         {
           "text": "〜しか勝たん",
-          "position": "title",
+          "position": "opening",
           "reality": "オタク文化からの借用。カジュアルさを装うが結局は押し付け。",
           "example": "朝のコーヒーしか勝たん",
           "intensity": 3,
@@ -183,7 +183,7 @@
         },
         {
           "text": "控えめに言って〜",
-          "position": "title",
+          "position": "opening",
           "reality": "控えめに言ってないことが多い。謙虚に見せかけた自慢の前置き。",
           "example": "控えめに言って革命的なサービスだった",
           "intensity": 3,
@@ -202,7 +202,7 @@
       "phrases": [
         {
           "text": "おすすめ○選",
-          "position": "title",
+          "position": "opening",
           "reality": "数を増やすほど1つ1つの紹介が雑になる法則。30選とかもはや図鑑。",
           "example": "2025年おすすめガジェット15選",
           "intensity": 2,
@@ -214,7 +214,7 @@
         },
         {
           "text": "○つの理由",
-          "position": "title",
+          "position": "opening",
           "reality": "理由を無理やり数に合わせるので、水増し理由が混じる。",
           "example": "ブログをやめるべきでない7つの理由",
           "intensity": 2,
@@ -226,7 +226,7 @@
         },
         {
           "text": "○つの方法",
-          "position": "title",
+          "position": "opening",
           "reality": "方法が3つ以上ある時点で、どれも決定打じゃないことの証明。",
           "example": "集中力を高める5つの方法",
           "intensity": 2,
@@ -238,7 +238,7 @@
         },
         {
           "text": "○つのコツ",
-          "position": "title",
+          "position": "opening",
           "reality": "「方法」より軽い印象を狙うが、内容は変わらない。",
           "example": "読まれるnoteを書く3つのコツ",
           "intensity": 2,
@@ -250,7 +250,7 @@
         },
         {
           "text": "たった○つの〜",
-          "position": "title",
+          "position": "opening",
           "reality": "「たった」で少なさを強調して手軽さをアピール。実践は全然手軽じゃない。",
           "example": "たった3つの習慣で人生が変わる",
           "intensity": 3,
@@ -262,7 +262,7 @@
         },
         {
           "text": "○%の人が知らない",
-          "position": "title",
+          "position": "opening",
           "reality": "パーセンテージの根拠は不明。99%が知らないなら、それ本当に重要？",
           "example": "99%の人が知らないnoteで稼ぐ方法",
           "intensity": 4,
@@ -274,7 +274,7 @@
         },
         {
           "text": "【保存版】〜",
-          "position": "title",
+          "position": "opening",
           "reality": "保存するほどの価値があるかは読者が決めること。自分で言うな。",
           "example": "【保存版】ブログ初心者が最初にやるべきこと",
           "intensity": 3,
@@ -286,7 +286,7 @@
         },
         {
           "text": "【完全版】〜",
-          "position": "title",
+          "position": "opening",
           "reality": "完全じゃないことが多い。情報の網羅性を保証する風を装う。",
           "example": "【完全版】副業で月10万円稼ぐロードマップ",
           "intensity": 3,
@@ -298,7 +298,7 @@
         },
         {
           "text": "【永久保存版】〜",
-          "position": "title",
+          "position": "opening",
           "reality": "「保存版」のインフレ。永久って言われると逆に胡散臭い。",
           "example": "【永久保存版】Webライティングの教科書",
           "intensity": 4,
@@ -317,7 +317,7 @@
       "phrases": [
         {
           "text": "こんにちは、○○です。",
-          "position": "文頭",
+          "position": "opening",
           "reality": "誰も挨拶を求めていないのに律儀に名乗るブログ文化。読み飛ばされる第1行。",
           "example": "こんにちは、Webライターのタケシです。",
           "intensity": 1,
@@ -329,7 +329,7 @@
         },
         {
           "text": "この記事では〜について解説します",
-          "position": "文頭",
+          "position": "opening",
           "reality": "タイトルで分かることを改めて宣言する冗長さ。記事の1割はこの前置き。",
           "example": "この記事ではブログの書き方について解説します。",
           "intensity": 1,
@@ -341,7 +341,7 @@
         },
         {
           "text": "こんな悩みはありませんか？",
-          "position": "文頭",
+          "position": "opening",
           "reality": "読者の悩みを代弁しているようで、実はSEOキーワードを列挙するための前振り。",
           "example": "「ブログを始めたいけど何を書けばいいか分からない…」こんな悩みはありませんか？",
           "intensity": 2,
@@ -353,7 +353,7 @@
         },
         {
           "text": "この記事を読めば〜が分かります",
-          "position": "文頭",
+          "position": "opening",
           "reality": "読む前から得られるものを約束する。約束が果たされるかは別問題。",
           "example": "この記事を読めば、初心者でもnoteで月1万円稼ぐ方法が分かります。",
           "intensity": 2,
@@ -365,7 +365,7 @@
         },
         {
           "text": "結論から言うと〜",
-          "position": "文頭",
+          "position": "opening",
           "reality": "PREP法の忠実な実践。結論から言ったあと、また同じことを繰り返す。",
           "example": "結論から言うと、ブログは今からでも全然遅くないです。",
           "intensity": 2,
@@ -377,7 +377,7 @@
         },
         {
           "text": "〜について徹底解説！",
-          "position": "title",
+          "position": "opening",
           "reality": "「徹底」のインフレ。表面をなぞっただけでも「徹底解説」。",
           "example": "noteの始め方を徹底解説！",
           "intensity": 2,
@@ -389,7 +389,7 @@
         },
         {
           "text": "○○歴○年の筆者が",
-          "position": "文頭",
+          "position": "opening",
           "reality": "年数で権威を出そうとするが、年数と実力は比例しない。",
           "example": "ブログ歴5年の筆者が初心者向けに解説します。",
           "intensity": 2,
@@ -401,7 +401,7 @@
         },
         {
           "text": "〜でお悩みの方必見！",
-          "position": "文頭",
+          "position": "opening",
           "reality": "「必見」と言われて本当に必見だったことがない。",
           "example": "副業選びでお悩みの方必見！",
           "intensity": 3,
@@ -420,7 +420,7 @@
       "phrases": [
         {
           "text": "正直に言うと",
-          "position": "文中",
+          "position": "middle",
           "reality": "「正直に言う」と前置きすること自体が、普段は正直じゃないことの暗示。",
           "example": "正直に言うと、このサービスは微妙でした。でも○○は良かったです。",
           "intensity": 2,
@@ -432,7 +432,7 @@
         },
         {
           "text": "ぶっちゃけ",
-          "position": "文頭",
+          "position": "opening",
           "reality": "カジュアルさを装って信頼感を出す常套手段。ぶっちゃけた後に商品リンク。",
           "example": "ぶっちゃけ、この教材は値段の割にかなり良かったです。",
           "intensity": 3,
@@ -444,7 +444,7 @@
         },
         {
           "text": "忖度なしでレビュー",
-          "position": "title",
+          "position": "opening",
           "reality": "「忖度なし」と宣言するレビューに限って案件記事。",
           "example": "【忖度なし】話題のガジェットを本音レビュー",
           "intensity": 3,
@@ -456,7 +456,7 @@
         },
         {
           "text": "デメリットも正直に書きます",
-          "position": "文中",
+          "position": "middle",
           "reality": "デメリットを1つ書いてメリットを5つ書く「正直さ」の演出。",
           "example": "デメリットも正直に書きますので、購入を検討中の方は参考にしてください。",
           "intensity": 2,
@@ -468,7 +468,7 @@
         },
         {
           "text": "○ヶ月使ってみた正直な感想",
-          "position": "title",
+          "position": "opening",
           "reality": "期間を明示して信頼性を出すが、実際に使い続けたかは不明。",
           "example": "MacBook Airを半年使ってみた正直な感想",
           "intensity": 2,
@@ -480,7 +480,7 @@
         },
         {
           "text": "買って後悔？",
-          "position": "title",
+          "position": "opening",
           "reality": "不安を煽って読ませる釣りタイトル。結論は大体「買って良かった」。",
           "example": "iPhone 16買って後悔？3ヶ月使った本音",
           "intensity": 3,
@@ -492,7 +492,7 @@
         },
         {
           "text": "ステマじゃないです",
-          "position": "文中",
+          "position": "middle",
           "reality": "わざわざ否定するのが一番怪しい。火のないところに煙は立たない。",
           "example": "ステマじゃないですが、本当におすすめできる商品です。",
           "intensity": 4,
@@ -511,7 +511,7 @@
       "phrases": [
         {
           "text": "この記事が参考になったらスキをお願いします",
-          "position": "文末",
+          "position": "closing",
           "reality": "note定番のCTA。スキの数がモチベーションです、という承認欲求の開示。",
           "example": "この記事が少しでも参考になったら、スキを押していただけると嬉しいです。",
           "intensity": 2,
@@ -523,7 +523,7 @@
         },
         {
           "text": "シェアしてくれると嬉しいです",
-          "position": "文末",
+          "position": "closing",
           "reality": "拡散してほしいという本音を「嬉しい」でオブラートに包む。",
           "example": "共感いただけましたら、SNSでシェアしてくれると嬉しいです。",
           "intensity": 2,
@@ -535,7 +535,7 @@
         },
         {
           "text": "フォローしていただけると励みになります",
-          "position": "文末",
+          "position": "closing",
           "reality": "「励み」という言葉でフォロワー数稼ぎを美化。",
           "example": "フォローしていただけると今後の執筆の励みになります！",
           "intensity": 2,
@@ -547,7 +547,7 @@
         },
         {
           "text": "最後まで読んでいただきありがとうございます",
-          "position": "文末",
+          "position": "closing",
           "reality": "読んだことへの感謝を述べつつ、ここまで読んだならスキも押してよね、という暗黙の圧。",
           "example": "最後まで読んでいただきありがとうございます。少しでもお役に立てたら幸いです。",
           "intensity": 1,
@@ -559,7 +559,7 @@
         },
         {
           "text": "コメントで教えてください",
-          "position": "文末",
+          "position": "closing",
           "reality": "エンゲージメント向上のためのコメント誘導。質問形式にして参加感を出す。",
           "example": "あなたのおすすめも、ぜひコメントで教えてください！",
           "intensity": 2,
@@ -571,7 +571,7 @@
         },
         {
           "text": "気になる方はぜひ",
-          "position": "文末",
+          "position": "closing",
           "reality": "アフィリエイトリンクへの誘導をソフトに表現。「ぜひ」が営業の匂い。",
           "example": "気になる方はぜひチェックしてみてくださいね。",
           "intensity": 2,
@@ -583,7 +583,7 @@
         },
         {
           "text": "他の記事もぜひ読んでみてください",
-          "position": "文末",
+          "position": "closing",
           "reality": "PV稼ぎの回遊誘導。記事単体で完結していない言い訳にもなる。",
           "example": "関連記事もまとめていますので、ぜひ読んでみてください！",
           "intensity": 2,
@@ -595,7 +595,7 @@
         },
         {
           "text": "いかがでしたか？",
-          "position": "文末",
+          "position": "closing",
           "reality": "ブログ界の嫌われ構文No.1。内容が薄い記事ほどこれで締める。調べたけど分かりませんでした、いかがでしたか？は究極の虚無。",
           "example": "今回は○○についてご紹介しました。いかがでしたか？",
           "intensity": 5,
@@ -614,7 +614,7 @@
       "phrases": [
         {
           "text": "ここから先は有料です",
-          "position": "文中",
+          "position": "middle",
           "reality": "noteの有料ライン。ここまで無料で読ませて「続きは課金」の古典的手法。",
           "example": "ここから先は有料です。具体的なノウハウを公開しています。",
           "intensity": 2,
@@ -626,7 +626,7 @@
         },
         {
           "text": "本当に必要な人だけ読んでください",
-          "position": "文中",
+          "position": "middle",
           "reality": "限定感を出して購買欲を刺激。「必要じゃない人は買わないで」＝「あなたは必要な人ですよね？」という心理誘導。",
           "example": "この先は本当に必要な人だけ読んでください。無理に購入する必要はありません。",
           "intensity": 4,
@@ -638,7 +638,7 @@
         },
         {
           "text": "本気で〜したい人へ",
-          "position": "文中",
+          "position": "middle",
           "reality": "「本気じゃない人は買うな」＝「本気のあなたは買うべき」という逆説的な煽り。",
           "example": "本気でnoteで稼ぎたい人へ、私の全ノウハウを公開します。",
           "intensity": 4,
@@ -650,7 +650,7 @@
         },
         {
           "text": "この価格は今だけです",
-          "position": "文中",
+          "position": "middle",
           "reality": "ずっと「今だけ」が続く永遠のセール。希少性の演出。",
           "example": "この価格は今だけです。来月から値上げ予定です。",
           "intensity": 5,
@@ -662,7 +662,7 @@
         },
         {
           "text": "ここだけの話",
-          "position": "文中",
+          "position": "middle",
           "reality": "公開記事で「ここだけの話」は論理矛盾。誰でも読める「秘密」。",
           "example": "ここだけの話、実はこの方法で月30万円稼いでいます。",
           "intensity": 4,
@@ -674,7 +674,7 @@
         },
         {
           "text": "○○万円のコンサルで教えている内容です",
-          "position": "文中",
+          "position": "middle",
           "reality": "高額コンサルの内容を安く出すという体裁。そのコンサルの価値自体が不明。",
           "example": "普段50万円のコンサルで教えている内容をnoteで公開します。",
           "intensity": 5,
@@ -686,7 +686,7 @@
         },
         {
           "text": "値上げ前に手に入れてください",
-          "position": "文末",
+          "position": "closing",
           "reality": "FOMO（取り残される恐怖）を利用した購買促進。定期的に値上げ宣言。",
           "example": "購入者が増えたら値上げします。値上げ前に手に入れてください。",
           "intensity": 5,
@@ -698,7 +698,7 @@
         },
         {
           "text": "無料部分だけでも有料級",
-          "position": "文頭",
+          "position": "opening",
           "reality": "「有料級」が無料なら有料部分は何級なのか。有料級の安売り。",
           "example": "この記事は無料部分だけでも有料級の内容になっています。",
           "intensity": 4,
@@ -710,7 +710,7 @@
         },
         {
           "text": "購入者の声",
-          "position": "文中",
+          "position": "middle",
           "reality": "有料ラインの手前に購入者レビューを配置して信頼感を演出。自演の可能性も。",
           "example": "購入者の声：「この内容で1,000円は安すぎます！」",
           "intensity": 3,
@@ -729,7 +729,7 @@
       "phrases": [
         {
           "text": "はじめまして、○○です",
-          "position": "文頭",
+          "position": "opening",
           "reality": "noteの最初の記事の99%がこれで始まる。挨拶としては正しいが独自性ゼロ。",
           "example": "はじめまして、フリーランスWebデザイナーのミキです。",
           "intensity": 1,
@@ -741,7 +741,7 @@
         },
         {
           "text": "○○/○○/○○",
-          "position": "文頭",
+          "position": "opening",
           "reality": "スラッシュ区切りで肩書きを盛る。肩書きが多いほど何者でもない感が出る。",
           "example": "ライター/ブロガー/マーケター/二児の母",
           "intensity": 3,
@@ -753,7 +753,7 @@
         },
         {
           "text": "このnoteでは〜を発信していきます",
-          "position": "文中",
+          "position": "middle",
           "reality": "発信宣言したまま3記事で更新が止まるパターンの序章。",
           "example": "このnoteでは、副業やキャリアについて発信していきます。",
           "intensity": 2,
@@ -765,7 +765,7 @@
         },
         {
           "text": "簡単に自己紹介させてください",
-          "position": "文頭",
+          "position": "opening",
           "reality": "「簡単に」と言いつつ3000文字の自分語り。簡単の定義が人により異なる。",
           "example": "簡単に自己紹介させてください。私は現在都内で…",
           "intensity": 2,
@@ -777,7 +777,7 @@
         },
         {
           "text": "〜な私が",
-          "position": "文頭",
+          "position": "opening",
           "reality": "属性を提示して親近感or権威を出す。「元○○な私が」は鉄板。",
           "example": "元ブラック企業社員の私が、フリーランスとして独立するまで",
           "intensity": 2,
@@ -789,7 +789,7 @@
         },
         {
           "text": "よろしくお願いします！",
-          "position": "文末",
+          "position": "closing",
           "reality": "自己紹介の締めの定番。フォローお願いしますの婉曲表現。",
           "example": "まだまだ未熟ですが、よろしくお願いします！",
           "intensity": 1,
@@ -808,7 +808,7 @@
       "phrases": [
         {
           "text": "おすすめ○選",
-          "position": "title",
+          "position": "opening",
           "reality": "アフィリエイト報酬が高い順に並んでいる「おすすめ」。本当のおすすめとは限らない。",
           "example": "【2025年】プログラミングスクールおすすめ10選",
           "intensity": 3,
@@ -820,7 +820,7 @@
         },
         {
           "text": "○○を使ってみた感想",
-          "position": "title",
+          "position": "opening",
           "reality": "企業から商品提供を受けた案件記事を「使ってみた」でカジュアルに装う。",
           "example": "話題の美容液を実際に使ってみた感想",
           "intensity": 2,
@@ -832,7 +832,7 @@
         },
         {
           "text": "〜と〜を比較してみた",
-          "position": "title",
+          "position": "opening",
           "reality": "比較した結果、アフィリエイト報酬が高い方をおすすめする出来レース。",
           "example": "ConoHa WINGとエックスサーバーを比較してみた",
           "intensity": 3,
@@ -844,7 +844,7 @@
         },
         {
           "text": "個人的には○○がおすすめ",
-          "position": "文末",
+          "position": "closing",
           "reality": "「個人的には」で主観であることを免責しつつ、特定商品に誘導。",
           "example": "個人的にはAのプランがおすすめです。コスパが最高でした。",
           "intensity": 2,
@@ -856,7 +856,7 @@
         },
         {
           "text": "○○は公式サイトが最安です",
-          "position": "文末",
+          "position": "closing",
           "reality": "「公式サイトが最安」と誘導して自分のアフィリエイトリンクを踏ませる。",
           "example": "このサプリは公式サイトが最安です。下のリンクからどうぞ。",
           "intensity": 3,
@@ -868,7 +868,7 @@
         },
         {
           "text": "迷ったらこれ！",
-          "position": "文中",
+          "position": "middle",
           "reality": "読者の思考を停止させて特定商品に誘導する決め台詞。",
           "example": "迷ったらこれ！初心者に一番おすすめのレンタルサーバーはこちら。",
           "intensity": 3,
@@ -880,7 +880,7 @@
         },
         {
           "text": "失敗しない○○の選び方",
-          "position": "title",
+          "position": "opening",
           "reality": "失敗への恐怖を煽ってから「これを選べば安心」とアフィリンクへ。",
           "example": "失敗しないプログラミングスクールの選び方",
           "intensity": 2,
@@ -899,7 +899,7 @@
       "phrases": [
         {
           "text": "ふと思ったこと",
-          "position": "title",
+          "position": "opening",
           "reality": "「ふと」を付けることで深く考えてない感を装うが、実はドヤりたいだけ。",
           "example": "朝のカフェでふと思ったこと",
           "intensity": 2,
@@ -911,7 +911,7 @@
         },
         {
           "text": "〜について考えてみた",
-          "position": "title",
+          "position": "opening",
           "reality": "考えた結果が浅くても成立する万能タイトル。",
           "example": "「働くこと」について改めて考えてみた",
           "intensity": 2,
@@ -923,7 +923,7 @@
         },
         {
           "text": "言語化してみる",
-          "position": "title",
+          "position": "opening",
           "reality": "「言語化」はnote民の大好物ワード。言語化すること自体が目的化している。",
           "example": "最近のモヤモヤを言語化してみる",
           "intensity": 3,
@@ -935,7 +935,7 @@
         },
         {
           "text": "〜という話をしたい",
-          "position": "title",
+          "position": "opening",
           "reality": "「したい」で始めるカジュアルさの演出。誰も頼んでないけど話し始める。",
           "example": "「やさしさ」について話をしたい",
           "intensity": 2,
@@ -947,7 +947,7 @@
         },
         {
           "text": "僕は/私は〜なんだと思う",
-          "position": "文末",
+          "position": "closing",
           "reality": "一人称で始まる独白体。結論が「思う」で終わるので反論もできない。",
           "example": "結局、人は変われるんだと思う。少なくとも僕はそう信じている。",
           "intensity": 2,
@@ -959,7 +959,7 @@
         },
         {
           "text": "〜に寄り添いたい",
-          "position": "文中",
+          "position": "middle",
           "reality": "noteでよく見る「寄り添い」ワード。具体的に何をするかは不明。",
           "example": "誰かの孤独に、少しでも寄り添いたいと思っています。",
           "intensity": 3,
@@ -971,7 +971,7 @@
         },
         {
           "text": "余白のある暮らし",
-          "position": "title",
+          "position": "opening",
           "reality": "丁寧な暮らし系ポエム。余白＝暇とも言える。",
           "example": "余白のある暮らしを始めてから見えてきたこと",
           "intensity": 3,
@@ -983,7 +983,7 @@
         },
         {
           "text": "〜に出会えてよかった",
-          "position": "文末",
+          "position": "closing",
           "reality": "人・モノ・概念すべてに使える万能感謝構文。noteの締めの定番。",
           "example": "noteという場所に出会えてよかったと、心から思っています。",
           "intensity": 2,
@@ -995,7 +995,7 @@
         },
         {
           "text": "それでも〜",
-          "position": "文中",
+          "position": "middle",
           "reality": "逆接から始めるポエム構文。困難があっても前を向く私、という自己演出。",
           "example": "うまくいかないことばかりだ。それでも、書き続けたいと思う。",
           "intensity": 2,
@@ -1014,7 +1014,7 @@
       "phrases": [
         {
           "text": "○○を退職しました",
-          "position": "title",
+          "position": "opening",
           "reality": "退職報告がコンテンツになる文化。会社名がブランドなほどバズる。",
           "example": "Googleを退職しました",
           "intensity": 2,
@@ -1026,7 +1026,7 @@
         },
         {
           "text": "○年○ヶ月お世話になりました",
-          "position": "文頭",
+          "position": "opening",
           "reality": "在籍期間を明示することで「長くいた＝信頼できるレビュー」感を出す。",
           "example": "新卒から5年3ヶ月お世話になりました。",
           "intensity": 1,
@@ -1038,7 +1038,7 @@
         },
         {
           "text": "たくさんの素晴らしい人たちに出会えた",
-          "position": "文中",
+          "position": "middle",
           "reality": "退職エントリの必須フレーズ。具体名は出さず抽象的に感謝。",
           "example": "この会社でたくさんの素晴らしい人たちに出会えたことが一番の財産です。",
           "intensity": 2,
@@ -1050,7 +1050,7 @@
         },
         {
           "text": "成長させてもらった",
-          "position": "文中",
+          "position": "middle",
           "reality": "在籍期間を美化する定番表現。具体的にどう成長したかは曖昧。",
           "example": "エンジニアとして大きく成長させてもらった環境に感謝しています。",
           "intensity": 2,
@@ -1062,7 +1062,7 @@
         },
         {
           "text": "次のチャレンジ",
-          "position": "文末",
+          "position": "closing",
           "reality": "転職を「チャレンジ」と言い換えるポジティブ変換。逃げではなく挑戦だと主張。",
           "example": "次のチャレンジとして、スタートアップの世界に飛び込みます。",
           "intensity": 2,
@@ -1074,7 +1074,7 @@
         },
         {
           "text": "退職理由はネガティブなものではなく",
-          "position": "文中",
+          "position": "middle",
           "reality": "ネガティブな理由もあるけど書けないので予防線を張る常套句。",
           "example": "退職理由はネガティブなものではなく、純粋に新しいことに挑戦したいという想いです。",
           "intensity": 3,
@@ -1086,7 +1086,7 @@
         },
         {
           "text": "このご縁に感謝",
-          "position": "文末",
+          "position": "closing",
           "reality": "退職を美化する感謝構文。「ご縁」という便利ワードで円満退職アピール。",
           "example": "この会社で働けたこと、このご縁に心から感謝しています。",
           "intensity": 2,
@@ -1098,7 +1098,7 @@
         },
         {
           "text": "これからも応援してください",
-          "position": "文末",
+          "position": "closing",
           "reality": "退職報告なのにフォロワーへの呼びかけで締める。自己ブランディングの延長。",
           "example": "新しい環境でも頑張ります。これからも応援していただけると嬉しいです。",
           "intensity": 2,
@@ -1117,7 +1117,7 @@
       "phrases": [
         {
           "text": "〜についてまとめてみた",
-          "position": "title",
+          "position": "opening",
           "reality": "他人の情報をコピペして「まとめ」と称する二次コンテンツ製造機。",
           "example": "最新のAIツールについてまとめてみた",
           "intensity": 2,
@@ -1129,7 +1129,7 @@
         },
         {
           "text": "調べてみましたが分かりませんでした",
-          "position": "文末",
+          "position": "closing",
           "reality": "SEO記事の闇。検索上位を取るためだけに書かれた中身のない記事の正直すぎる結論。",
           "example": "○○について調べてみましたが、残念ながら分かりませんでした。",
           "intensity": 5,
@@ -1141,7 +1141,7 @@
         },
         {
           "text": "※個人の感想です",
-          "position": "文末",
+          "position": "closing",
           "reality": "責任逃れの免責事項。断言した後にこっそり免責を入れるマッチポンプ。",
           "example": "このサプリで体調が良くなりました。※個人の感想です。効果を保証するものではありません。",
           "intensity": 3,
@@ -1153,7 +1153,7 @@
         },
         {
           "text": "追記：○○しました",
-          "position": "文末",
+          "position": "closing",
           "reality": "記事を更新したアピール。「最新情報を追ってます」感を出すSEOテクニック。",
           "example": "追記：2025年3月の最新情報を追加しました。",
           "intensity": 1,
@@ -1165,7 +1165,7 @@
         },
         {
           "text": "※この記事にはプロモーションが含まれます",
-          "position": "文頭",
+          "position": "opening",
           "reality": "ステマ規制対応の免責表示。小さい文字でひっそり書かれがち。",
           "example": "※この記事にはプロモーションが含まれます",
           "intensity": 1,
@@ -1177,7 +1177,7 @@
         },
         {
           "text": "○○とは？",
-          "position": "title",
+          "position": "opening",
           "reality": "SEO記事の鉄板構成。検索クエリ「○○とは」を狙い撃ち。Wikipediaでいい。",
           "example": "NFTとは？初心者にもわかりやすく解説",
           "intensity": 2,
@@ -1189,7 +1189,7 @@
         },
         {
           "text": "○○のメリット・デメリット",
-          "position": "title",
+          "position": "opening",
           "reality": "SEO記事の量産テンプレ。メリット5個・デメリット2個の黄金比で書かれる。",
           "example": "リモートワークのメリット・デメリットを徹底解説",
           "intensity": 2,
@@ -1201,7 +1201,7 @@
         },
         {
           "text": "〜が向いている人・向いていない人",
-          "position": "title",
+          "position": "opening",
           "reality": "読者を分類して「自分は向いている側だ」と思わせる心理テクニック。",
           "example": "フリーランスが向いている人・向いていない人の特徴",
           "intensity": 2,
@@ -1213,7 +1213,7 @@
         },
         {
           "text": "〜はオワコン？",
-          "position": "title",
+          "position": "opening",
           "reality": "「オワコン」で煽って読ませて「まだ大丈夫」と安心させるマッチポンプタイトル。",
           "example": "ブログはオワコン？2025年でもまだ稼げる理由",
           "intensity": 3,
@@ -1225,7 +1225,7 @@
         },
         {
           "text": "知らないと損する〜",
-          "position": "title",
+          "position": "opening",
           "reality": "損失回避バイアスを利用した釣りタイトル。知らなくても大して損しない。",
           "example": "知らないと損する確定申告の裏ワザ",
           "intensity": 3,
@@ -1237,7 +1237,7 @@
         },
         {
           "text": "〜だけど質問ある？",
-          "position": "title",
+          "position": "opening",
           "reality": "2ch/Reddit文化のnote版。質問されなくても勝手に語る。",
           "example": "年収1000万のフリーランスだけど質問ある？",
           "intensity": 3,
@@ -1249,7 +1249,7 @@
         },
         {
           "text": "大切なお知らせ",
-          "position": "title",
+          "position": "opening",
           "reality": "引退・サービス終了・転職などを「大切なお知らせ」で包む。大体大切じゃない。",
           "example": "【大切なお知らせ】今後の活動について",
           "intensity": 2,
