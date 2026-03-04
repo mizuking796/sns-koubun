@@ -180,7 +180,7 @@ const Generator = (() => {
     resultEl.textContent = result.text;
 
     if (result.annotations.length > 0) {
-      annotEl.innerHTML = '<strong style="color:var(--accent);">使用した構文パーツ:</strong><br>' +
+      annotEl.innerHTML = '<div class="gen-annotations-title">使用した構文パーツ（実態暴露）</div>' +
         result.annotations.map(a => {
           const posLabel = Database.POSITION_LABELS[a.type] || a.type;
           return `<div class="annotation-item"><span class="annotation-highlight">[${posLabel}]</span> 「${a.text}」 → <em>${a.reality}</em></div>`;

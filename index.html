@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SNS構文ミュージアム — テンプレ構文データベース</title>
+  <title>SNS構文ミュージアム — テンプレ構文531個の標本展示室</title>
   <meta name="description" content="SNS各プラットフォームの「いやらしい」テンプレ構文531個をデータベース化。閲覧・フローチャート・文章変換ジェネレーター。">
-  <meta property="og:title" content="SNS構文ミュージアム">
-  <meta property="og:description" content="531個のSNSテンプレ構文を丸裸にするデータベース">
+  <meta property="og:title" content="SNS構文ミュージアム — 531個のテンプレ構文を丸裸に">
+  <meta property="og:description" content="X・Threads・Instagram・LinkedIn・noteの「いやらしい」テンプレ構文を標本展示。あなたのTLにも潜んでいます。">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -16,29 +16,45 @@
     <div class="header-inner">
       <h1 class="logo">SNS構文ミュージアム</h1>
       <p class="subtitle">テンプレ構文 531個の標本展示室</p>
+      <div class="header-stats">
+        <div class="header-stat">
+          <div class="header-stat-num">531</div>
+          <div class="header-stat-label">構文収録</div>
+        </div>
+        <div class="header-stat">
+          <div class="header-stat-num">5</div>
+          <div class="header-stat-label">プラットフォーム</div>
+        </div>
+        <div class="header-stat">
+          <div class="header-stat-num">67</div>
+          <div class="header-stat-label">カテゴリ</div>
+        </div>
+      </div>
     </div>
   </header>
 
   <nav class="tabs">
-    <button class="tab active" data-tab="database">構文DB</button>
-    <button class="tab" data-tab="flowchart">フローチャート</button>
-    <button class="tab" data-tab="generator">ジェネレーター</button>
+    <button class="tab active" data-tab="database"><span class="tab-emoji">📦</span>構文DB</button>
+    <button class="tab" data-tab="flowchart"><span class="tab-emoji">🔀</span>フローチャート</button>
+    <button class="tab" data-tab="generator"><span class="tab-emoji">🧪</span>ジェネレーター</button>
   </nav>
 
   <main class="main">
     <!-- ===== DATABASE TAB ===== -->
     <section id="tab-database" class="tab-content active">
       <div class="platform-selector">
-        <button class="platform-btn active" data-platform="all">ALL</button>
-        <button class="platform-btn" data-platform="x_twitter">X</button>
-        <button class="platform-btn" data-platform="threads">Threads</button>
-        <button class="platform-btn" data-platform="instagram">Instagram</button>
-        <button class="platform-btn" data-platform="linkedin">LinkedIn</button>
-        <button class="platform-btn" data-platform="note_blog">note/Blog</button>
+        <button class="platform-btn active" data-platform="all"><span class="p-icon">🌐</span>ALL</button>
+        <button class="platform-btn" data-platform="x_twitter"><span class="p-icon">𝕏</span>X</button>
+        <button class="platform-btn" data-platform="threads"><span class="p-icon">🧵</span>Threads</button>
+        <button class="platform-btn" data-platform="instagram"><span class="p-icon">📷</span>Instagram</button>
+        <button class="platform-btn" data-platform="linkedin"><span class="p-icon">💼</span>LinkedIn</button>
+        <button class="platform-btn" data-platform="note_blog"><span class="p-icon">📝</span>note/Blog</button>
       </div>
 
       <div class="filters">
-        <input type="text" id="search-input" class="search-input" placeholder="構文を検索...">
+        <div class="search-wrapper">
+          <input type="text" id="search-input" class="search-input" placeholder="構文を検索...（例: 断言、ぶっちゃけ、フォロワー）">
+        </div>
         <div class="filter-row">
           <div class="filter-group">
             <label>位置:</label>
@@ -50,15 +66,15 @@
           <div class="filter-group">
             <label>いやらしさ:</label>
             <button class="filter-btn active" data-intensity="all">全て</button>
-            <button class="filter-btn" data-intensity="3">★3+</button>
-            <button class="filter-btn" data-intensity="4">★4+</button>
-            <button class="filter-btn" data-intensity="5">★5</button>
+            <button class="filter-btn" data-intensity="3">Lv.3+</button>
+            <button class="filter-btn" data-intensity="4">Lv.4+</button>
+            <button class="filter-btn" data-intensity="5">MAX</button>
           </div>
         </div>
       </div>
 
       <div class="stats-bar">
-        <span id="result-count">-</span>件表示
+        <span><span class="count-highlight" id="result-count">-</span> 件ヒット</span>
       </div>
 
       <div id="category-list" class="category-list"></div>
@@ -68,14 +84,14 @@
     <!-- ===== FLOWCHART TAB ===== -->
     <section id="tab-flowchart" class="tab-content">
       <div class="platform-selector flowchart-platform">
-        <button class="platform-btn active" data-platform="x_twitter">X</button>
-        <button class="platform-btn" data-platform="threads">Threads</button>
-        <button class="platform-btn" data-platform="instagram">Instagram</button>
-        <button class="platform-btn" data-platform="linkedin">LinkedIn</button>
-        <button class="platform-btn" data-platform="note_blog">note/Blog</button>
+        <button class="platform-btn active" data-platform="x_twitter"><span class="p-icon">𝕏</span>X</button>
+        <button class="platform-btn" data-platform="threads"><span class="p-icon">🧵</span>Threads</button>
+        <button class="platform-btn" data-platform="instagram"><span class="p-icon">📷</span>Instagram</button>
+        <button class="platform-btn" data-platform="linkedin"><span class="p-icon">💼</span>LinkedIn</button>
+        <button class="platform-btn" data-platform="note_blog"><span class="p-icon">📝</span>note/Blog</button>
       </div>
       <div class="flowchart-controls">
-        <button id="random-combo" class="btn-primary">ランダム生成</button>
+        <button id="random-combo" class="btn-primary">🎰 ランダムガチャ</button>
       </div>
       <div id="combo-result" class="combo-result" style="display:none;"></div>
       <div id="flowchart-container" class="flowchart-container">
@@ -87,30 +103,32 @@
     <section id="tab-generator" class="tab-content">
       <div class="generator-layout">
         <div class="generator-input-area">
-          <label for="gen-input">普通の文章を入力:</label>
+          <label class="gen-section-label" for="gen-input">普通の文章を入力</label>
           <textarea id="gen-input" class="gen-textarea" rows="5" placeholder="例: 今日は早起きして散歩してきました。気持ちよかったです。やっぱり朝は大事ですね。"></textarea>
         </div>
         <div class="generator-style-select">
-          <label>変換先SNSスタイル:</label>
+          <label class="gen-section-label">変換先SNSスタイル</label>
           <div class="style-buttons">
-            <button class="style-btn active" data-style="x_twitter">X風</button>
-            <button class="style-btn" data-style="threads">Threads風</button>
-            <button class="style-btn" data-style="instagram">Instagram風</button>
-            <button class="style-btn" data-style="linkedin">LinkedIn風</button>
-            <button class="style-btn" data-style="note_blog">note風</button>
+            <button class="style-btn active" data-style="x_twitter">𝕏 X風</button>
+            <button class="style-btn" data-style="threads">🧵 Threads風</button>
+            <button class="style-btn" data-style="instagram">📷 Instagram風</button>
+            <button class="style-btn" data-style="linkedin">💼 LinkedIn風</button>
+            <button class="style-btn" data-style="note_blog">📝 note風</button>
           </div>
         </div>
         <div class="generator-actions">
-          <button id="generate-btn" class="btn-primary">変換する</button>
-          <button id="regenerate-btn" class="btn-secondary" style="display:none;">もう一回</button>
+          <button id="generate-btn" class="btn-primary">🧪 変換する</button>
+          <button id="regenerate-btn" class="btn-secondary" style="display:none;">🔄 もう一回</button>
         </div>
         <div id="gen-output" class="gen-output" style="display:none;">
           <div class="gen-output-header">
             <span class="gen-output-label"></span>
-            <button id="copy-btn" class="btn-copy">コピー</button>
+            <button id="copy-btn" class="btn-copy">📋 コピー</button>
           </div>
-          <div id="gen-result" class="gen-result"></div>
-          <div id="gen-annotations" class="gen-annotations"></div>
+          <div class="gen-result-wrapper">
+            <div id="gen-result" class="gen-result"></div>
+            <div id="gen-annotations" class="gen-annotations"></div>
+          </div>
         </div>
       </div>
     </section>

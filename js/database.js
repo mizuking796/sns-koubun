@@ -107,23 +107,30 @@ const Database = (() => {
 
     const grid = document.getElementById('phrase-grid');
     if (filtered.length === 0) {
-      grid.innerHTML = '<p style="color:var(--text-dim);text-align:center;padding:2rem;">該当する構文がありません</p>';
+      grid.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">該当する構文がありません</div></div>`;
       return;
     }
 
+    const TOXIC_LABELS = { 1: '微毒', 2: '弱毒', 3: '中毒', 4: '猛毒', 5: '致死量' };
+
     grid.innerHTML = filtered.map(p => `
-      <div class="phrase-card">
-        <div class="phrase-card-header">
-          <span class="phrase-text">「${escHtml(p.text)}」</span>
-          <div class="phrase-badges">
-            <span class="badge badge-${p.position}">${POSITION_LABELS[p.position] || p.position}</span>
-            ${currentPlatform === 'all' ? `<span class="badge badge-platform">${escHtml(shortPlatform(p.platform))}</span>` : ''}
+      <div class="phrase-card" data-intensity="${p.intensity}">
+        <div class="phrase-card-inner">
+          <div class="phrase-card-header">
+            <span class="phrase-text">「${escHtml(p.text)}」</span>
+            <div class="phrase-badges">
+              <span class="badge badge-${p.position}">${POSITION_LABELS[p.position] || p.position}</span>
+              ${currentPlatform === 'all' ? `<span class="badge badge-platform">${escHtml(shortPlatform(p.platform))}</span>` : ''}
+            </div>
           </div>
+          <div class="toxic-meter">
+            <div class="toxic-bar"><div class="toxic-fill" data-level="${p.intensity}"></div></div>
+            <span class="toxic-label" data-level="${p.intensity}">${TOXIC_LABELS[p.intensity] || ''}</span>
+          </div>
+          <div class="phrase-reality">${escHtml(p.reality)}</div>
+          <div class="phrase-example">${escHtml(p.example)}</div>
+          ${p.tags ? `<div class="phrase-tags">${p.tags.map(t => `<span class="tag">#${escHtml(t)}</span>`).join('')}</div>` : ''}
         </div>
-        <div class="intensity">${'★'.repeat(p.intensity)}${'☆'.repeat(5 - p.intensity)}</div>
-        <div class="phrase-reality">${escHtml(p.reality)}</div>
-        <div class="phrase-example">${escHtml(p.example)}</div>
-        ${p.tags ? `<div class="phrase-tags">${p.tags.map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}</div>` : ''}
       </div>
     `).join('');
   }
