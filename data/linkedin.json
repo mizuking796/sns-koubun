@@ -1,0 +1,1420 @@
+{
+  "platform": "linkedin",
+  "platform_name": "LinkedIn",
+  "description": "ビジネスSNSの頂点。意識高い系・ハンブルブラグ・ブロエトリー（一行改行ポエム）の宝庫。プロフェッショナルを装った自己顕示欲の発露が最大の特徴。投稿の多くはエンゲージメント稼ぎのテンプレ構文で構成され、r/LinkedInLunatics（67万人）で日夜嘲笑されている。",
+  "categories": [
+    {
+      "id": "agreement",
+      "name": "同意構文",
+      "description": "反論しにくい当たり前のことを言って「同意しますか？」で締める。エンゲージメント稼ぎの王道。2026年アルゴリズムでペナルティ対象に。",
+      "phrases": [
+        {
+          "text": "Agree?",
+          "position": "closing",
+          "reality": "「人を大切にしましょう。Agree?」など反論不可能な正論で同意を強制する",
+          "example": "People don't leave companies. They leave managers. Agree?",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント稼ぎ",
+            "英語"
+          ]
+        },
+        {
+          "text": "同意しますか？",
+          "position": "closing",
+          "reality": "「チームワークは大切です。同意しますか？」のように当たり前すぎて反論できない",
+          "example": "リーダーに最も必要なのは「聴く力」です。同意しますか？",
+          "intensity": 3,
+          "tags": [
+            "エンゲージメント稼ぎ",
+            "日本語"
+          ]
+        },
+        {
+          "text": "Thoughts?",
+          "position": "closing",
+          "reality": "意見を求めているように見せてコメント数を稼ぐ。実際に返信することは稀",
+          "example": "AI will replace 50% of jobs by 2030. Thoughts?",
+          "intensity": 3,
+          "tags": [
+            "エンゲージメント稼ぎ",
+            "英語"
+          ]
+        },
+        {
+          "text": "What would you add?",
+          "position": "closing",
+          "reality": "リストの最後に付けてコメントを誘発。自分のリストが完璧じゃないアピールも兼ねる",
+          "example": "5 skills every leader needs: 1. Empathy 2. Vision 3. Communication 4. Adaptability 5. Resilience. What would you add?",
+          "intensity": 3,
+          "tags": [
+            "エンゲージメント稼ぎ",
+            "リスト"
+          ]
+        },
+        {
+          "text": "Comment YES if you agree",
+          "position": "closing",
+          "reality": "最も露骨なエンゲージメントベイト。2026年アルゴリズムで最大60%リーチ減少",
+          "example": "Hard work beats talent. Comment YES if you agree!",
+          "intensity": 5,
+          "tags": [
+            "エンゲージメントベイト",
+            "アルゴリズムペナルティ"
+          ]
+        },
+        {
+          "text": "Tag someone who needs to see this!",
+          "position": "closing",
+          "reality": "友人タグでリーチ拡大を狙う典型的なベイト手法",
+          "example": "10 free online courses that are better than an MBA. Tag someone who needs to see this!",
+          "intensity": 5,
+          "tags": [
+            "エンゲージメントベイト",
+            "アルゴリズムペナルティ"
+          ]
+        },
+        {
+          "text": "Agree or disagree?",
+          "position": "closing",
+          "reality": "二者択一に見せかけて、どちらを選んでもコメントさせる仕掛け",
+          "example": "Remote work is more productive than office work. Agree or disagree?",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント稼ぎ",
+            "二項対立"
+          ]
+        },
+        {
+          "text": "Like for Part 2",
+          "position": "closing",
+          "reality": "「続きが欲しければいいねしろ」という人質交渉型エンゲージメント",
+          "example": "10 ChatGPT prompts that will 10x your productivity (1-5). Like for Part 2!",
+          "intensity": 5,
+          "tags": [
+            "エンゲージメントベイト",
+            "アルゴリズムペナルティ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retirement_poem",
+      "name": "退職ポエム構文",
+      "description": "退職・転職時に長文ポエムを投稿する文化。日本では「最終出社日でした」、英語圏では「Today is my last day at...」がトリガー。在籍先への過剰な感謝と自己の成長物語で構成される。",
+      "phrases": [
+        {
+          "text": "本日が最終出社日でした。",
+          "position": "opening",
+          "reality": "退職ポエムの定番冒頭。これに続く長文で在籍中の美談が展開される",
+          "example": "本日が最終出社日でした。○年間、本当にお世話になりました。",
+          "intensity": 3,
+          "tags": [
+            "退職",
+            "日本語",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "Today is my last day at [Company].",
+          "position": "opening",
+          "reality": "英語版退職ポエムの冒頭。ここから感謝と成長の長文が始まる",
+          "example": "Today is my last day at Google. What an incredible journey it has been.",
+          "intensity": 3,
+          "tags": [
+            "退職",
+            "英語",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "What an incredible journey.",
+          "position": "middle",
+          "reality": "退職ポエムの必須フレーズ。どんなブラック企業でも「incredible journey」になる",
+          "example": "After 5 years at Amazon, what an incredible journey it has been.",
+          "intensity": 4,
+          "tags": [
+            "退職",
+            "美化"
+          ]
+        },
+        {
+          "text": "たくさんの学びと成長がありました。",
+          "position": "middle",
+          "reality": "具体的に何を学んだかは書かない。抽象的な成長アピール",
+          "example": "この3年間、たくさんの学びと成長がありました。すべての出会いに感謝します。",
+          "intensity": 3,
+          "tags": [
+            "退職",
+            "日本語",
+            "曖昧"
+          ]
+        },
+        {
+          "text": "次のチャプターが楽しみです。",
+          "position": "closing",
+          "reality": "転職先を明かさず匂わせる。後日「入社しました」投稿へ続く二段構え",
+          "example": "新しい挑戦が待っています。次のチャプターが楽しみです。",
+          "intensity": 3,
+          "tags": [
+            "退職",
+            "匂わせ"
+          ]
+        },
+        {
+          "text": "I'm grateful for every moment.",
+          "position": "middle",
+          "reality": "残業も理不尽も全部含めて「every moment」に感謝する聖人アピール",
+          "example": "Looking back, I'm grateful for every moment — the wins, the failures, and everything in between.",
+          "intensity": 4,
+          "tags": [
+            "退職",
+            "過剰感謝"
+          ]
+        },
+        {
+          "text": "○年間、本当にありがとうございました。",
+          "position": "closing",
+          "reality": "LinkedInで退職挨拶する必要性への疑問は誰も口にしない",
+          "example": "5年間、本当にありがとうございました。ここでの経験は一生の宝物です。",
+          "intensity": 2,
+          "tags": [
+            "退職",
+            "日本語",
+            "定型"
+          ]
+        },
+        {
+          "text": "入社しました！",
+          "position": "opening",
+          "reality": "退職ポエムの続編。新天地の素晴らしさを語る転職マウント",
+          "example": "本日よりMeta Japanに入社しました！新しい挑戦にワクワクしています。",
+          "intensity": 3,
+          "tags": [
+            "入社",
+            "日本語",
+            "マウント"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth_story",
+      "name": "成長ストーリー構文",
+      "description": "過去の失敗や困難を語り、そこから成長した自分を見せるパターン。「○年前の自分に伝えたい」が典型。失敗談に見せかけたハンブルブラグ。",
+      "phrases": [
+        {
+          "text": "○年前の自分に伝えたいこと",
+          "position": "opening",
+          "reality": "「昔は未熟だったが今は成功している」という暗黙のマウント",
+          "example": "10年前の自分に伝えたいこと：学歴より行動力。失敗を恐れるな。",
+          "intensity": 4,
+          "tags": [
+            "成長",
+            "マウント",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "If you told me X years ago that I'd be...",
+          "position": "opening",
+          "reality": "「こんなに成功するとは思わなかった」という謙遜風自慢",
+          "example": "If you told me 5 years ago that I'd be leading a team of 200, I wouldn't have believed you.",
+          "intensity": 4,
+          "tags": [
+            "成長",
+            "ハンブルブラグ",
+            "英語"
+          ]
+        },
+        {
+          "text": "I got fired. Best thing that ever happened to me.",
+          "position": "opening",
+          "reality": "解雇をバネに成功した話。失敗をポジティブ変換する王道パターン",
+          "example": "I got fired from my first job. It was the best thing that ever happened to me. Here's why:",
+          "intensity": 5,
+          "tags": [
+            "失敗談",
+            "ハンブルブラグ",
+            "ブロエトリー"
+          ]
+        },
+        {
+          "text": "I learned this the hard way.",
+          "position": "opening",
+          "reality": "苦労した自分アピール。「the hard way」の内容は大したことないことが多い",
+          "example": "I learned this the hard way: Your title doesn't define your value.",
+          "intensity": 3,
+          "tags": [
+            "教訓",
+            "苦労アピール"
+          ]
+        },
+        {
+          "text": "When I was rejected from...",
+          "position": "opening",
+          "reality": "ハーバード不合格→起業成功など、名門への言及で逆にマウント取る高等テクニック",
+          "example": "When I was rejected from Harvard Business School, I was devastated. But it led me to start my own company.",
+          "intensity": 5,
+          "tags": [
+            "失敗談",
+            "ハンブルブラグ",
+            "名門マウント"
+          ]
+        },
+        {
+          "text": "Nobody is coming to save you.",
+          "position": "middle",
+          "reality": "自己責任論を感動風に包装。恵まれた環境にいる人が言いがち",
+          "example": "I was broke, alone, and had no connections. Nobody is coming to save you. You have to save yourself.",
+          "intensity": 4,
+          "tags": [
+            "自己責任",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "Here's what I wish someone had told me earlier:",
+          "position": "opening",
+          "reality": "自分が先輩ポジションであることを暗に示す上から目線の前置き",
+          "example": "I've been in tech for 15 years. Here's what I wish someone had told me earlier:",
+          "intensity": 3,
+          "tags": [
+            "教訓",
+            "上から目線"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profile_headline",
+      "name": "意識高い自己紹介構文",
+      "description": "LinkedInプロフィールのヘッドラインに使われる構文。パイプ(|)区切りのキーワード羅列、「Helping X achieve Y」の価値提案型が典型。",
+      "phrases": [
+        {
+          "text": "○○ | △△ | Helping [対象] [動詞]",
+          "position": "profile",
+          "reality": "パイプ区切りで肩書きを盛る。実態より3倍立派に見える魔法の記号",
+          "example": "CEO | Author | Speaker | Helping Leaders Transform Organizations",
+          "intensity": 4,
+          "tags": [
+            "プロフィール",
+            "肩書き盛り"
+          ]
+        },
+        {
+          "text": "Empowering [対象] to [動詞]",
+          "position": "profile",
+          "reality": "「Empower」はLinkedIn最頻出バズワード。具体的に何をしているか不明",
+          "example": "Empowering entrepreneurs to build sustainable businesses",
+          "intensity": 4,
+          "tags": [
+            "プロフィール",
+            "バズワード"
+          ]
+        },
+        {
+          "text": "Passionate about [トピック]",
+          "position": "profile",
+          "reality": "「情熱」を自称する時点で胡散臭い。リクルーターが最も嫌う表現の一つ",
+          "example": "Passionate about innovation, digital transformation, and people development",
+          "intensity": 3,
+          "tags": [
+            "プロフィール",
+            "バズワード",
+            "忌避推奨"
+          ]
+        },
+        {
+          "text": "Serial Entrepreneur",
+          "position": "profile",
+          "reality": "複数回起業した＝複数回失敗した可能性。しかしLinkedInでは称号",
+          "example": "Serial Entrepreneur | 3x Founder | Angel Investor",
+          "intensity": 4,
+          "tags": [
+            "プロフィール",
+            "マウント"
+          ]
+        },
+        {
+          "text": "Thought Leader",
+          "position": "profile",
+          "reality": "自称するものではない称号を自称する。本物のthought leaderはこう名乗らない",
+          "example": "Thought Leader in Digital Transformation | Keynote Speaker",
+          "intensity": 5,
+          "tags": [
+            "プロフィール",
+            "自称"
+          ]
+        },
+        {
+          "text": "Results-driven",
+          "position": "profile",
+          "reality": "結果重視じゃない人はいない。意味のない修飾語の代表格",
+          "example": "Results-driven Marketing Leader with 15+ years of experience",
+          "intensity": 2,
+          "tags": [
+            "プロフィール",
+            "バズワード",
+            "忌避推奨"
+          ]
+        },
+        {
+          "text": "Guru / Ninja / Rockstar",
+          "position": "profile",
+          "reality": "LinkedIn黎明期に流行したが今や嘲笑対象。まだ使っている人がいる",
+          "example": "Social Media Guru | Content Ninja | Marketing Rockstar",
+          "intensity": 5,
+          "tags": [
+            "プロフィール",
+            "死語",
+            "嘲笑"
+          ]
+        },
+        {
+          "text": "○○のプロフェッショナル",
+          "position": "profile",
+          "reality": "日本語版のバズワード。具体的実績なしに「プロ」を自称",
+          "example": "デジタルマーケティングのプロフェッショナル | DX推進 | 組織変革",
+          "intensity": 3,
+          "tags": [
+            "プロフィール",
+            "日本語",
+            "バズワード"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "celebration",
+      "name": "祝福・感謝構文",
+      "description": "昇進・受賞・達成を報告する際の定番フレーズ群。「謙遜」と「自慢」を同時に行うハンブルブラグの真骨頂。",
+      "phrases": [
+        {
+          "text": "Thrilled to announce",
+          "position": "opening",
+          "reality": "LinkedIn最頻出フレーズ。全ての発表が「Thrilled」から始まる病",
+          "example": "Thrilled to announce that I've joined McKinsey as a Senior Partner!",
+          "intensity": 4,
+          "tags": [
+            "発表",
+            "定型",
+            "ハンブルブラグ"
+          ]
+        },
+        {
+          "text": "Humbled and honored",
+          "position": "opening",
+          "reality": "「humble（謙虚）」なら世界に発表しない。定義的に矛盾した表現",
+          "example": "Humbled and honored to be named in Forbes 30 Under 30.",
+          "intensity": 5,
+          "tags": [
+            "ハンブルブラグ",
+            "矛盾"
+          ]
+        },
+        {
+          "text": "Excited to share",
+          "position": "opening",
+          "reality": "「Thrilled」の亜種。興奮度が低めだが頻度は同等",
+          "example": "Excited to share that our startup just raised $10M in Series A!",
+          "intensity": 3,
+          "tags": [
+            "発表",
+            "定型"
+          ]
+        },
+        {
+          "text": "Happy to share",
+          "position": "opening",
+          "reality": "「Excited」よりさらにトーンダウンした版。控えめに見せてしっかり自慢",
+          "example": "Happy to share that I've been promoted to VP of Engineering.",
+          "intensity": 3,
+          "tags": [
+            "発表",
+            "定型"
+          ]
+        },
+        {
+          "text": "Delighted to announce",
+          "position": "opening",
+          "reality": "プレスリリースの34%がこの表現で始まるという調査結果あり",
+          "example": "Delighted to announce our partnership with Microsoft.",
+          "intensity": 3,
+          "tags": [
+            "発表",
+            "定型",
+            "企業"
+          ]
+        },
+        {
+          "text": "ご報告です。",
+          "position": "opening",
+          "reality": "日本語版の発表構文。「ご報告」の時点で良いニュースであることが確定",
+          "example": "ご報告です。この度、○○株式会社のCTOに就任いたしました。",
+          "intensity": 3,
+          "tags": [
+            "発表",
+            "日本語"
+          ]
+        },
+        {
+          "text": "I couldn't have done it without [my team / my mentor / my family]",
+          "position": "closing",
+          "reality": "自慢の後に感謝を添えることで謙虚さを演出する免罪符",
+          "example": "Promoted to Director! I couldn't have done it without my incredible team.",
+          "intensity": 4,
+          "tags": [
+            "感謝",
+            "免罪符",
+            "ハンブルブラグ"
+          ]
+        },
+        {
+          "text": "感謝しかありません。",
+          "position": "closing",
+          "reality": "「しか」が強すぎて逆に嘘っぽい。日本語ハンブルブラグの極致",
+          "example": "多くの方に支えていただき、感謝しかありません。",
+          "intensity": 4,
+          "tags": [
+            "感謝",
+            "日本語",
+            "過剰"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lessons",
+      "name": "教訓構文",
+      "description": "「○○から学んだN個のこと」のリスト形式。数字を入れることでクリック率を上げる手法。内容は大抵どこかで聞いたことがある。",
+      "phrases": [
+        {
+          "text": "○○から学んだ3つのこと",
+          "position": "opening",
+          "reality": "数字は3か5か7か10。内容は「コミュニケーション大事」「失敗を恐れるな」など汎用教訓",
+          "example": "Googleでの5年間から学んだ3つのこと",
+          "intensity": 3,
+          "tags": [
+            "リスト",
+            "教訓",
+            "数字"
+          ]
+        },
+        {
+          "text": "X things I learned from [失敗/経験]",
+          "position": "opening",
+          "reality": "「失敗から学んだ」と言いつつ、そこから成功した自分をアピールする構造",
+          "example": "7 things I learned from getting fired at 25",
+          "intensity": 4,
+          "tags": [
+            "リスト",
+            "教訓",
+            "英語"
+          ]
+        },
+        {
+          "text": "Here's what nobody tells you about [トピック]:",
+          "position": "opening",
+          "reality": "「誰も教えてくれない」と言いつつ、LinkedIn上に同じ投稿が100万件ある",
+          "example": "Here's what nobody tells you about being a CEO:",
+          "intensity": 4,
+          "tags": [
+            "秘密の暴露風",
+            "よくある"
+          ]
+        },
+        {
+          "text": "The harsh truth about [トピック]",
+          "position": "opening",
+          "reality": "「厳しい真実」と煽るが、内容は「努力が必要」程度の当たり前の話",
+          "example": "The harsh truth about entrepreneurship that no one talks about.",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "秘密の暴露風"
+          ]
+        },
+        {
+          "text": "Stop doing [行動]. Start doing [行動].",
+          "position": "opening",
+          "reality": "対比構造で知恵があるように見せる。内容は浅い",
+          "example": "Stop chasing titles. Start chasing impact.",
+          "intensity": 3,
+          "tags": [
+            "対比",
+            "命令形"
+          ]
+        },
+        {
+          "text": "Read that again.",
+          "position": "closing",
+          "reality": "自分の言葉を名言扱いして再読を要求する自己陶酔フレーズ",
+          "example": "Your salary is the bribe they give you to forget your dreams. Read that again.",
+          "intensity": 5,
+          "tags": [
+            "自己陶酔",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "Let that sink in.",
+          "position": "closing",
+          "reality": "「衝撃の事実」を語った後の決め台詞。大して衝撃的でないことが多い",
+          "example": "80% of startups fail within the first year. Let that sink in.",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "決め台詞"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contrarian",
+      "name": "反直感構文",
+      "description": "「常識の逆」を語ることで注目を集めるパターン。「Unpopular opinion」で始まるが、実際には人気のある意見であることがほとんど。",
+      "phrases": [
+        {
+          "text": "Unpopular opinion:",
+          "position": "opening",
+          "reality": "「不人気な意見」と前置きして実際には多くの人が同意する意見を言う",
+          "example": "Unpopular opinion: Hustle culture is toxic.",
+          "intensity": 4,
+          "tags": [
+            "逆張り",
+            "エンゲージメント稼ぎ"
+          ]
+        },
+        {
+          "text": "Hot take:",
+          "position": "opening",
+          "reality": "「過激な意見」と宣言するが、ぬるま湯のような意見が続く",
+          "example": "Hot take: Meetings should be optional.",
+          "intensity": 3,
+          "tags": [
+            "逆張り",
+            "ぬるい"
+          ]
+        },
+        {
+          "text": "○○は実は逆効果",
+          "position": "opening",
+          "reality": "常識を覆す風だが、エビデンスなしの個人的感想",
+          "example": "長時間労働は実は逆効果。成果が出る人ほど早く帰る。",
+          "intensity": 3,
+          "tags": [
+            "逆張り",
+            "日本語"
+          ]
+        },
+        {
+          "text": "I'm about to say something controversial.",
+          "position": "opening",
+          "reality": "期待させて「努力は大切」レベルの話をする。前振りが一番controversial",
+          "example": "I'm about to say something controversial: College degrees don't guarantee success.",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "期待外れ"
+          ]
+        },
+        {
+          "text": "This might shock you but...",
+          "position": "opening",
+          "reality": "ショックの閾値がLinkedIn民は低い。「お客様を大切にしよう」でショックを受ける",
+          "example": "This might shock you but... your hardest worker might be your most disengaged employee.",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "大袈裟"
+          ]
+        },
+        {
+          "text": "Popular opinion: ○○ / My opinion: △△",
+          "position": "opening",
+          "reality": "対比構造で自分を差別化。「My opinion」が大体正しい側に設定されている",
+          "example": "Popular opinion: Work harder. My opinion: Work smarter.",
+          "intensity": 3,
+          "tags": [
+            "対比",
+            "自分正しい"
+          ]
+        },
+        {
+          "text": "Here's the thing:",
+          "position": "opening",
+          "reality": "「実はこういうことなんだよ」と真実を知っている者の上から目線",
+          "example": "Here's the thing: Most people don't fail because they lack talent. They fail because they lack consistency.",
+          "intensity": 3,
+          "tags": [
+            "上から目線",
+            "説教"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morning_routine",
+      "name": "朝のルーティン / ハッスル構文",
+      "description": "早起き・ルーティン・ストイックさを誇示するパターン。CEO文化と密接に結びつき、「4時起き冷水シャワー」が黄金パターン。",
+      "phrases": [
+        {
+          "text": "I wake up at [4/5] AM every day.",
+          "position": "opening",
+          "reality": "早起き=成功者という幻想の布教。ベゾスは7時起きでパンケーキ焼いてる",
+          "example": "I wake up at 4:30 AM every day. Here's my morning routine that changed my life:",
+          "intensity": 5,
+          "tags": [
+            "ルーティン",
+            "マウント",
+            "ハッスル"
+          ]
+        },
+        {
+          "text": "My morning routine:",
+          "position": "opening",
+          "reality": "起床→瞑想→冷水シャワー→ジャーナリング→読書→ジムの一本道パターン",
+          "example": "My morning routine: 5AM wake up, cold shower, 30 min meditation, journal, gym, then work.",
+          "intensity": 4,
+          "tags": [
+            "ルーティン",
+            "テンプレ"
+          ]
+        },
+        {
+          "text": "While you were sleeping, I was...",
+          "position": "opening",
+          "reality": "寝ている人を見下す構文。「お前が寝てる間に俺は努力してた」マウント",
+          "example": "While you were sleeping, I was closing deals across 3 time zones.",
+          "intensity": 5,
+          "tags": [
+            "マウント",
+            "ハッスル",
+            "見下し"
+          ]
+        },
+        {
+          "text": "Grind don't stop.",
+          "position": "closing",
+          "reality": "休息を否定する危険思想をクールに表現。燃え尽き症候群まっしぐら",
+          "example": "Sundays are for strategy. Grind don't stop.",
+          "intensity": 5,
+          "tags": [
+            "ハッスル",
+            "危険思想"
+          ]
+        },
+        {
+          "text": "Discipline equals freedom.",
+          "position": "middle",
+          "reality": "Jocko Willink引用の連鎖。LinkedIn民はこれを人生哲学として掲げる",
+          "example": "Discipline equals freedom. That's why I never skip my 5AM workout.",
+          "intensity": 3,
+          "tags": [
+            "名言引用",
+            "ルーティン"
+          ]
+        },
+        {
+          "text": "毎朝5時に起きて○○をしています。",
+          "position": "opening",
+          "reality": "日本語版ハッスルカルチャー。「継続」と「早起き」の合わせ技",
+          "example": "毎朝5時に起きて英語の勉強をしています。継続は力なり。",
+          "intensity": 3,
+          "tags": [
+            "ルーティン",
+            "日本語",
+            "意識高い"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work_philosophy",
+      "name": "仕事論構文",
+      "description": "「ワークライフバランスは幻想」「好きなことを仕事にしろ」系の断言型仕事論。LinkedInの創業者自身がこの構文の使い手。",
+      "phrases": [
+        {
+          "text": "Work-life balance is a myth.",
+          "position": "opening",
+          "reality": "LinkedIn共同創業者ホフマン自身が主張。特権的立場から休息を否定",
+          "example": "Work-life balance is a myth. If you want to win, you have to go all in.",
+          "intensity": 5,
+          "tags": [
+            "仕事論",
+            "危険思想",
+            "マウント"
+          ]
+        },
+        {
+          "text": "Your salary is the bribe they give you to forget your dreams.",
+          "position": "opening",
+          "reality": "「給料は夢を諦めさせるための賄賂」。起業を煽るポエム",
+          "example": "Your salary is the bribe they give you to forget your dreams. Read that again.",
+          "intensity": 5,
+          "tags": [
+            "ポエム",
+            "起業煽り"
+          ]
+        },
+        {
+          "text": "Don't work for money. Work for experience.",
+          "position": "middle",
+          "reality": "金持ちが言うと搾取の正当化。経験で家賃は払えない",
+          "example": "In your 20s, don't work for money. Work for experience. The money will follow.",
+          "intensity": 4,
+          "tags": [
+            "仕事論",
+            "搾取の正当化"
+          ]
+        },
+        {
+          "text": "Culture eats strategy for breakfast.",
+          "position": "middle",
+          "reality": "ドラッカーの（誤）引用。LinkedIn上で最も使い古された名言の一つ",
+          "example": "Culture eats strategy for breakfast. That's why we invest in our people first.",
+          "intensity": 3,
+          "tags": [
+            "名言引用",
+            "使い古し"
+          ]
+        },
+        {
+          "text": "People don't leave companies. They leave managers.",
+          "position": "middle",
+          "reality": "マネジャー批判の定番。自分は良いマネジャーであるという暗黙のアピール付き",
+          "example": "People don't leave companies. They leave managers. Be the leader you wish you had.",
+          "intensity": 4,
+          "tags": [
+            "名言引用",
+            "自己アピール"
+          ]
+        },
+        {
+          "text": "Weekends are not more important than your future.",
+          "position": "opening",
+          "reality": "週末返上を美化する危険思想。「市場はハッスルに報いる」と続く",
+          "example": "Weekends are not more important than your future. The market rewards hustle, not comfort.",
+          "intensity": 5,
+          "tags": [
+            "ハッスル",
+            "危険思想"
+          ]
+        },
+        {
+          "text": "好きなことを仕事にしよう。",
+          "position": "opening",
+          "reality": "生存者バイアスの塊。好きなことで食えない人の方が多い現実は無視",
+          "example": "好きなことを仕事にしよう。人生は一度きり。",
+          "intensity": 3,
+          "tags": [
+            "仕事論",
+            "日本語",
+            "生存者バイアス"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "name": "採用アピール構文",
+      "description": "「We're hiring!」を華やかに発表するパターン。会社の成長アピールと人材募集を兼ねたマーケティング投稿。",
+      "phrases": [
+        {
+          "text": "We're hiring!",
+          "position": "opening",
+          "reality": "採用担当が義務的に投稿。「成長してます」アピールも兼ねる",
+          "example": "We're hiring! Join our amazing team and help us change the world.",
+          "intensity": 3,
+          "tags": [
+            "採用",
+            "定型"
+          ]
+        },
+        {
+          "text": "Come join our incredible team!",
+          "position": "closing",
+          "reality": "どの会社の「team」も「incredible」。LinkedIn上では全チームが最高",
+          "example": "We're looking for a Senior Engineer. Come join our incredible team!",
+          "intensity": 3,
+          "tags": [
+            "採用",
+            "誇張"
+          ]
+        },
+        {
+          "text": "Know someone perfect for this role? Tag them!",
+          "position": "closing",
+          "reality": "タグで拡散を狙う採用ベイト",
+          "example": "We're hiring a Product Manager! Know someone perfect for this role? Tag them below!",
+          "intensity": 4,
+          "tags": [
+            "採用",
+            "エンゲージメントベイト"
+          ]
+        },
+        {
+          "text": "I'm proud to say we're growing!",
+          "position": "opening",
+          "reality": "成長＝善という前提の採用マウント。離職率は言わない",
+          "example": "I'm proud to say we're growing! We've doubled our team this year and we're not stopping.",
+          "intensity": 4,
+          "tags": [
+            "採用",
+            "成長マウント"
+          ]
+        },
+        {
+          "text": "仲間を募集しています！",
+          "position": "opening",
+          "reality": "「社員」ではなく「仲間」と呼ぶことでスタートアップ感を演出",
+          "example": "一緒にミッションを実現する仲間を募集しています！",
+          "intensity": 3,
+          "tags": [
+            "採用",
+            "日本語",
+            "スタートアップ風"
+          ]
+        },
+        {
+          "text": "This is not just a job. This is a mission.",
+          "position": "middle",
+          "reality": "「仕事」を「ミッション」に言い換えて低年収を正当化する手法",
+          "example": "This is not just a job. This is a mission to democratize education.",
+          "intensity": 4,
+          "tags": [
+            "採用",
+            "使命化",
+            "搾取の正当化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "event_report",
+      "name": "イベント報告構文",
+      "description": "カンファレンス・講演・授賞式の参加報告。壇上の自分の写真付き。「Honored to speak at」が鉄板。",
+      "phrases": [
+        {
+          "text": "Honored to speak at [イベント名]",
+          "position": "opening",
+          "reality": "登壇マウント。「Honored」と言いつつ全力で自慢している",
+          "example": "Honored to speak at Web Summit 2025 about the future of AI.",
+          "intensity": 4,
+          "tags": [
+            "イベント",
+            "マウント",
+            "定型"
+          ]
+        },
+        {
+          "text": "What an incredible event!",
+          "position": "opening",
+          "reality": "すべてのイベントが「incredible」。LinkedIn上に普通のイベントは存在しない",
+          "example": "What an incredible event! Thank you [organizer] for having me.",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "過剰修飾"
+          ]
+        },
+        {
+          "text": "Key takeaways from [イベント名]:",
+          "position": "opening",
+          "reality": "イベントの要約風だが、自分の意見を混ぜて専門家っぽさを演出",
+          "example": "Key takeaways from CES 2026: 1. AI is everywhere 2. Sustainability matters 3. Human connection wins",
+          "intensity": 2,
+          "tags": [
+            "イベント",
+            "要約",
+            "まとも寄り"
+          ]
+        },
+        {
+          "text": "Thank you [主催者] for this opportunity.",
+          "position": "closing",
+          "reality": "感謝の形をとった「俺は呼ばれた側だ」アピール",
+          "example": "Thank you TEDx for this incredible opportunity to share my story.",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "感謝風自慢"
+          ]
+        },
+        {
+          "text": "登壇させていただきました。",
+          "position": "opening",
+          "reality": "日本語の「させていただく」謙譲語で武装した登壇自慢",
+          "example": "○○カンファレンスで登壇させていただきました。素晴らしい出会いに感謝。",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "日本語",
+            "謙譲自慢"
+          ]
+        },
+        {
+          "text": "The energy in the room was electric.",
+          "position": "middle",
+          "reality": "会場の雰囲気を表現するLinkedIn定番。どの会場もelectric",
+          "example": "The energy in the room was electric. So many brilliant minds in one place.",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "大袈裟"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open_to_work",
+      "name": "#OpenToWork構文",
+      "description": "求職活動の定番構文。緑バッジ（OpenToWork）の是非は永遠の議論。「Hi everyone, I'm looking for...」から始まる汎用的すぎる求職投稿。",
+      "phrases": [
+        {
+          "text": "I'm excited to announce that I'm open to new opportunities!",
+          "position": "opening",
+          "reality": "解雇されたことを前向きに言い換えた表現。「excited」は嘘",
+          "example": "I'm excited to announce that I'm open to new opportunities! After 8 amazing years at [Company]...",
+          "intensity": 4,
+          "tags": [
+            "求職",
+            "前向き変換"
+          ]
+        },
+        {
+          "text": "#OpenToWork",
+          "position": "closing",
+          "reality": "緑バッジ。「必死感が出る」vs「正直で良い」の永遠の議論",
+          "example": "If you know of any opportunities, please reach out! #OpenToWork",
+          "intensity": 2,
+          "tags": [
+            "求職",
+            "ハッシュタグ"
+          ]
+        },
+        {
+          "text": "Hi everyone, I'm looking for new opportunities.",
+          "position": "opening",
+          "reality": "具体性ゼロの求職投稿。何の職種か不明、スキルも書かない",
+          "example": "Hi everyone, I'm looking for new opportunities and would appreciate your support.",
+          "intensity": 3,
+          "tags": [
+            "求職",
+            "汎用的すぎ"
+          ]
+        },
+        {
+          "text": "After careful consideration, I've decided to explore new horizons.",
+          "position": "opening",
+          "reality": "「carefully considered」した結果クビになった可能性を隠す婉曲表現",
+          "example": "After careful consideration, I've decided to explore new horizons and seek my next challenge.",
+          "intensity": 4,
+          "tags": [
+            "求職",
+            "婉曲表現"
+          ]
+        },
+        {
+          "text": "Any leads would be greatly appreciated!",
+          "position": "closing",
+          "reality": "「情報ください」の丁寧版だが具体性に欠ける",
+          "example": "I'm looking for Product Manager roles in the Bay Area. Any leads would be greatly appreciated!",
+          "intensity": 2,
+          "tags": [
+            "求職",
+            "定型"
+          ]
+        },
+        {
+          "text": "If you're hiring or know someone who is, let's connect!",
+          "position": "closing",
+          "reality": "採用権限がない人にまで広くアピールする散弾銃戦法",
+          "example": "I'm a full-stack developer with 10 years of experience. If you're hiring or know someone who is, let's connect!",
+          "intensity": 3,
+          "tags": [
+            "求職",
+            "散弾銃"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thought_leadership",
+      "name": "思考リーダーシップ構文",
+      "description": "「The future of ○○ is...」で未来を断言する構文。エビデンスなしに業界の未来を語り、先見の明があるように見せる。",
+      "phrases": [
+        {
+          "text": "The future of [業界] is [キーワード].",
+          "position": "opening",
+          "reality": "根拠なく未来を断言。「AIの未来は○○」系が特に多い",
+          "example": "The future of marketing is AI-powered personalization.",
+          "intensity": 4,
+          "tags": [
+            "未来予測",
+            "断言"
+          ]
+        },
+        {
+          "text": "The game has changed.",
+          "position": "opening",
+          "reality": "何のゲームがどう変わったかは曖昧。変化を感じる俺カッケー",
+          "example": "The game has changed. If you're not using AI, you're already behind.",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "曖昧"
+          ]
+        },
+        {
+          "text": "We need to talk about [トピック].",
+          "position": "opening",
+          "reality": "深刻そうな前振りで注目を集める。「話す」のはLinkedIn上だけ",
+          "example": "We need to talk about mental health in the workplace.",
+          "intensity": 3,
+          "tags": [
+            "問題提起風",
+            "注目集め"
+          ]
+        },
+        {
+          "text": "Let's unpack this.",
+          "position": "opening",
+          "reality": "「分析しましょう」の意識高い版。中身は表面的な分析",
+          "example": "Remote work is here to stay. Let's unpack this.",
+          "intensity": 3,
+          "tags": [
+            "知識人風",
+            "バズワード"
+          ]
+        },
+        {
+          "text": "AIに仕事を奪われる前に○○しよう。",
+          "position": "opening",
+          "reality": "AI不安を煽って自分のサービスや知見への誘導",
+          "example": "AIに仕事を奪われる前にリスキリングしよう。具体的には...",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "日本語",
+            "AI不安"
+          ]
+        },
+        {
+          "text": "If you're not [doing X], you're already behind.",
+          "position": "closing",
+          "reality": "FOMO（取り残される恐怖）を煽る構文。焦らせてエンゲージメントを稼ぐ",
+          "example": "If you're not learning prompt engineering, you're already behind.",
+          "intensity": 4,
+          "tags": [
+            "FOMO",
+            "煽り"
+          ]
+        },
+        {
+          "text": "○○はもう古い。これからは△△の時代。",
+          "position": "opening",
+          "reality": "「時代」を語ることで先見性をアピール。根拠は個人的感想",
+          "example": "履歴書はもう古い。これからはポートフォリオの時代。",
+          "intensity": 3,
+          "tags": [
+            "断言",
+            "日本語",
+            "先見風"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "broetry",
+      "name": "ブロエトリー（LinkedIn詩）構文",
+      "description": "一文ごとに改行する独特のフォーマット。ドラマチックな冒頭→感動ストーリー→教訓→CTA。「see more」クリックを誘うための意図的なスペーシング。Bloomberg記者Lorcan Roche Kellyが命名。",
+      "phrases": [
+        {
+          "text": "[衝撃の一文]（一行改行を繰り返す）",
+          "position": "opening",
+          "reality": "一行ごとに改行し、スクロールと「see more」クリックを強制する手法",
+          "example": "I got fired.\n\nOn my birthday.\n\nWith no severance.\n\nHere's what happened next:",
+          "intensity": 5,
+          "tags": [
+            "フォーマット",
+            "ブロエトリー",
+            "アルゴリズムハック"
+          ]
+        },
+        {
+          "text": "Here's what happened next:",
+          "position": "middle",
+          "reality": "ブロエトリーの転換点。ここから「でも成功した」話が始まる",
+          "example": "I was broke. I had $200 in my account. Here's what happened next:",
+          "intensity": 4,
+          "tags": [
+            "ブロエトリー",
+            "転換"
+          ]
+        },
+        {
+          "text": "That changed everything.",
+          "position": "middle",
+          "reality": "ターニングポイントを強調するフレーズ。大袈裟なことが多い",
+          "example": "One phone call. That changed everything.",
+          "intensity": 4,
+          "tags": [
+            "ブロエトリー",
+            "ドラマチック"
+          ]
+        },
+        {
+          "text": "And you know what? [教訓]",
+          "position": "middle",
+          "reality": "読者に語りかける風の自己陶酔。「you know what」の後は大した話じゃない",
+          "example": "And you know what? That rejection was the best gift I ever received.",
+          "intensity": 3,
+          "tags": [
+            "ブロエトリー",
+            "語りかけ"
+          ]
+        },
+        {
+          "text": "This. Is. Everything.",
+          "position": "closing",
+          "reality": "単語をピリオドで区切って強調するLinkedIn特有の文体",
+          "example": "Kindness. Costs. Nothing. This. Is. Everything.",
+          "intensity": 5,
+          "tags": [
+            "ブロエトリー",
+            "過剰強調"
+          ]
+        },
+        {
+          "text": "I don't usually post things like this but...",
+          "position": "opening",
+          "reality": "「普段は投稿しないけど」と言いつつ毎週投稿している",
+          "example": "I don't usually post things like this but I had to share this story.",
+          "intensity": 4,
+          "tags": [
+            "前置き",
+            "嘘"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linkedin_specific",
+      "name": "LinkedIn固有パターン",
+      "description": "他のSNSにはないLinkedIn独特の構文・文化・行動パターン。コネクトリクエスト、推薦文、ハンブルブラグ、格言引用など。",
+      "phrases": [
+        {
+          "text": "Your network is your net worth.",
+          "position": "middle",
+          "reality": "LinkedIn上で最も使い古された格言。人脈＝資産という拝金的価値観",
+          "example": "Your network is your net worth. That's why I spend 1 hour every day networking on LinkedIn.",
+          "intensity": 4,
+          "tags": [
+            "格言",
+            "使い古し"
+          ]
+        },
+        {
+          "text": "We rise by lifting others.",
+          "position": "closing",
+          "reality": "自分の投稿のエンゲージメントを上げることを「lifting others」と美化",
+          "example": "We rise by lifting others. Share this with someone who needs to hear it.",
+          "intensity": 4,
+          "tags": [
+            "格言",
+            "美化"
+          ]
+        },
+        {
+          "text": "Stay humble. Stay hungry.",
+          "position": "closing",
+          "reality": "Steve Jobsのスタンフォードスピーチを薄めた版。LinkedIn上で死ぬほど見る",
+          "example": "Stay humble. Stay hungry. The best is yet to come.",
+          "intensity": 3,
+          "tags": [
+            "格言",
+            "引用の引用"
+          ]
+        },
+        {
+          "text": "Be the leader you wish you had.",
+          "position": "closing",
+          "reality": "自分が良いリーダーであるという間接的自慢。前職の上司への当てつけ",
+          "example": "Lead with empathy. Be the leader you wish you had.",
+          "intensity": 3,
+          "tags": [
+            "リーダーシップ",
+            "自慢"
+          ]
+        },
+        {
+          "text": "Consistency is the real flex.",
+          "position": "closing",
+          "reality": "「地道な努力」を「flex（見せびらかし）」と表現する矛盾",
+          "example": "Talent is common. Consistency is the real flex.",
+          "intensity": 3,
+          "tags": [
+            "格言",
+            "矛盾"
+          ]
+        },
+        {
+          "text": "Trust the process.",
+          "position": "closing",
+          "reality": "具体的なアドバイスを避ける時に使える万能フレーズ",
+          "example": "Results don't come overnight. Trust the process.",
+          "intensity": 3,
+          "tags": [
+            "格言",
+            "逃げ"
+          ]
+        },
+        {
+          "text": "Buckle up.",
+          "position": "opening",
+          "reality": "「この後すごい話が来るぞ」という期待の演出。大抵は期待外れ",
+          "example": "I'm about to share something that will change how you think about leadership. Buckle up.",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "期待外れ"
+          ]
+        },
+        {
+          "text": "It is what it is.",
+          "position": "closing",
+          "reality": "思考停止を哲学的に見せるフレーズ",
+          "example": "Not every deal closes. Not every hire works out. It is what it is.",
+          "intensity": 2,
+          "tags": [
+            "格言",
+            "思考停止"
+          ]
+        },
+        {
+          "text": "Shout out to my incredible team!",
+          "position": "opening",
+          "reality": "チームを褒めることで「良いリーダーの自分」を見せるメタ自慢",
+          "example": "Shout out to my incredible team for crushing Q4! I'm so proud of each of you.",
+          "intensity": 4,
+          "tags": [
+            "チーム称賛",
+            "メタ自慢"
+          ]
+        },
+        {
+          "text": "I interviewed a candidate who...",
+          "position": "opening",
+          "reality": "面接エピソードを教訓化。採用権限があることの間接マウント",
+          "example": "I interviewed a candidate who had no degree but solved our hardest problem in 10 minutes. Hire for skill, not credentials.",
+          "intensity": 4,
+          "tags": [
+            "面接ストーリー",
+            "教訓化"
+          ]
+        },
+        {
+          "text": "Step out of your comfort zone.",
+          "position": "closing",
+          "reality": "あらゆる成功談の締めに使えるユニバーサルな教訓",
+          "example": "I said yes to a talk in front of 5,000 people. Step out of your comfort zone.",
+          "intensity": 3,
+          "tags": [
+            "格言",
+            "汎用"
+          ]
+        },
+        {
+          "text": "Done is better than perfect.",
+          "position": "closing",
+          "reality": "Facebookの社訓をLinkedIn（Microsoft傘下）上で使う皮肉",
+          "example": "Ship it. Done is better than perfect.",
+          "intensity": 2,
+          "tags": [
+            "格言",
+            "テック系"
+          ]
+        },
+        {
+          "text": "Unleash your potential.",
+          "position": "closing",
+          "reality": "コーチング業者がよく使う。「unleash」されたpotentialの行先は不明",
+          "example": "Stop playing small. Unleash your potential.",
+          "intensity": 3,
+          "tags": [
+            "コーチング",
+            "バズワード"
+          ]
+        },
+        {
+          "text": "If you know, you know.",
+          "position": "closing",
+          "reality": "内輪感を演出して「わかる人」にだけ刺さる風を装う",
+          "example": "Building a startup while raising kids. If you know, you know.",
+          "intensity": 3,
+          "tags": [
+            "内輪感",
+            "共感狙い"
+          ]
+        },
+        {
+          "text": "Here's the harsh reality:",
+          "position": "opening",
+          "reality": "「厳しい現実」と前振りして月並みな意見を述べる",
+          "example": "Here's the harsh reality: Nobody owes you a job.",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "前振り"
+          ]
+        },
+        {
+          "text": "Your habits determine your future.",
+          "position": "closing",
+          "reality": "自己啓発本の要約。構造的問題を個人の習慣に帰結させる",
+          "example": "Your habits determine your future. What you do daily matters more than what you do occasionally.",
+          "intensity": 3,
+          "tags": [
+            "自己啓発",
+            "自己責任論"
+          ]
+        },
+        {
+          "text": "I'm not here to impress. I'm here to impact.",
+          "position": "middle",
+          "reality": "LinkedIn上に投稿している時点で「impress」目的であることは明白",
+          "example": "I'm not here to impress. I'm here to impact. That's the difference.",
+          "intensity": 5,
+          "tags": [
+            "矛盾",
+            "自己陶酔"
+          ]
+        },
+        {
+          "text": "Synergize / Leverage / Optimize / Disrupt",
+          "position": "middle",
+          "reality": "意味なく使われるビジネスバズワード四天王",
+          "example": "We need to leverage AI to disrupt the market and optimize our synergies.",
+          "intensity": 4,
+          "tags": [
+            "バズワード",
+            "空虚"
+          ]
+        },
+        {
+          "text": "People buy from people.",
+          "position": "middle",
+          "reality": "人が人から買う以外の選択肢がないのに格言扱い",
+          "example": "People buy from people. That's why personal branding matters.",
+          "intensity": 3,
+          "tags": [
+            "格言",
+            "当たり前"
+          ]
+        }
+      ]
+    }
+  ]
+}

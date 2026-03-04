@@ -1,0 +1,1450 @@
+{
+  "platform": "x_twitter",
+  "platform_name": "X（旧Twitter）",
+  "description": "140字（現在は長文も可）の制約から生まれた独特の構文文化。情報商材界隈・インフルエンサー界隈を中心に、注目を集めるためのテンプレート構文が大量に流通。ミュートワードとして共有されるほど嫌悪されているものも多い。互助会的なリポスト・リプ交換コミュニティが構文の拡散を加速させている。",
+  "categories": [
+    {
+      "id": "assertion",
+      "name": "断言構文",
+      "description": "根拠なく強い口調で言い切ることで、自信と権威を演出する構文。個人の感想を真理のように語る。",
+      "phrases": [
+        {
+          "text": "断言しますが",
+          "position": "opening",
+          "reality": "個人の感想を真理のように装っているだけ",
+          "example": "断言しますが、朝5時起きが人生を変えます。",
+          "intensity": 4,
+          "tags": [
+            "断言",
+            "権威演出"
+          ]
+        },
+        {
+          "text": "断言します",
+          "position": "opening",
+          "reality": "「しますが」より更に強い言い切り",
+          "example": "断言します。副業しない人は10年後後悔します。",
+          "intensity": 5,
+          "tags": [
+            "断言",
+            "煽り"
+          ]
+        },
+        {
+          "text": "マジで言うけど",
+          "position": "opening",
+          "reality": "カジュアルな口調で信憑性を装う",
+          "example": "マジで言うけど、筋トレしてない人は人生損してる。",
+          "intensity": 3,
+          "tags": [
+            "断言",
+            "カジュアル"
+          ]
+        },
+        {
+          "text": "ガチで",
+          "position": "opening",
+          "reality": "「本当に」の強調だが多用しすぎて価値が薄い",
+          "example": "ガチで人生変わるからやってみて。",
+          "intensity": 3,
+          "tags": [
+            "断言",
+            "カジュアル"
+          ]
+        },
+        {
+          "text": "はっきり言います",
+          "position": "opening",
+          "reality": "「はっきり言う」宣言で注目を引くだけ",
+          "example": "はっきり言います。会社員のままでは自由になれません。",
+          "intensity": 4,
+          "tags": [
+            "断言",
+            "権威演出"
+          ]
+        },
+        {
+          "text": "間違いない",
+          "position": "closing",
+          "reality": "文末に付けて断定感を強めるだけ",
+          "example": "朝活が最強の自己投資。これは間違いない。",
+          "intensity": 3,
+          "tags": [
+            "断言",
+            "文末強調"
+          ]
+        },
+        {
+          "text": "これだけは言える",
+          "position": "opening",
+          "reality": "選び抜いた真理のように見せかける",
+          "example": "これだけは言える。読書しない経営者は成功しない。",
+          "intensity": 3,
+          "tags": [
+            "断言",
+            "選別感"
+          ]
+        },
+        {
+          "text": "本当にそう",
+          "position": "opening",
+          "reality": "引用RTで他人の意見に全乗りする空っぽな同意",
+          "example": "本当にそう。もっと早く知りたかった。",
+          "intensity": 2,
+          "tags": [
+            "断言",
+            "同意",
+            "引用RT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "info_product",
+      "name": "情報商材構文",
+      "description": "副業・稼ぐ系の情報商材を売るためのテンプレート。プロフィールやLINE登録への誘導がゴール。",
+      "phrases": [
+        {
+          "text": "月収○万達成しました",
+          "position": "opening",
+          "reality": "売上であって利益ではない。経費・仕入れは無視。",
+          "example": "月収100万達成しました。1年前の自分に教えてあげたい。",
+          "intensity": 4,
+          "tags": [
+            "情報商材",
+            "実績アピール"
+          ]
+        },
+        {
+          "text": "脱サラして自由な生活",
+          "position": "middle",
+          "reality": "実態は毎日SNS投稿に追われる不自由な生活",
+          "example": "脱サラして自由な生活を手に入れました。今は好きな時に好きな場所で働いてます。",
+          "intensity": 4,
+          "tags": [
+            "情報商材",
+            "ライフスタイル"
+          ]
+        },
+        {
+          "text": "詳しくはプロフに",
+          "position": "closing",
+          "reality": "プロフ→LINE登録→高額商材への導線",
+          "example": "このノウハウを無料で公開中。詳しくはプロフに。",
+          "intensity": 5,
+          "tags": [
+            "情報商材",
+            "誘導"
+          ]
+        },
+        {
+          "text": "固ツイ見てください",
+          "position": "closing",
+          "reality": "固定ツイートにLINE@やnote販売リンクが仕込んである",
+          "example": "具体的な方法は固ツイ見てください。",
+          "intensity": 5,
+          "tags": [
+            "情報商材",
+            "誘導"
+          ]
+        },
+        {
+          "text": "公式LINEで無料プレゼント",
+          "position": "closing",
+          "reality": "LINE登録させてリスト化→後で高額商材を売りつける",
+          "example": "今だけ公式LINEで有料級のノウハウを無料プレゼント中！",
+          "intensity": 5,
+          "tags": [
+            "情報商材",
+            "誘導",
+            "無料訴求"
+          ]
+        },
+        {
+          "text": "有料級",
+          "position": "middle",
+          "reality": "無料の情報を「有料級」と言い張っているだけ",
+          "example": "有料級の情報を無料で出します。",
+          "intensity": 4,
+          "tags": [
+            "情報商材",
+            "価値演出"
+          ]
+        },
+        {
+          "text": "再現性が高い",
+          "position": "middle",
+          "reality": "再現できた人がほぼいない",
+          "example": "この方法は再現性が高いので初心者でもできます。",
+          "intensity": 4,
+          "tags": [
+            "情報商材",
+            "簡単訴求"
+          ]
+        },
+        {
+          "text": "初月で○万",
+          "position": "middle",
+          "reality": "自己アフィリエイトや身内の購入を含んでいる",
+          "example": "初月で30万達成。正しい方法を知るだけで変わります。",
+          "intensity": 4,
+          "tags": [
+            "情報商材",
+            "実績アピール"
+          ]
+        },
+        {
+          "text": "コンテンツ販売",
+          "position": "middle",
+          "reality": "「コンテンツ販売のやり方」を教えるコンテンツを販売する無限ループ",
+          "example": "コンテンツ販売で月50万は誰でも目指せます。",
+          "intensity": 3,
+          "tags": [
+            "情報商材",
+            "ビジネスモデル"
+          ]
+        },
+        {
+          "text": "仕組み化",
+          "position": "middle",
+          "reality": "自動化を意味するバズワード。実態は放置で稼げるわけがない",
+          "example": "SNS集客を仕組み化したら月収が3倍になりました。",
+          "intensity": 3,
+          "tags": [
+            "情報商材",
+            "バズワード"
+          ]
+        },
+        {
+          "text": "ファン化",
+          "position": "middle",
+          "reality": "フォロワーを「ファン」と呼んで商材購入に誘導する手法の美化",
+          "example": "ファン化の仕組みを作れば、セールスしなくても売れます。",
+          "intensity": 3,
+          "tags": [
+            "情報商材",
+            "バズワード"
+          ]
+        },
+        {
+          "text": "マインドが9割",
+          "position": "middle",
+          "reality": "具体的なノウハウがないことの言い訳",
+          "example": "ビジネスはマインドが9割。ノウハウは後からついてくる。",
+          "intensity": 3,
+          "tags": [
+            "情報商材",
+            "精神論"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impression_zombie",
+      "name": "インプレゾンビ構文",
+      "description": "Xの収益化プログラム（閲覧数に応じた報酬）を目的に、バズったポストに群がって無意味なリプライをする構文。",
+      "phrases": [
+        {
+          "text": "それは素晴らしい",
+          "position": "standalone",
+          "reality": "元ツイの内容を一切読んでいない定型リプ",
+          "example": "それは素晴らしいですね！応援しています！",
+          "intensity": 2,
+          "tags": [
+            "インプレゾンビ",
+            "定型リプ"
+          ]
+        },
+        {
+          "text": "あなたの夢が叶いますように",
+          "position": "standalone",
+          "reality": "文脈無視の名言風リプ。事故や災害のニュースにも付く",
+          "example": "あなたの夢が叶いますように✨",
+          "intensity": 2,
+          "tags": [
+            "インプレゾンビ",
+            "名言風"
+          ]
+        },
+        {
+          "text": "昨日の自分を超えろ",
+          "position": "standalone",
+          "reality": "どこにでも貼り付けられる汎用名言",
+          "example": "昨日の自分を超えろ。成長あるのみ。",
+          "intensity": 2,
+          "tags": [
+            "インプレゾンビ",
+            "名言風"
+          ]
+        },
+        {
+          "text": "元ツイートのコピペ",
+          "position": "standalone",
+          "reality": "バズったツイートをそのまま丸コピしてリプに貼る",
+          "example": "（元ツイートと全く同じ文章）",
+          "intensity": 1,
+          "tags": [
+            "インプレゾンビ",
+            "コピペ"
+          ]
+        },
+        {
+          "text": "絵文字の羅列",
+          "position": "standalone",
+          "reality": "意味のある文章を書かず絵文字だけで占有面積を稼ぐ",
+          "example": "🔥🔥🔥💯💯💯🙌🙌🙌",
+          "intensity": 1,
+          "tags": [
+            "インプレゾンビ",
+            "絵文字"
+          ]
+        },
+        {
+          "text": "多言語混合の感嘆",
+          "position": "standalone",
+          "reality": "翻訳ツールで複数言語の感嘆詞を並べただけ",
+          "example": "すごい！ رائع Amazing！",
+          "intensity": 1,
+          "tags": [
+            "インプレゾンビ",
+            "多言語"
+          ]
+        },
+        {
+          "text": "関係ない画像や動画の貼り付け",
+          "position": "standalone",
+          "reality": "目を引く画像で表示回数を稼ぐ",
+          "example": "（全く関係ない猫動画やミーム画像）",
+          "intensity": 1,
+          "tags": [
+            "インプレゾンビ",
+            "メディア"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote_rt",
+      "name": "引用RT構文",
+      "description": "他人のツイートに最小限のコメントを付けて引用リツイートし、他人のバズに乗っかる構文。",
+      "phrases": [
+        {
+          "text": "これ",
+          "position": "standalone",
+          "reality": "一文字で他人のコンテンツをシェアしてインプレを稼ぐ",
+          "example": "これ。",
+          "intensity": 2,
+          "tags": [
+            "引用RT",
+            "最小コメント"
+          ]
+        },
+        {
+          "text": "これマジで大事",
+          "position": "standalone",
+          "reality": "「大事」と言うだけで自分は何も付加していない",
+          "example": "これマジで大事。全員読んで。",
+          "intensity": 3,
+          "tags": [
+            "引用RT",
+            "同意"
+          ]
+        },
+        {
+          "text": "もっと早く知りたかった",
+          "position": "standalone",
+          "reality": "共感を装って他人のバズに便乗",
+          "example": "もっと早く知りたかった…。",
+          "intensity": 2,
+          "tags": [
+            "引用RT",
+            "共感装い"
+          ]
+        },
+        {
+          "text": "何回でも言うけどこれ",
+          "position": "standalone",
+          "reality": "「何回でも言う」と言いつつ初めて見た内容",
+          "example": "何回でも言うけどこれ。定期的に流したい。",
+          "intensity": 3,
+          "tags": [
+            "引用RT",
+            "反復強調"
+          ]
+        },
+        {
+          "text": "全人類に届け",
+          "position": "closing",
+          "reality": "拡散を煽るための大げさな表現",
+          "example": "これ全人類に届け。",
+          "intensity": 3,
+          "tags": [
+            "引用RT",
+            "拡散煽り"
+          ]
+        },
+        {
+          "text": "定期的に流れてきてほしい",
+          "position": "closing",
+          "reality": "自分で何度もRTすればいいだけ",
+          "example": "これ定期的に流れてきてほしい。",
+          "intensity": 2,
+          "tags": [
+            "引用RT",
+            "定期"
+          ]
+        },
+        {
+          "text": "これを見ろ",
+          "position": "standalone",
+          "reality": "命令形で注目を集めようとする",
+          "example": "これを見ろ。答えが書いてある。",
+          "intensity": 3,
+          "tags": [
+            "引用RT",
+            "命令形"
+          ]
+        },
+        {
+          "text": "声を大にして言いたい",
+          "position": "opening",
+          "reality": "引用RTで勝手に代弁者を気取る",
+          "example": "声を大にして言いたい。これが正解。",
+          "intensity": 3,
+          "tags": [
+            "引用RT",
+            "代弁"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number_flex",
+      "name": "数字マウント構文",
+      "description": "フォロワー数・売上・PV数などの数字を冒頭に置いて権威付けする構文。数字の正確性は検証不能。",
+      "phrases": [
+        {
+          "text": "フォロワー○万の僕が言うから間違いない",
+          "position": "opening",
+          "reality": "フォロワー数と発言の正しさは無関係",
+          "example": "フォロワー3万の僕が言うから間違いないけど、朝活は最強。",
+          "intensity": 4,
+          "tags": [
+            "数字マウント",
+            "権威"
+          ]
+        },
+        {
+          "text": "○万人に届けたい",
+          "position": "closing",
+          "reality": "大きな数字を出して影響力を演出",
+          "example": "この事実を100万人に届けたい。",
+          "intensity": 3,
+          "tags": [
+            "数字マウント",
+            "拡散煽り"
+          ]
+        },
+        {
+          "text": "○日連続投稿",
+          "position": "opening",
+          "reality": "継続日数だけで内容の質を担保しようとする",
+          "example": "365日連続投稿の僕が辿り着いた結論がこれ。",
+          "intensity": 3,
+          "tags": [
+            "数字マウント",
+            "継続アピール"
+          ]
+        },
+        {
+          "text": "○冊読んでわかった",
+          "position": "opening",
+          "reality": "冊数だけで読書の質は不明",
+          "example": "年間300冊読んでわかったけど、結局アウトプットが全て。",
+          "intensity": 3,
+          "tags": [
+            "数字マウント",
+            "読書"
+          ]
+        },
+        {
+          "text": "○億稼いだ経営者の",
+          "position": "opening",
+          "reality": "累計売上を「稼いだ」と表現。利益は不明",
+          "example": "累計5億稼いだ経営者の僕が教える成功法則。",
+          "intensity": 5,
+          "tags": [
+            "数字マウント",
+            "売上"
+          ]
+        },
+        {
+          "text": "○回バズった",
+          "position": "opening",
+          "reality": "バズの回数が発言の信頼性の根拠にはならない",
+          "example": "10回以上バズった僕のツイート術を公開。",
+          "intensity": 3,
+          "tags": [
+            "数字マウント",
+            "バズ"
+          ]
+        },
+        {
+          "text": "○○PV達成",
+          "position": "opening",
+          "reality": "PV数は操作可能で実態が見えない指標",
+          "example": "月間50万PV達成したブログの書き方を教えます。",
+          "intensity": 3,
+          "tags": [
+            "数字マウント",
+            "ブログ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "storytelling",
+      "name": "ストーリーテリング構文",
+      "description": "過去の困難から現在の成功へのビフォーアフターを語り、共感と信頼を得ようとする構文。",
+      "phrases": [
+        {
+          "text": "年収○万だった僕が",
+          "position": "opening",
+          "reality": "低い年収時代を強調して成功を際立たせるが、現在の収入は検証不能",
+          "example": "年収200万だった僕が、1年で月収100万を超えた方法。",
+          "intensity": 4,
+          "tags": [
+            "ストーリー",
+            "ビフォーアフター"
+          ]
+        },
+        {
+          "text": "借金○万から",
+          "position": "opening",
+          "reality": "借金エピソードで同情を引き、商材購入に繋げる",
+          "example": "借金500万から人生逆転した話をします。",
+          "intensity": 4,
+          "tags": [
+            "ストーリー",
+            "逆転"
+          ]
+        },
+        {
+          "text": "○年前の自分に教えたい",
+          "position": "closing",
+          "reality": "過去の自分に語りかける体で自慢する",
+          "example": "3年前の自分に教えたい。副業は今すぐ始めろって。",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "タイムスリップ"
+          ]
+        },
+        {
+          "text": "あの時○○してなかったら",
+          "position": "opening",
+          "reality": "運命的な転機を演出するが、たまたまの成功",
+          "example": "あの時Twitterを始めてなかったら、今も手取り15万のままだった。",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "転機"
+          ]
+        },
+        {
+          "text": "ブラック企業で消耗してた",
+          "position": "opening",
+          "reality": "ブラック企業→脱出→成功のテンプレストーリー",
+          "example": "ブラック企業で消耗してた僕が、今はPC1台で海外ノマド。",
+          "intensity": 4,
+          "tags": [
+            "ストーリー",
+            "脱サラ"
+          ]
+        },
+        {
+          "text": "人生どん底だった",
+          "position": "opening",
+          "reality": "最大限に不幸を演出してからの逆転アピール",
+          "example": "人生どん底だった僕を救ったのは、たった1つの習慣。",
+          "intensity": 4,
+          "tags": [
+            "ストーリー",
+            "どん底"
+          ]
+        },
+        {
+          "text": "○歳で気づいた",
+          "position": "opening",
+          "reality": "年齢を使って「遅くない」メッセージを込めた商材誘導",
+          "example": "40歳で気づいた。サラリーマンでいる限り自由はない。",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "年齢"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fomo",
+      "name": "煽り構文",
+      "description": "「知らないと損」「やらない人はヤバい」など、恐怖や焦りを煽ってエンゲージメントを稼ぐ構文。",
+      "phrases": [
+        {
+          "text": "知らない人は損してる",
+          "position": "opening",
+          "reality": "大して有益でもない情報で不安を煽る",
+          "example": "知らない人は損してる。ふるさと納税の裏技教えます。",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "損失回避"
+          ]
+        },
+        {
+          "text": "知らないとヤバい",
+          "position": "opening",
+          "reality": "知らなくても全く問題ない内容がほとんど",
+          "example": "知らないとヤバい。2024年の税制改正まとめ。",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "恐怖"
+          ]
+        },
+        {
+          "text": "まだ○○してないの？",
+          "position": "opening",
+          "reality": "してない人を馬鹿にする見下し構文",
+          "example": "まだ副業してないの？令和だよ？",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "見下し"
+          ]
+        },
+        {
+          "text": "やらない理由がない",
+          "position": "closing",
+          "reality": "やらない理由は普通に沢山ある",
+          "example": "NISA、やらない理由がない。",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "行動促進"
+          ]
+        },
+        {
+          "text": "9割の人が知らない",
+          "position": "opening",
+          "reality": "根拠のない数字で希少性を演出",
+          "example": "9割の人が知らない節税テクニック。",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "希少性"
+          ]
+        },
+        {
+          "text": "読まないと損します",
+          "position": "closing",
+          "reality": "読んでも特に得しない内容",
+          "example": "このスレッド、読まないと損します。",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "損失回避"
+          ]
+        },
+        {
+          "text": "○○しないと人生詰む",
+          "position": "middle",
+          "reality": "極端な表現で不安を煽る",
+          "example": "英語学習しないと人生詰む時代が来ます。",
+          "intensity": 5,
+          "tags": [
+            "煽り",
+            "恐怖"
+          ]
+        },
+        {
+          "text": "気づいてない人多すぎ",
+          "position": "opening",
+          "reality": "自分だけが気づいている風を装う",
+          "example": "気づいてない人多すぎるけど、円安は副業チャンス。",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "優越感"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authority",
+      "name": "権威構文",
+      "description": "大学名・論文・有名人の名前を借りて、自分の主張に権威を付与する構文。出典が曖昧なことが多い。",
+      "phrases": [
+        {
+          "text": "ハーバード大学の研究によると",
+          "position": "opening",
+          "reality": "出典不明。ハーバードと言えば信じる人が多い",
+          "example": "ハーバード大学の研究によると、成功者の90%は朝型。",
+          "intensity": 4,
+          "tags": [
+            "権威",
+            "学術"
+          ]
+        },
+        {
+          "text": "スタンフォード大学の実験で",
+          "position": "opening",
+          "reality": "同上。具体的な論文名は決して出さない",
+          "example": "スタンフォード大学の実験で証明されてるんだけど、習慣化には66日かかる。",
+          "intensity": 4,
+          "tags": [
+            "権威",
+            "学術"
+          ]
+        },
+        {
+          "text": "○○さんも言ってたけど",
+          "position": "opening",
+          "reality": "有名人の発言を借りて自分の主張を正当化。文脈無視",
+          "example": "イーロン・マスクも言ってたけど、睡眠は4時間で十分。",
+          "intensity": 3,
+          "tags": [
+            "権威",
+            "有名人"
+          ]
+        },
+        {
+          "text": "科学的に証明されてる",
+          "position": "middle",
+          "reality": "具体的な論文・実験は提示しない",
+          "example": "瞑想の効果は科学的に証明されてるのに、やらない人が多い。",
+          "intensity": 4,
+          "tags": [
+            "権威",
+            "科学"
+          ]
+        },
+        {
+          "text": "心理学的に言うと",
+          "position": "opening",
+          "reality": "心理学を名乗れば何でも正しく聞こえる魔法の枕詞",
+          "example": "心理学的に言うと、人は締め切りがないと動けない。",
+          "intensity": 3,
+          "tags": [
+            "権威",
+            "心理学"
+          ]
+        },
+        {
+          "text": "データが出てる",
+          "position": "closing",
+          "reality": "どこのデータかは絶対に言わない",
+          "example": "副業している人の方が本業の成績も良いってデータが出てる。",
+          "intensity": 3,
+          "tags": [
+            "権威",
+            "データ"
+          ]
+        },
+        {
+          "text": "統計的に",
+          "position": "opening",
+          "reality": "統計の出典なし。「統計」と言えば科学的に聞こえる",
+          "example": "統計的に、成功する起業家の共通点は『行動力』。",
+          "intensity": 3,
+          "tags": [
+            "権威",
+            "統計"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "list_format",
+      "name": "リスト構文",
+      "description": "「○○な人の特徴5選」のようにリスト形式でまとめる構文。スレッド（連投）形式でインプレを稼ぐ。",
+      "phrases": [
+        {
+          "text": "○○な人の特徴○選",
+          "position": "opening",
+          "reality": "当たり前のことをリスト化しただけ",
+          "example": "仕事ができる人の特徴7選（スレッド）",
+          "intensity": 3,
+          "tags": [
+            "リスト",
+            "特徴系"
+          ]
+        },
+        {
+          "text": "○○するための○つの方法",
+          "position": "opening",
+          "reality": "ブログ記事タイトルのコピペ",
+          "example": "朝活を習慣化するための5つの方法。",
+          "intensity": 2,
+          "tags": [
+            "リスト",
+            "方法系"
+          ]
+        },
+        {
+          "text": "○○ランキングTOP○",
+          "position": "opening",
+          "reality": "個人の主観ランキングを公式感を出して発表",
+          "example": "人生で読んでよかった本ランキングTOP10",
+          "intensity": 2,
+          "tags": [
+            "リスト",
+            "ランキング"
+          ]
+        },
+        {
+          "text": "スレッドにまとめました",
+          "position": "closing",
+          "reality": "連投でインプレッション数を水増し",
+          "example": "全部スレッドにまとめました。保存推奨。",
+          "intensity": 3,
+          "tags": [
+            "リスト",
+            "スレッド"
+          ]
+        },
+        {
+          "text": "保存版",
+          "position": "opening",
+          "reality": "「保存版」と銘打つことでブックマークを誘導",
+          "example": "【保存版】確定申告で損しないためのチェックリスト。",
+          "intensity": 3,
+          "tags": [
+            "リスト",
+            "保存訴求"
+          ]
+        },
+        {
+          "text": "○○まとめ",
+          "position": "opening",
+          "reality": "既知の情報をまとめただけで独自性なし",
+          "example": "新NISA完全まとめ。これだけ読めばOK。",
+          "intensity": 2,
+          "tags": [
+            "リスト",
+            "まとめ"
+          ]
+        },
+        {
+          "text": "永久保存版",
+          "position": "opening",
+          "reality": "「保存版」の更に大げさなバージョン",
+          "example": "【永久保存版】人生を変える習慣30選。",
+          "intensity": 4,
+          "tags": [
+            "リスト",
+            "保存訴求"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urgency",
+      "name": "緊急性構文",
+      "description": "「今すぐ」「今だけ」「一度しか言わない」など、緊急性・限定性を演出してアクションを促す構文。",
+      "phrases": [
+        {
+          "text": "今すぐやめてください",
+          "position": "opening",
+          "reality": "緊急性を装って注目を集めるだけ",
+          "example": "今すぐやめてください。その朝食が老化を加速させます。",
+          "intensity": 4,
+          "tags": [
+            "緊急性",
+            "警告"
+          ]
+        },
+        {
+          "text": "一度しか言いません",
+          "position": "opening",
+          "reality": "何度でも似たようなことを言っている",
+          "example": "一度しか言いません。NISAは今年中に始めてください。",
+          "intensity": 4,
+          "tags": [
+            "緊急性",
+            "限定"
+          ]
+        },
+        {
+          "text": "今だけ無料",
+          "position": "middle",
+          "reality": "ずっと無料か、最初から無料にする予定だった",
+          "example": "今だけ無料で公開します。明日には消します。",
+          "intensity": 5,
+          "tags": [
+            "緊急性",
+            "限定",
+            "無料"
+          ]
+        },
+        {
+          "text": "明日には消します",
+          "position": "closing",
+          "reality": "消さない。次の日も同じことを言っている",
+          "example": "反響が大きすぎるので明日には消します。",
+          "intensity": 5,
+          "tags": [
+            "緊急性",
+            "削除予告"
+          ]
+        },
+        {
+          "text": "朗報です",
+          "position": "opening",
+          "reality": "朗報でも何でもない宣伝",
+          "example": "朗報です。期間限定で無料コンサルやります。",
+          "intensity": 3,
+          "tags": [
+            "緊急性",
+            "ニュース風"
+          ]
+        },
+        {
+          "text": "悲報",
+          "position": "opening",
+          "reality": "悲報でも何でもないが注目を集められる",
+          "example": "悲報。日本人の金融リテラシーが低すぎる件。",
+          "intensity": 3,
+          "tags": [
+            "緊急性",
+            "ニュース風"
+          ]
+        },
+        {
+          "text": "最後に大事なこと言います",
+          "position": "opening",
+          "reality": "最後でもなければ大事でもない",
+          "example": "最後に大事なこと言います。行動した人だけが変わる。",
+          "intensity": 3,
+          "tags": [
+            "緊急性",
+            "最終通告"
+          ]
+        },
+        {
+          "text": "反響が大きかったので",
+          "position": "opening",
+          "reality": "大して反響はなかったが再投稿の口実",
+          "example": "反響が大きかったのでもう一度言います。",
+          "intensity": 2,
+          "tags": [
+            "緊急性",
+            "再投稿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gathering",
+      "name": "仲間集め構文",
+      "description": "リプライ・いいね・RTを明示的に求めてエンゲージメントを稼ぐ構文。",
+      "phrases": [
+        {
+          "text": "リプで教えてください",
+          "position": "closing",
+          "reality": "リプ数を増やしてアルゴリズムに乗せるための手法",
+          "example": "あなたの朝のルーティン、リプで教えてください。",
+          "intensity": 2,
+          "tags": [
+            "仲間集め",
+            "リプ誘導"
+          ]
+        },
+        {
+          "text": "共感したらRT",
+          "position": "closing",
+          "reality": "RT数でインプレを稼ぐための直接的な依頼",
+          "example": "共感したらRTお願いします。一人でも多くの人に届けたい。",
+          "intensity": 3,
+          "tags": [
+            "仲間集め",
+            "RT誘導"
+          ]
+        },
+        {
+          "text": "いいねした人全員フォローします",
+          "position": "closing",
+          "reality": "フォロバ目的のいいね乞食。実際はフォローしない",
+          "example": "いいねした人全員フォローします！同じ志の仲間を増やしたい。",
+          "intensity": 4,
+          "tags": [
+            "仲間集め",
+            "いいね誘導"
+          ]
+        },
+        {
+          "text": "フォローしてくれた方には",
+          "position": "opening",
+          "reality": "フォロワー増加のための条件付きオファー",
+          "example": "フォローしてくれた方には、無料でPDFプレゼントします。",
+          "intensity": 4,
+          "tags": [
+            "仲間集め",
+            "フォロー誘導"
+          ]
+        },
+        {
+          "text": "同じ想いの人と繋がりたい",
+          "position": "closing",
+          "reality": "「繋がりたい」=フォロワーを増やしたい",
+          "example": "副業で人生変えたい人と繋がりたい。フォローお願いします。",
+          "intensity": 3,
+          "tags": [
+            "仲間集め",
+            "フォロー誘導"
+          ]
+        },
+        {
+          "text": "おはよう戦隊",
+          "position": "opening",
+          "reality": "毎朝の挨拶ツイートで相互エンゲージメントを稼ぐ互助会",
+          "example": "おはようございます！今日も積み上げていきましょう💪",
+          "intensity": 2,
+          "tags": [
+            "仲間集め",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "○○な人はいいね",
+          "position": "closing",
+          "reality": "条件を付けていいねを誘導する",
+          "example": "今年中に月収50万目指してる人はいいね。",
+          "intensity": 3,
+          "tags": [
+            "仲間集め",
+            "いいね誘導"
+          ]
+        },
+        {
+          "text": "一緒に頑張りましょう",
+          "position": "closing",
+          "reality": "仲間感を出してフォロー・いいねを促進",
+          "example": "副業仲間募集中。一緒に頑張りましょう！",
+          "intensity": 2,
+          "tags": [
+            "仲間集め",
+            "連帯感"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "humble_brag",
+      "name": "自虐風自慢構文",
+      "description": "一見「つらい」「困っている」ように見せかけて、実態は自慢をする構文。",
+      "phrases": [
+        {
+          "text": "○○すぎて困ってます",
+          "position": "opening",
+          "reality": "全く困っていない。むしろ見せびらかしたい",
+          "example": "仕事の依頼が多すぎて困ってます…。全部受けたいのに。",
+          "intensity": 3,
+          "tags": [
+            "自虐風自慢",
+            "困惑装い"
+          ]
+        },
+        {
+          "text": "嬉しい悲鳴",
+          "position": "middle",
+          "reality": "自慢の言い換え",
+          "example": "売上が目標の3倍で嬉しい悲鳴です。",
+          "intensity": 3,
+          "tags": [
+            "自虐風自慢",
+            "売上"
+          ]
+        },
+        {
+          "text": "全然寝てない",
+          "position": "opening",
+          "reality": "忙しさ自慢＝需要がある自慢",
+          "example": "全然寝てない。でもやりたいことだから苦じゃない。",
+          "intensity": 2,
+          "tags": [
+            "自虐風自慢",
+            "忙しい"
+          ]
+        },
+        {
+          "text": "贅沢な悩みなんですけど",
+          "position": "opening",
+          "reality": "「贅沢」と前置きする時点で自慢と自覚している",
+          "example": "贅沢な悩みなんですけど、オファーが来すぎて選べない。",
+          "intensity": 4,
+          "tags": [
+            "自虐風自慢",
+            "前置き"
+          ]
+        },
+        {
+          "text": "怒られそうだけど",
+          "position": "opening",
+          "reality": "怒られるほど良い状況であることのアピール",
+          "example": "怒られそうだけど、今月も旅行行ってきます。3回目。",
+          "intensity": 3,
+          "tags": [
+            "自虐風自慢",
+            "前置き"
+          ]
+        },
+        {
+          "text": "こんなこと言ったら嫌われそうだけど",
+          "position": "opening",
+          "reality": "嫌われる覚悟を見せて同情を集めつつ自慢する",
+          "example": "こんなこと言ったら嫌われそうだけど、会社辞めて収入3倍になった。",
+          "intensity": 4,
+          "tags": [
+            "自虐風自慢",
+            "前置き"
+          ]
+        },
+        {
+          "text": "恵まれすぎて申し訳ない",
+          "position": "closing",
+          "reality": "申し訳ないと思うなら黙っていればいい",
+          "example": "好きなことだけして生きてる。恵まれすぎて申し訳ない。",
+          "intensity": 4,
+          "tags": [
+            "自虐風自慢",
+            "謙遜装い"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "provocation",
+      "name": "炎上覚悟構文",
+      "description": "「炎上覚悟で」「厳しいこと言うけど」と前置きして、反論されにくい空気を作る構文。",
+      "phrases": [
+        {
+          "text": "炎上覚悟で言います",
+          "position": "opening",
+          "reality": "炎上しない程度の当たり障りない意見しか言わない",
+          "example": "炎上覚悟で言います。努力しない人に成功はありません。",
+          "intensity": 4,
+          "tags": [
+            "炎上覚悟",
+            "覚悟アピール"
+          ]
+        },
+        {
+          "text": "厳しいこと言うけど",
+          "position": "opening",
+          "reality": "厳しくない。むしろ多数派の意見を言っているだけ",
+          "example": "厳しいこと言うけど、稼げない人は行動量が足りてない。",
+          "intensity": 3,
+          "tags": [
+            "炎上覚悟",
+            "厳しさ装い"
+          ]
+        },
+        {
+          "text": "勘違いしている人が多いんですけど",
+          "position": "opening",
+          "reality": "勘違いしているのは本人の方であることが多い",
+          "example": "勘違いしている人が多いんですけど、フォロワー数と信頼は比例しません。",
+          "intensity": 3,
+          "tags": [
+            "炎上覚悟",
+            "正論風"
+          ]
+        },
+        {
+          "text": "あえて言いますが",
+          "position": "opening",
+          "reality": "「あえて」と言うことで勇気ある発言を演出",
+          "example": "あえて言いますが、大学に行く意味はありません。",
+          "intensity": 3,
+          "tags": [
+            "炎上覚悟",
+            "覚悟アピール"
+          ]
+        },
+        {
+          "text": "怒る人もいると思うけど",
+          "position": "opening",
+          "reality": "怒る人がいることで注目が集まることを計算",
+          "example": "怒る人もいると思うけど、会社員は思考停止。",
+          "intensity": 4,
+          "tags": [
+            "炎上覚悟",
+            "挑発"
+          ]
+        },
+        {
+          "text": "賛否両論あると思いますが",
+          "position": "opening",
+          "reality": "議論を巻き起こす体で注目を集める",
+          "example": "賛否両論あると思いますが、子供にはプログラミングだけ教えればいい。",
+          "intensity": 3,
+          "tags": [
+            "炎上覚悟",
+            "議論誘発"
+          ]
+        },
+        {
+          "text": "嫌われる覚悟で言う",
+          "position": "opening",
+          "reality": "嫌われない安全な意見しか言わない",
+          "example": "嫌われる覚悟で言う。副業しない人は将来路頭に迷います。",
+          "intensity": 4,
+          "tags": [
+            "炎上覚悟",
+            "覚悟アピール"
+          ]
+        },
+        {
+          "text": "批判を恐れずに",
+          "position": "opening",
+          "reality": "批判されないことを確認してから発言している",
+          "example": "批判を恐れずに言う。日本の教育は終わってる。",
+          "intensity": 3,
+          "tags": [
+            "炎上覚悟",
+            "覚悟アピール"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_patterns",
+      "name": "その他X特有パターン",
+      "description": "上記カテゴリに収まらないが、X/Twitterで頻出するビジネス臭い・テンプレ感の強い構文。",
+      "phrases": [
+        {
+          "text": "大事なこと言います",
+          "position": "opening",
+          "reality": "大事でもなんでもないことを大事そうに言う",
+          "example": "大事なこと言います。自己投資をケチる人は成功しません。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "前置き"
+          ]
+        },
+        {
+          "text": "何度でも言うけど",
+          "position": "opening",
+          "reality": "「何度でも」と言って重要性を演出するが中身は薄い",
+          "example": "何度でも言うけど、睡眠を削るのは愚の骨頂。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "反復強調"
+          ]
+        },
+        {
+          "text": "意外かもしれないけど",
+          "position": "opening",
+          "reality": "全く意外ではない当たり前のこと",
+          "example": "意外かもしれないけど、成功者はみんな読書してる。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "意外性装い"
+          ]
+        },
+        {
+          "text": "ここだけの話",
+          "position": "opening",
+          "reality": "全世界に公開しているツイートで「ここだけ」は矛盾",
+          "example": "ここだけの話、来月から値上げします。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "秘密感"
+          ]
+        },
+        {
+          "text": "バズったので宣伝させてください",
+          "position": "opening",
+          "reality": "バズを利用して自分の商材を売り込むテンプレ",
+          "example": "バズったので宣伝させてください。僕のnoteはこちら→",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "バズ便乗"
+          ]
+        },
+        {
+          "text": "ぶっちゃけ",
+          "position": "opening",
+          "reality": "ぶっちゃけ感を出して親近感を装う",
+          "example": "ぶっちゃけ、会社員やってる場合じゃない。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "カジュアル"
+          ]
+        },
+        {
+          "text": "本音を言うと",
+          "position": "opening",
+          "reality": "「本音」と言うことで裏情報感を出す",
+          "example": "本音を言うと、コンサルの9割は詐欺。（自分もコンサルやってる）",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "本音風"
+          ]
+        },
+        {
+          "text": "正直に言います",
+          "position": "opening",
+          "reality": "「正直」と言わないといけない時点で普段は不正直",
+          "example": "正直に言います。僕も最初は全然ダメでした。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "正直風"
+          ]
+        },
+        {
+          "text": "有益なことを言います",
+          "position": "opening",
+          "reality": "自分で「有益」と言う時点でたいてい無益",
+          "example": "有益なことを言います。朝起きたらまず水を飲んでください。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "有益装い"
+          ]
+        },
+        {
+          "text": "これは暴露ですが",
+          "position": "opening",
+          "reality": "暴露でも何でもない周知の事実",
+          "example": "これは暴露ですが、インフルエンサーの9割はPR案件で生きてます。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "暴露風"
+          ]
+        },
+        {
+          "text": "誰も教えてくれなかった",
+          "position": "middle",
+          "reality": "検索すれば出てくる常識レベルの情報",
+          "example": "誰も教えてくれなかった確定申告の落とし穴。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "秘密感"
+          ]
+        },
+        {
+          "text": "○○が教える",
+          "position": "opening",
+          "reality": "プロフの肩書きで権威を借りる構文",
+          "example": "元銀行員が教える、お金が貯まらない人の共通点。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "権威"
+          ]
+        },
+        {
+          "text": "積み上げ",
+          "position": "standalone",
+          "reality": "日々の作業報告。互助会メンバー同士でいいねし合う",
+          "example": "今日の積み上げ。ブログ1記事、Twitter30ツイート、読書1冊。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "日報"
+          ]
+        },
+        {
+          "text": "おは戦",
+          "position": "opening",
+          "reality": "「おはよう戦隊」の略。朝の挨拶で互いにいいねし合う互助会",
+          "example": "おは戦40420mk🔥 今日も全力で行きます！",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "互助会"
+          ]
+        },
+        {
+          "text": "震えが止まらない",
+          "position": "middle",
+          "reality": "大げさな感情表現。実際に震えてはいない",
+          "example": "初めて月収100万超えて震えが止まらない。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "感情過剰"
+          ]
+        },
+        {
+          "text": "全人類やって",
+          "position": "closing",
+          "reality": "全人類がやるほどのことではない",
+          "example": "このアプリ、全人類やって。人生変わるから。",
+          "intensity": 3,
+          "tags": [
+            "その他",
+            "大げさ"
+          ]
+        },
+        {
+          "text": "マジでこれ",
+          "position": "standalone",
+          "reality": "1〜2語で他人のコンテンツに乗っかる",
+          "example": "マジでこれ。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "最小コメント"
+          ]
+        },
+        {
+          "text": "聞いてほしいんだけど",
+          "position": "opening",
+          "reality": "承認欲求の直接的な表明",
+          "example": "聞いてほしいんだけど、今月の売上が過去最高だった。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "承認欲求"
+          ]
+        },
+        {
+          "text": "○○しか勝たん",
+          "position": "closing",
+          "reality": "思考停止の最上級表現",
+          "example": "朝活しか勝たん。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "流行語"
+          ]
+        },
+        {
+          "text": "天才すぎる",
+          "position": "middle",
+          "reality": "大げさな褒め言葉でエンゲージメントを稼ぐ",
+          "example": "この発想、天才すぎる。全員見て。",
+          "intensity": 2,
+          "tags": [
+            "その他",
+            "大げさ"
+          ]
+        }
+      ]
+    }
+  ]
+}
