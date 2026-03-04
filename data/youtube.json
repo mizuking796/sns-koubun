@@ -1,0 +1,957 @@
+{
+  "platform": "youtube",
+  "platform_name": "YouTube",
+  "description": "サムネイル・タイトルでのクリックベイト、概要欄のテンプレ、コメント欄の定型文と、あらゆる要素が構文化されたプラットフォーム。CTR（クリック率）至上主義により【】や「…」の乱用が進み、視聴者はサムネと内容の乖離に慣れきっている。YouTuber同士のテンプレ模倣も激しい。",
+  "categories": [
+    {
+      "id": "thumbnail_bait",
+      "name": "釣りサムネ/タイトル構文",
+      "description": "クリック率を上げるためだけに存在する誇大タイトル。",
+      "phrases": [
+        {
+          "text": "【衝撃】",
+          "position": "opening",
+          "reality": "衝撃的な内容はない",
+          "example": "【衝撃】コンビニおにぎりの原価がヤバすぎた…",
+          "intensity": 4,
+          "tags": [
+            "サムネ",
+            "衝撃"
+          ]
+        },
+        {
+          "text": "【閲覧注意】",
+          "position": "opening",
+          "reality": "注意するほどの内容ではない",
+          "example": "【閲覧注意】築50年の家を掃除したらとんでもないものが…",
+          "intensity": 4,
+          "tags": [
+            "サムネ",
+            "閲覧注意"
+          ]
+        },
+        {
+          "text": "【悲報】",
+          "position": "opening",
+          "reality": "5chスレタイの輸入。たいして悲報ではない",
+          "example": "【悲報】引っ越し先がヤバすぎた件",
+          "intensity": 3,
+          "tags": [
+            "サムネ",
+            "悲報"
+          ]
+        },
+        {
+          "text": "〇〇が神すぎた",
+          "position": "closing",
+          "reality": "神のハードルが極限まで低い",
+          "example": "ドンキの1000円福袋が神すぎた",
+          "intensity": 4,
+          "tags": [
+            "サムネ",
+            "神"
+          ]
+        },
+        {
+          "text": "〇〇した結果…",
+          "position": "opening",
+          "reality": "結果を「…」で隠して釣る定番",
+          "example": "1ヶ月毎日サウナに通った結果…",
+          "intensity": 3,
+          "tags": [
+            "サムネ",
+            "引っ張り"
+          ]
+        },
+        {
+          "text": "マジでヤバい",
+          "position": "middle",
+          "reality": "何がどうヤバいのか具体性ゼロ",
+          "example": "【ガチ】この裏技マジでヤバい",
+          "intensity": 4,
+          "tags": [
+            "サムネ",
+            "ヤバい"
+          ]
+        },
+        {
+          "text": "〇〇を完全解説",
+          "position": "opening",
+          "reality": "完全ではなく表面的な解説",
+          "example": "新NISAを完全解説【2026年最新版】",
+          "intensity": 3,
+          "tags": [
+            "サムネ",
+            "解説"
+          ]
+        },
+        {
+          "text": "知らないとマズい",
+          "position": "opening",
+          "reality": "知らなくてもマズくない",
+          "example": "知らないとマズい…iPhoneの危険な設定5選",
+          "intensity": 4,
+          "tags": [
+            "サムネ",
+            "煽り"
+          ]
+        },
+        {
+          "text": "〇〇がエグい",
+          "position": "closing",
+          "reality": "エグくない",
+          "example": "このラーメン屋のチャーシューがエグい",
+          "intensity": 3,
+          "tags": [
+            "サムネ",
+            "エグい"
+          ]
+        },
+        {
+          "text": "【ガチ】",
+          "position": "opening",
+          "reality": "ガチを付ければ信憑性が上がると思っている",
+          "example": "【ガチ】本当に痩せる食事法教えます",
+          "intensity": 3,
+          "tags": [
+            "サムネ",
+            "ガチ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shitemita",
+      "name": "やってみた構文",
+      "description": "「〇〇してみた」系の定番企画タイトル構文。",
+      "phrases": [
+        {
+          "text": "〇〇してみた",
+          "position": "opening",
+          "reality": "YouTubeの原点にして最も消費された構文",
+          "example": "メントスコーラ100本でやってみた",
+          "intensity": 2,
+          "tags": [
+            "企画",
+            "やってみた"
+          ]
+        },
+        {
+          "text": "〇〇に〇〇したらどうなる？",
+          "position": "opening",
+          "reality": "結果が分かりきっている実験が多い",
+          "example": "スイカに輪ゴム1000本巻いたらどうなる？",
+          "intensity": 3,
+          "tags": [
+            "企画",
+            "実験"
+          ]
+        },
+        {
+          "text": "〇〇円生活",
+          "position": "opening",
+          "reality": "金額制限系は企画のネタ切れの産物",
+          "example": "1週間1000円生活やったら過酷すぎた",
+          "intensity": 3,
+          "tags": [
+            "企画",
+            "チャレンジ"
+          ]
+        },
+        {
+          "text": "〇〇選手権",
+          "position": "opening",
+          "reality": "身内だけの選手権",
+          "example": "利きコーラ選手権で全問正解できるか？",
+          "intensity": 2,
+          "tags": [
+            "企画",
+            "選手権"
+          ]
+        },
+        {
+          "text": "〇〇時間耐久",
+          "position": "opening",
+          "reality": "企画のスケール感だけで中身がない",
+          "example": "24時間カラオケ耐久チャレンジ",
+          "intensity": 3,
+          "tags": [
+            "企画",
+            "耐久"
+          ]
+        },
+        {
+          "text": "プロに〇〇させたら",
+          "position": "opening",
+          "reality": "プロでなくてもできる程度の内容",
+          "example": "プロの料理人にコンビニ食材だけで作らせたら",
+          "intensity": 3,
+          "tags": [
+            "企画",
+            "プロ"
+          ]
+        },
+        {
+          "text": "ガチで〇〇してみた結果",
+          "position": "opening",
+          "reality": "「ガチで」を付けることでやってみた構文の延命",
+          "example": "ガチで1ヶ月筋トレしてみた結果がやばい",
+          "intensity": 3,
+          "tags": [
+            "企画",
+            "やってみた"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "description_template",
+      "name": "概要欄テンプレ構文",
+      "description": "概要欄に必ず入っている定型文集。",
+      "phrases": [
+        {
+          "text": "チャンネル登録・高評価よろしくお願いします！",
+          "position": "closing",
+          "reality": "全YouTuberが書く義務かのような定型文",
+          "example": "チャンネル登録・高評価よろしくお願いします！🔔",
+          "intensity": 2,
+          "tags": [
+            "概要欄",
+            "登録"
+          ]
+        },
+        {
+          "text": "🔔ベルマークを押すと通知が届きます",
+          "position": "closing",
+          "reality": "通知を受け取るほどのファンかは別として",
+          "example": "🔔ベルマークを押すと新着通知が届きます！見逃し防止に！",
+          "intensity": 2,
+          "tags": [
+            "概要欄",
+            "通知"
+          ]
+        },
+        {
+          "text": "▼目次",
+          "position": "opening",
+          "reality": "目次があっても結局全部見させる気満々",
+          "example": "▼目次\n00:00 オープニング\n01:23 本題\n10:45 まとめ",
+          "intensity": 1,
+          "tags": [
+            "概要欄",
+            "目次"
+          ]
+        },
+        {
+          "text": "※個人の感想です",
+          "position": "closing",
+          "reality": "散々断定的に語った後の保険",
+          "example": "※あくまで個人の感想です。効果には個人差があります。",
+          "intensity": 2,
+          "tags": [
+            "概要欄",
+            "免責"
+          ]
+        },
+        {
+          "text": "▼SNSフォローお願いします",
+          "position": "closing",
+          "reality": "全プラットフォームのリンクを羅列",
+          "example": "▼SNSフォローお願いします\nTwitter: @xxx\nInstagram: @xxx",
+          "intensity": 2,
+          "tags": [
+            "概要欄",
+            "SNS"
+          ]
+        },
+        {
+          "text": "▼お仕事のご依頼はこちら",
+          "position": "closing",
+          "reality": "登録者100人でも案件を待っている",
+          "example": "▼お仕事のご依頼はこちら\nmail@example.com",
+          "intensity": 3,
+          "tags": [
+            "概要欄",
+            "案件"
+          ]
+        },
+        {
+          "text": "▼使用機材",
+          "position": "closing",
+          "reality": "アフィリエイトリンクの羅列",
+          "example": "▼使用機材\nカメラ: Sony α7IV（Amazonリンク）",
+          "intensity": 2,
+          "tags": [
+            "概要欄",
+            "アフィ"
+          ]
+        },
+        {
+          "text": "この動画がいいなと思ったら",
+          "position": "closing",
+          "reality": "いいねとチャンネル登録への誘導テンプレ",
+          "example": "この動画がいいなと思ったら高評価とチャンネル登録お願いします！",
+          "intensity": 2,
+          "tags": [
+            "概要欄",
+            "CTA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comment_template",
+      "name": "コメント欄定型文構文",
+      "description": "YouTubeコメント欄に蔓延する定型コメント。",
+      "phrases": [
+        {
+          "text": "〇〇から来ました",
+          "position": "opening",
+          "reality": "流入元を宣言する文化",
+          "example": "Twitterから来ました。めっちゃ面白いです。",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "流入"
+          ]
+        },
+        {
+          "text": "〇年後に見てる人いる？",
+          "position": "opening",
+          "reality": "未来の視聴者に語りかけるコメント稼ぎ",
+          "example": "2030年に見てる人いる？👀",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "時間"
+          ]
+        },
+        {
+          "text": "誰も聞いてないけど〇〇",
+          "position": "opening",
+          "reality": "自分語りをしたい前置き",
+          "example": "誰も聞いてないけど、明日テストなのに見てる。",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "自分語り"
+          ]
+        },
+        {
+          "text": "編集の〇〇が好き",
+          "position": "opening",
+          "reality": "玄人ぶったコメント",
+          "example": "編集のテンポ感が好きすぎる。",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "通ぶり"
+          ]
+        },
+        {
+          "text": "何回見ても飽きない",
+          "position": "closing",
+          "reality": "せいぜい2回しか見ていない",
+          "example": "何回見ても飽きないwww 永遠に見れる",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "誇張"
+          ]
+        },
+        {
+          "text": "待ってました！",
+          "position": "opening",
+          "reality": "通知すら設定していなかった",
+          "example": "待ってました！新作最高です！",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "ファン"
+          ]
+        },
+        {
+          "text": "〇:〇〇 ここ好き",
+          "position": "opening",
+          "reality": "タイムスタンプ付きコメントで通ぶる",
+          "example": "3:42 ここ好きすぎるwww",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "タイムスタンプ"
+          ]
+        },
+        {
+          "text": "もっと早く知りたかった",
+          "position": "closing",
+          "reality": "知っても生活は変わらない",
+          "example": "これもっと早く知りたかった…。有益すぎる。",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "後悔"
+          ]
+        },
+        {
+          "text": "神動画",
+          "position": "closing",
+          "reality": "神動画のインフレ",
+          "example": "これは神動画。チャンネル登録しました。",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "神"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opening_greeting",
+      "name": "動画冒頭挨拶構文",
+      "description": "YouTuberの定番オープニングトーク。",
+      "phrases": [
+        {
+          "text": "はいどうも〜",
+          "position": "opening",
+          "reality": "ほぼ全YouTuberが使う没個性的な挨拶",
+          "example": "はいどうも〜○○チャンネルです！",
+          "intensity": 2,
+          "tags": [
+            "挨拶",
+            "冒頭"
+          ]
+        },
+        {
+          "text": "どうも、〇〇です",
+          "position": "opening",
+          "reality": "毎回同じ挨拶を数千回繰り返す苦行",
+          "example": "どうも、ヒカキンです。",
+          "intensity": 1,
+          "tags": [
+            "挨拶",
+            "自己紹介"
+          ]
+        },
+        {
+          "text": "今日はヤバい報告があります",
+          "position": "opening",
+          "reality": "ヤバくない報告の前振り",
+          "example": "今日はヤバい報告があります。ちょっと聞いてください。",
+          "intensity": 4,
+          "tags": [
+            "挨拶",
+            "煽り"
+          ]
+        },
+        {
+          "text": "この動画を見れば〇〇が分かります",
+          "position": "opening",
+          "reality": "分かるとは限らない",
+          "example": "この動画を見れば新NISAの全てが分かります。",
+          "intensity": 3,
+          "tags": [
+            "挨拶",
+            "約束"
+          ]
+        },
+        {
+          "text": "〇〇について話します",
+          "position": "opening",
+          "reality": "前置きが長すぎて本題までが遠い",
+          "example": "今回は最近話題の○○について話します。",
+          "intensity": 1,
+          "tags": [
+            "挨拶",
+            "導入"
+          ]
+        },
+        {
+          "text": "その前にお知らせです",
+          "position": "opening",
+          "reality": "本題の前に案件を挟む恒例行事",
+          "example": "本題の前にお知らせです。今回のスポンサーは…",
+          "intensity": 3,
+          "tags": [
+            "挨拶",
+            "案件"
+          ]
+        },
+        {
+          "text": "まず結論から言うと",
+          "position": "opening",
+          "reality": "結論から言うと言いつつ前置きが長い",
+          "example": "まず結論から言うと、買いです。でもその前に…",
+          "intensity": 3,
+          "tags": [
+            "挨拶",
+            "結論"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending_template",
+      "name": "エンディング構文",
+      "description": "動画の締めくくりに必ず入る定型フレーズ。",
+      "phrases": [
+        {
+          "text": "というわけで今日はここまで！",
+          "position": "closing",
+          "reality": "どのYouTuberでも使える汎用締め",
+          "example": "というわけで今日はここまで！また次の動画で！",
+          "intensity": 1,
+          "tags": [
+            "締め",
+            "定型"
+          ]
+        },
+        {
+          "text": "高評価が〇〇いったら続編出します",
+          "position": "closing",
+          "reality": "高評価を人質にした続編商法",
+          "example": "高評価が1万いったら続編出します！",
+          "intensity": 4,
+          "tags": [
+            "締め",
+            "交渉"
+          ]
+        },
+        {
+          "text": "コメント欄で教えてください",
+          "position": "closing",
+          "reality": "コメント数を稼ぐための定型",
+          "example": "皆さんのおすすめも、コメント欄で教えてください！",
+          "intensity": 2,
+          "tags": [
+            "締め",
+            "コメント誘導"
+          ]
+        },
+        {
+          "text": "それじゃあまた！バイバーイ！",
+          "position": "closing",
+          "reality": "テンション高く締めるのがYouTuberの務め",
+          "example": "それじゃあまた次の動画で！バイバーイ！",
+          "intensity": 2,
+          "tags": [
+            "締め",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "リクエストあればコメントで！",
+          "position": "closing",
+          "reality": "リクエストに応える気があるかは別問題",
+          "example": "他に検証してほしいものあればコメントで！",
+          "intensity": 2,
+          "tags": [
+            "締め",
+            "リクエスト"
+          ]
+        },
+        {
+          "text": "チャンネル登録まだの人はぜひ！",
+          "position": "closing",
+          "reality": "毎回言い続ける登録催促",
+          "example": "チャンネル登録まだの人はぜひ！通知もONにしてね🔔",
+          "intensity": 3,
+          "tags": [
+            "締め",
+            "登録"
+          ]
+        },
+        {
+          "text": "グッドボタンお願いします",
+          "position": "closing",
+          "reality": "最後にもう一度高評価を乞う",
+          "example": "面白かったらグッドボタンお願いします👍",
+          "intensity": 2,
+          "tags": [
+            "締め",
+            "高評価"
+          ]
+        },
+        {
+          "text": "次の動画も楽しみにしててね！",
+          "position": "closing",
+          "reality": "次の動画の制作予定は未定",
+          "example": "次の動画も楽しみにしててね！じゃあまた！",
+          "intensity": 2,
+          "tags": [
+            "締め",
+            "予告"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ranking_listicle",
+      "name": "ランキング・リスト構文",
+      "description": "数字を使ったリスト系動画の定番構文。",
+      "phrases": [
+        {
+          "text": "〇〇ランキングTOP10",
+          "position": "opening",
+          "reality": "ランキングの基準が不明瞭",
+          "example": "絶対に行くべき温泉ランキングTOP10",
+          "intensity": 3,
+          "tags": [
+            "ランキング",
+            "リスト"
+          ]
+        },
+        {
+          "text": "〇〇選",
+          "position": "opening",
+          "reality": "選んだ基準は個人の主観",
+          "example": "買ってよかったガジェット7選【2026年版】",
+          "intensity": 2,
+          "tags": [
+            "ランキング",
+            "選"
+          ]
+        },
+        {
+          "text": "1位は意外なアレ…",
+          "position": "middle",
+          "reality": "意外ではない",
+          "example": "最も売れたゲームランキング。1位は意外なアレ…",
+          "intensity": 3,
+          "tags": [
+            "ランキング",
+            "引っ張り"
+          ]
+        },
+        {
+          "text": "〇〇するべき理由〇個",
+          "position": "opening",
+          "reality": "理由を水増しして数を合わせている",
+          "example": "今すぐ筋トレを始めるべき理由5個",
+          "intensity": 3,
+          "tags": [
+            "ランキング",
+            "理由"
+          ]
+        },
+        {
+          "text": "【永久保存版】",
+          "position": "opening",
+          "reality": "来年には情報が古くなる",
+          "example": "【永久保存版】引っ越し前にやることリスト",
+          "intensity": 4,
+          "tags": [
+            "ランキング",
+            "保存版"
+          ]
+        },
+        {
+          "text": "【最新版】【2026年版】",
+          "position": "opening",
+          "reality": "最新版と永久保存版が矛盾する",
+          "example": "【最新版】格安SIMおすすめランキング2026",
+          "intensity": 2,
+          "tags": [
+            "ランキング",
+            "最新"
+          ]
+        },
+        {
+          "text": "〇〇まとめ",
+          "position": "opening",
+          "reality": "他人の情報をまとめて自分のコンテンツにする",
+          "example": "2026年上半期ベストバイまとめ",
+          "intensity": 2,
+          "tags": [
+            "ランキング",
+            "まとめ"
+          ]
+        },
+        {
+          "text": "プロが選ぶ〇〇",
+          "position": "opening",
+          "reality": "プロの定義が曖昧",
+          "example": "プロが選ぶ本当に使えるキッチングッズ5選",
+          "intensity": 3,
+          "tags": [
+            "ランキング",
+            "プロ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sponsor_ad",
+      "name": "案件・広告構文",
+      "description": "スポンサー案件動画で使われる定型フレーズ。",
+      "phrases": [
+        {
+          "text": "今回の動画は〇〇さんの提供でお送りします",
+          "position": "opening",
+          "reality": "案件であることを最初に告白する義務感",
+          "example": "今回の動画はNordVPNさんの提供でお送りします。",
+          "intensity": 2,
+          "tags": [
+            "案件",
+            "提供"
+          ]
+        },
+        {
+          "text": "忖度なしでレビューします",
+          "position": "opening",
+          "reality": "忖度なしと言いつつ悪いことは言わない",
+          "example": "案件ですが忖度なしでレビューします。",
+          "intensity": 4,
+          "tags": [
+            "案件",
+            "忖度"
+          ]
+        },
+        {
+          "text": "概要欄にリンク貼っておきます",
+          "position": "closing",
+          "reality": "アフィリエイトリンク",
+          "example": "気になった方は概要欄にリンク貼っておきます！",
+          "intensity": 2,
+          "tags": [
+            "案件",
+            "アフィ"
+          ]
+        },
+        {
+          "text": "クーポンコード「〇〇」で〇%OFF",
+          "position": "closing",
+          "reality": "YouTuber専用クーポンで紹介料が入る仕組み",
+          "example": "クーポンコード「YOUTUBE20」で20%OFF！",
+          "intensity": 3,
+          "tags": [
+            "案件",
+            "クーポン"
+          ]
+        },
+        {
+          "text": "普段使いしてるんですけど",
+          "position": "opening",
+          "reality": "案件が来てから使い始めた",
+          "example": "これ実は普段使いしてるんですけど、マジで良いんですよ。",
+          "intensity": 4,
+          "tags": [
+            "案件",
+            "嘘"
+          ]
+        },
+        {
+          "text": "PR",
+          "position": "opening",
+          "reality": "法律上の義務を最小限で果たす表記",
+          "example": "【PR】最強のワイヤレスイヤホン見つけた",
+          "intensity": 1,
+          "tags": [
+            "案件",
+            "表記"
+          ]
+        },
+        {
+          "text": "ステマじゃないです",
+          "position": "opening",
+          "reality": "わざわざ否定する時点で怪しい",
+          "example": "ステマじゃないです。ガチで良かったから紹介してます。",
+          "intensity": 4,
+          "tags": [
+            "案件",
+            "否定"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apology_report",
+      "name": "謝罪・報告系構文",
+      "description": "炎上後や活動休止時の定番テンプレ。",
+      "phrases": [
+        {
+          "text": "皆さんにお伝えしなければならないことがあります",
+          "position": "opening",
+          "reality": "重大発表風にして再生数を稼ぐ",
+          "example": "皆さんにお伝えしなければならないことがあります。（サムネ：涙目）",
+          "intensity": 4,
+          "tags": [
+            "謝罪",
+            "報告"
+          ]
+        },
+        {
+          "text": "この度は〇〇してしまい申し訳ございません",
+          "position": "opening",
+          "reality": "謝罪動画が収益化されている矛盾",
+          "example": "この度は不適切な発言をしてしまい申し訳ございません。",
+          "intensity": 3,
+          "tags": [
+            "謝罪",
+            "定型"
+          ]
+        },
+        {
+          "text": "しばらくお休みをいただきます",
+          "position": "closing",
+          "reality": "1週間で復帰する",
+          "example": "しばらくお休みをいただきます。必ず戻ってきます。",
+          "intensity": 3,
+          "tags": [
+            "休止",
+            "宣言"
+          ]
+        },
+        {
+          "text": "応援してくれる皆さんのおかげで",
+          "position": "middle",
+          "reality": "ファンを盾にして批判をかわすテクニック",
+          "example": "応援してくれる皆さんのおかげで、また頑張れます。",
+          "intensity": 3,
+          "tags": [
+            "謝罪",
+            "ファン"
+          ]
+        },
+        {
+          "text": "ご報告",
+          "position": "opening",
+          "reality": "サムネに「ご報告」とだけ書いて再生数を最大化",
+          "example": "【ご報告】大切なお知らせがあります。",
+          "intensity": 4,
+          "tags": [
+            "報告",
+            "釣り"
+          ]
+        },
+        {
+          "text": "今後このようなことがないよう",
+          "position": "closing",
+          "reality": "また同じことをする",
+          "example": "今後このようなことがないよう気をつけてまいります。",
+          "intensity": 2,
+          "tags": [
+            "謝罪",
+            "テンプレ"
+          ]
+        },
+        {
+          "text": "誤解を与えてしまい",
+          "position": "opening",
+          "reality": "誤解ではなく事実を指摘されている",
+          "example": "誤解を与えてしまい申し訳ございません。",
+          "intensity": 3,
+          "tags": [
+            "謝罪",
+            "誤解"
+          ]
+        },
+        {
+          "text": "これからは〇〇していきます",
+          "position": "closing",
+          "reality": "改善宣言は3日で忘れる",
+          "example": "これからは一つ一つの発言に責任を持っていきます。",
+          "intensity": 2,
+          "tags": [
+            "謝罪",
+            "改善"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reaction_phrase",
+      "name": "リアクション芸構文",
+      "description": "動画内で連発される大袈裟なリアクションフレーズ。",
+      "phrases": [
+        {
+          "text": "えぐい！えぐいって！",
+          "position": "middle",
+          "reality": "えぐくないものにもえぐいと言う職業病",
+          "example": "（料理を食べて）えぐい！えぐいって！うますぎる！",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "誇張"
+          ]
+        },
+        {
+          "text": "やばいやばいやばい",
+          "position": "middle",
+          "reality": "語彙力の限界",
+          "example": "やばいやばいやばい！これ見て！マジで！",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "やばい"
+          ]
+        },
+        {
+          "text": "天才か？",
+          "position": "middle",
+          "reality": "天才的でもないことへの過剰反応",
+          "example": "この発想は…天才か？",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "絶賛"
+          ]
+        },
+        {
+          "text": "嘘だろ…",
+          "position": "middle",
+          "reality": "嘘ではないことに驚いてみせる演技",
+          "example": "嘘だろ…ガチで出た…（ガチャ動画）",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "驚き"
+          ]
+        },
+        {
+          "text": "これは〇〇",
+          "position": "middle",
+          "reality": "何にでも「これは」で評価を付ける",
+          "example": "これはアリ。むしろ大アリ。",
+          "intensity": 2,
+          "tags": [
+            "リアクション",
+            "評価"
+          ]
+        },
+        {
+          "text": "優勝〜！",
+          "position": "closing",
+          "reality": "何の大会でもない",
+          "example": "（ラーメンを食べて）優勝〜！今月ナンバーワン！",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "優勝"
+          ]
+        },
+        {
+          "text": "待って待って待って",
+          "position": "middle",
+          "reality": "誰も待たない",
+          "example": "待って待って待って、これマジ？",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "驚き"
+          ]
+        },
+        {
+          "text": "控えめに言って最高",
+          "position": "closing",
+          "reality": "控えめではない",
+          "example": "控えめに言って最高。買ってよかった。",
+          "intensity": 3,
+          "tags": [
+            "リアクション",
+            "評価"
+          ]
+        }
+      ]
+    }
+  ]
+}

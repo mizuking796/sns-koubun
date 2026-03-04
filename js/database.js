@@ -9,7 +9,10 @@ const Database = (() => {
   let searchQuery = '';
 
   const PLATFORM_FILES = [
-    'x_twitter', 'threads', 'instagram', 'linkedin', 'note_blog'
+    'x_twitter', 'threads', 'instagram', 'linkedin', 'note_blog',
+    'facebook', 'tiktok', 'youtube', 'fivech', 'niconico', 'line', 'mercari',
+    'bereal', 'bluesky', 'girls_channel', 'komachi', 'yahoo_chiebukuro',
+    'hatena', 'pixiv', 'lemon8', 'misskey'
   ];
 
   const POSITION_LABELS = {
@@ -22,12 +25,15 @@ const Database = (() => {
 
   async function loadAll() {
     const promises = PLATFORM_FILES.map(async (id) => {
-      const res = await fetch(`data/${id}.json`);
-      return res.json();
+      try {
+        const res = await fetch(`data/${id}.json`);
+        if (!res.ok) return null;
+        return res.json();
+      } catch { return null; }
     });
     const results = await Promise.all(promises);
     results.forEach((data) => {
-      allData[data.platform] = data;
+      if (data && data.platform) allData[data.platform] = data;
     });
     flattenPhrases();
     return allData;
@@ -151,7 +157,12 @@ const Database = (() => {
   }
 
   function shortPlatform(id) {
-    const map = { x_twitter: 'X', threads: 'Threads', instagram: 'Insta', linkedin: 'LinkedIn', note_blog: 'note' };
+    const map = {
+      x_twitter: 'X', threads: 'Threads', instagram: 'Insta', linkedin: 'LinkedIn', note_blog: 'note',
+      facebook: 'FB', tiktok: 'TikTok', youtube: 'YT', fivech: '5ch', niconico: 'ニコニコ',
+      line: 'LINE', mercari: 'メルカリ', bereal: 'BeReal', bluesky: 'Bsky', girls_channel: 'ガルちゃん',
+      komachi: '小町', yahoo_chiebukuro: '知恵袋', hatena: 'はてな', pixiv: 'Pixiv', lemon8: 'Lemon8', misskey: 'Misskey'
+    };
     return map[id] || id;
   }
 

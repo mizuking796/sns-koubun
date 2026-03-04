@@ -1,0 +1,957 @@
+{
+  "platform": "fivech",
+  "platform_name": "5ch / なんJ",
+  "description": "日本最大級の匿名掲示板。スレッドタイトルの【】構文、なんJ語（〇〇ンゴ、〇〇で草）、コピペ文化、安価（アンカー）構文など、独自の言語体系を発展させてきた。匿名ゆえの辛辣さと自虐のバランスが絶妙で、数々のネットスラングの発信源となっている。",
+  "categories": [
+    {
+      "id": "thread_title",
+      "name": "スレタイ構文",
+      "description": "【】で囲んだ感情タグ＋主語＋「〜してしまう」の黄金律。",
+      "phrases": [
+        {
+          "text": "【悲報】〇〇、△△してしまう",
+          "position": "opening",
+          "reality": "悲報の9割は他人の不幸を楽しむためのスレ",
+          "example": "【悲報】ワイ、彼女に浮気バレてしまう",
+          "intensity": 4,
+          "tags": [
+            "スレタイ",
+            "悲報"
+          ]
+        },
+        {
+          "text": "【朗報】〇〇、△△する",
+          "position": "opening",
+          "reality": "朗報の基準が極端に低い",
+          "example": "【朗報】ワイ、今日の昼飯がカツ丼",
+          "intensity": 3,
+          "tags": [
+            "スレタイ",
+            "朗報"
+          ]
+        },
+        {
+          "text": "【急募】〇〇する方法",
+          "position": "opening",
+          "reality": "急いでいないし本気で募集してもいない",
+          "example": "【急募】明日のプレゼンを乗り切る方法",
+          "intensity": 3,
+          "tags": [
+            "スレタイ",
+            "急募"
+          ]
+        },
+        {
+          "text": "【速報】",
+          "position": "opening",
+          "reality": "速報でもなんでもない個人の感想",
+          "example": "【速報】近所のラーメン屋、閉店していた",
+          "intensity": 3,
+          "tags": [
+            "スレタイ",
+            "速報"
+          ]
+        },
+        {
+          "text": "【画像あり】",
+          "position": "opening",
+          "reality": "画像で釣ってスレを開かせるテクニック",
+          "example": "【画像あり】うちの猫、とんでもない寝方をしてしまう",
+          "intensity": 3,
+          "tags": [
+            "スレタイ",
+            "画像"
+          ]
+        },
+        {
+          "text": "〇〇「△△」←これ",
+          "position": "opening",
+          "reality": "ツッコミ待ちのスレタイ構文",
+          "example": "上司「今日飲み行くぞ」←これ",
+          "intensity": 3,
+          "tags": [
+            "スレタイ",
+            "ツッコミ"
+          ]
+        },
+        {
+          "text": "〇〇ってどうなん？",
+          "position": "opening",
+          "reality": "自分の意見を言わず他人に聞くスタイル",
+          "example": "一人焼肉ってどうなん？",
+          "intensity": 2,
+          "tags": [
+            "スレタイ",
+            "質問"
+          ]
+        },
+        {
+          "text": "三大〇〇「△△」「□□」あと一つは？",
+          "position": "opening",
+          "reality": "三大の選定基準がスレ主の独断",
+          "example": "三大無能上司の口癖「やる気ある？」「俺の若い頃は」あと一つは？",
+          "intensity": 3,
+          "tags": [
+            "スレタイ",
+            "三大"
+          ]
+        },
+        {
+          "text": "【疑問】〇〇って実際どうなの？",
+          "position": "opening",
+          "reality": "自分の意見を持たず他人に判断を委ねるスレタイ",
+          "example": "【疑問】一人暮らしって実際どうなの？",
+          "intensity": 2,
+          "tags": [
+            "スレタイ",
+            "疑問"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanj_language",
+      "name": "なんJ語構文",
+      "description": "なんでも実況J板発祥の独特な語彙。",
+      "phrases": [
+        {
+          "text": "〇〇ンゴ",
+          "position": "closing",
+          "reality": "ドミンゴから派生した意味不明な語尾",
+          "example": "電車乗り過ごしたンゴ…",
+          "intensity": 3,
+          "tags": [
+            "なんJ",
+            "語尾"
+          ]
+        },
+        {
+          "text": "〇〇で草",
+          "position": "closing",
+          "reality": "「笑」の代替として定着",
+          "example": "上司の髪型変わりすぎで草",
+          "intensity": 2,
+          "tags": [
+            "なんJ",
+            "草"
+          ]
+        },
+        {
+          "text": "大草原不可避",
+          "position": "closing",
+          "reality": "「草」のインフレ形。草が生え過ぎて草原に",
+          "example": "面接でお腹鳴って大草原不可避",
+          "intensity": 3,
+          "tags": [
+            "なんJ",
+            "草"
+          ]
+        },
+        {
+          "text": "〇〇民",
+          "position": "opening",
+          "reality": "板や属性で住民を分類する文化",
+          "example": "なんJ民、深夜にカップ麺を食す",
+          "intensity": 2,
+          "tags": [
+            "なんJ",
+            "民"
+          ]
+        },
+        {
+          "text": "ファッ!?",
+          "position": "opening",
+          "reality": "驚きの最上級表現",
+          "example": "ファッ!? マジで言ってるんか？",
+          "intensity": 4,
+          "tags": [
+            "なんJ",
+            "驚き"
+          ]
+        },
+        {
+          "text": "〇〇やんけ！",
+          "position": "closing",
+          "reality": "エセ関西弁によるツッコミ",
+          "example": "それワイの母ちゃんやんけ！",
+          "intensity": 3,
+          "tags": [
+            "なんJ",
+            "関西弁"
+          ]
+        },
+        {
+          "text": "なんでや！〇〇関係ないやろ！",
+          "position": "closing",
+          "reality": "定番のツッコミテンプレ",
+          "example": "なんでや！阪神関係ないやろ！",
+          "intensity": 3,
+          "tags": [
+            "なんJ",
+            "ツッコミ"
+          ]
+        },
+        {
+          "text": "彡(ﾟ)(ﾟ)",
+          "position": "opening",
+          "reality": "なんJ民の象徴的AA（アスキーアート）",
+          "example": "彡(ﾟ)(ﾟ)「今日もワイの勝ちや」",
+          "intensity": 2,
+          "tags": [
+            "なんJ",
+            "AA"
+          ]
+        },
+        {
+          "text": "〇〇ニキ",
+          "position": "middle",
+          "reality": "見知らぬ他人を兄貴呼びするなんJ文化",
+          "example": "料理ニキ教えてくれ。パスタのソースどうすればいい？",
+          "intensity": 2,
+          "tags": [
+            "なんJ",
+            "呼称"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "self_deprecation",
+      "name": "自虐・嘆き構文",
+      "description": "匿名だからこそ書ける自虐ネタ。笑いと悲哀が同居する。",
+      "phrases": [
+        {
+          "text": "ワイ〇〇、咽び泣く",
+          "position": "opening",
+          "reality": "泣いてはいないが悲しみをネタにする文化",
+          "example": "ワイ新卒、初任給の手取り見て咽び泣く",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "嘆き"
+          ]
+        },
+        {
+          "text": "〇〇のワイ、ガチで△△",
+          "position": "opening",
+          "reality": "「ガチで」を付けることで深刻さを演出",
+          "example": "年収300万のワイ、ガチで将来が不安",
+          "intensity": 4,
+          "tags": [
+            "自虐",
+            "ガチ"
+          ]
+        },
+        {
+          "text": "もう終わりだよこの〇〇",
+          "position": "closing",
+          "reality": "終わりではないが絶望を表現したい",
+          "example": "残高3桁。もう終わりだよこの人生。",
+          "intensity": 4,
+          "tags": [
+            "自虐",
+            "絶望"
+          ]
+        },
+        {
+          "text": "人生詰んだ",
+          "position": "closing",
+          "reality": "将棋のように詰んではいないが、行き詰まりを感じている",
+          "example": "面接5連敗。人生詰んだ。",
+          "intensity": 4,
+          "tags": [
+            "自虐",
+            "詰み"
+          ]
+        },
+        {
+          "text": "助けてクレメンス",
+          "position": "closing",
+          "reality": "メジャーリーガー由来の助け求めテンプレ",
+          "example": "レポート締切明日なのに白紙、助けてクレメンス",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "なんJ"
+          ]
+        },
+        {
+          "text": "ぐうの音も出ない",
+          "position": "closing",
+          "reality": "反論できない事実を突きつけられた時の定型",
+          "example": "「お前友達いないだろ」←ぐうの音も出ない",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "正論"
+          ]
+        },
+        {
+          "text": "ワイの人生、暗黒時代に突入",
+          "position": "opening",
+          "reality": "ずっと暗黒時代",
+          "example": "ワイの人生、暗黒時代に突入。彼女にフラれた。",
+          "intensity": 4,
+          "tags": [
+            "自虐",
+            "暗黒"
+          ]
+        },
+        {
+          "text": "底辺の日常",
+          "position": "opening",
+          "reality": "自虐のインフレ。底辺と言えるのは余裕がある証拠",
+          "example": "底辺の日常。今日もカップ麺。",
+          "intensity": 4,
+          "tags": [
+            "自虐",
+            "底辺"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "response_template",
+      "name": "レス定型構文",
+      "description": "スレッド内でのレス（返信）で頻出する定型パターン。",
+      "phrases": [
+        {
+          "text": ">>〇〇 これ",
+          "position": "opening",
+          "reality": "安価で同意を示す最短表現",
+          "example": ">>23 これ。正論すぎる。",
+          "intensity": 2,
+          "tags": [
+            "レス",
+            "同意"
+          ]
+        },
+        {
+          "text": "はい嘘松",
+          "position": "closing",
+          "reality": "真偽不明の話を即座に嘘認定する文化",
+          "example": "電車で美女に声かけられた？はい嘘松。",
+          "intensity": 4,
+          "tags": [
+            "レス",
+            "嘘松"
+          ]
+        },
+        {
+          "text": "ソースは？",
+          "position": "closing",
+          "reality": "情報の出典を問う定番ツッコミ",
+          "example": "日本の景気回復してる？ソースは？",
+          "intensity": 3,
+          "tags": [
+            "レス",
+            "ソース"
+          ]
+        },
+        {
+          "text": "それな",
+          "position": "closing",
+          "reality": "同意の最小コスト表現",
+          "example": ">>45 それな。ワイも同じこと思ってた。",
+          "intensity": 1,
+          "tags": [
+            "レス",
+            "同意"
+          ]
+        },
+        {
+          "text": "ワロタ",
+          "position": "closing",
+          "reality": "実際には笑っていないことも多い",
+          "example": ">>12 ワロタ。センスあるわ。",
+          "intensity": 2,
+          "tags": [
+            "レス",
+            "笑い"
+          ]
+        },
+        {
+          "text": "マ？",
+          "position": "opening",
+          "reality": "「マジ？」の省略形。驚きを1文字で表す",
+          "example": "マ？ワイの地元やんけ。",
+          "intensity": 2,
+          "tags": [
+            "レス",
+            "驚き"
+          ]
+        },
+        {
+          "text": "詳しく",
+          "position": "closing",
+          "reality": "興味がある話を掘り下げさせるコマンド",
+          "example": "それ気になる。詳しく。",
+          "intensity": 2,
+          "tags": [
+            "レス",
+            "質問"
+          ]
+        },
+        {
+          "text": "なお",
+          "position": "opening",
+          "reality": "追加情報（大抵は残酷なオチ）を付ける接続詞",
+          "example": "なお、翌日解雇された模様。",
+          "intensity": 3,
+          "tags": [
+            "レス",
+            "追加"
+          ]
+        },
+        {
+          "text": "これはガチ",
+          "position": "closing",
+          "reality": "ガチかどうか判断する根拠がない",
+          "example": ">>56 これはガチ。ワイも経験ある。",
+          "intensity": 2,
+          "tags": [
+            "レス",
+            "同意"
+          ]
+        },
+        {
+          "text": "で、でたーwww",
+          "position": "opening",
+          "reality": "定番の行動パターンを茶化すリアクション",
+          "example": "で、でたーwww 月曜日に体調不良で休む奴www",
+          "intensity": 3,
+          "tags": [
+            "レス",
+            "茶化し"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copypasta",
+      "name": "コピペ構文",
+      "description": "改変されながら流通するコピペ（コピー&ペースト）テンプレ。",
+      "phrases": [
+        {
+          "text": "〇〇だけど質問ある？",
+          "position": "opening",
+          "reality": "職業や経験をネタにスレを立てる定番",
+          "example": "元コンビニ店長だけど質問ある？",
+          "intensity": 2,
+          "tags": [
+            "コピペ",
+            "質問"
+          ]
+        },
+        {
+          "text": "今日のお前らに〇〇な言葉を授ける",
+          "position": "opening",
+          "reality": "誰にも頼まれていない名言の押し売り",
+          "example": "今日のお前らに最高の言葉を授ける。「明日やろうは馬鹿野郎」",
+          "intensity": 3,
+          "tags": [
+            "コピペ",
+            "名言"
+          ]
+        },
+        {
+          "text": "〇〇って言うほど△△か？",
+          "position": "opening",
+          "reality": "世間の評価に疑問を投げかけるスタイル",
+          "example": "東京って言うほど住みやすいか？",
+          "intensity": 3,
+          "tags": [
+            "コピペ",
+            "疑問"
+          ]
+        },
+        {
+          "text": "〇〇で打線組んだ",
+          "position": "opening",
+          "reality": "野球の打順になぞらえてランキングを作る文化",
+          "example": "嫌いな上司の口癖で打線組んだ",
+          "intensity": 3,
+          "tags": [
+            "コピペ",
+            "打線"
+          ]
+        },
+        {
+          "text": "〇〇とかいう△△",
+          "position": "opening",
+          "reality": "特定の対象をネタにする導入",
+          "example": "Excel方眼紙とかいう日本の闇",
+          "intensity": 3,
+          "tags": [
+            "コピペ",
+            "ネタ"
+          ]
+        },
+        {
+          "text": "正直〇〇に自信ニキ来てくれ",
+          "position": "opening",
+          "reality": "専門家の降臨を待つスレ",
+          "example": "正直PC自作に自信ニキ来てくれ。予算10万で組みたい。",
+          "intensity": 2,
+          "tags": [
+            "コピペ",
+            "ニキ"
+          ]
+        },
+        {
+          "text": "ワイが〇〇を解説するスレ",
+          "position": "opening",
+          "reality": "専門家気取りの素人による解説スレ",
+          "example": "ワイが株式投資を解説するスレ",
+          "intensity": 2,
+          "tags": [
+            "コピペ",
+            "解説"
+          ]
+        },
+        {
+          "text": "今から〇〇する",
+          "position": "opening",
+          "reality": "実況風の宣言スレ",
+          "example": "今からカレー作る。見届けてくれ。",
+          "intensity": 2,
+          "tags": [
+            "コピペ",
+            "実況"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "name": "評価・批評構文",
+      "description": "ものや人を辛辣に評価するときの定型。",
+      "phrases": [
+        {
+          "text": "〇〇は有能、△△は無能",
+          "position": "opening",
+          "reality": "有能/無能の二元論で全てを語る文化",
+          "example": "セブンは有能、ファミマは無能",
+          "intensity": 4,
+          "tags": [
+            "評価",
+            "有能無能"
+          ]
+        },
+        {
+          "text": "〇〇がぐう聖",
+          "position": "closing",
+          "reality": "「ぐうの音も出ない聖人」の略。賞賛の最上級",
+          "example": "大谷がぐう聖すぎる件について",
+          "intensity": 3,
+          "tags": [
+            "評価",
+            "賞賛"
+          ]
+        },
+        {
+          "text": "〇〇ガチ勢",
+          "position": "middle",
+          "reality": "本気で取り組んでいる人を指す表現",
+          "example": "筋トレガチ勢のワイが教える初心者メニュー",
+          "intensity": 2,
+          "tags": [
+            "評価",
+            "ガチ勢"
+          ]
+        },
+        {
+          "text": "これはいけない",
+          "position": "closing",
+          "reality": "禁止事項のように言うが実際はネタ",
+          "example": "深夜のラーメン…これはいけない。",
+          "intensity": 2,
+          "tags": [
+            "評価",
+            "禁止"
+          ]
+        },
+        {
+          "text": "〇〇とかいう神",
+          "position": "opening",
+          "reality": "神のハードルが低すぎる",
+          "example": "カップヌードルカレー味とかいう神",
+          "intensity": 3,
+          "tags": [
+            "評価",
+            "神"
+          ]
+        },
+        {
+          "text": "戦犯〇〇",
+          "position": "opening",
+          "reality": "野球用語から転用された責任追及表現",
+          "example": "戦犯ワイ、プロジェクトを炎上させる",
+          "intensity": 4,
+          "tags": [
+            "評価",
+            "戦犯"
+          ]
+        },
+        {
+          "text": "〇〇はオワコン",
+          "position": "opening",
+          "reality": "終わったコンテンツと断じるが自分はまだ使っている",
+          "example": "Facebookはオワコン。異論は認めない。",
+          "intensity": 4,
+          "tags": [
+            "評価",
+            "オワコン"
+          ]
+        },
+        {
+          "text": "ぐう有能",
+          "position": "closing",
+          "reality": "ぐうの音も出ない有能、の略",
+          "example": "このアプリぐう有能。無料でこのクオリティ。",
+          "intensity": 3,
+          "tags": [
+            "評価",
+            "有能"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life_report",
+      "name": "生活報告構文",
+      "description": "匿名だからこそ書ける赤裸々な生活実態。",
+      "phrases": [
+        {
+          "text": "ワイの一日、晒す",
+          "position": "opening",
+          "reality": "見栄を張る必要がないリアルな日常",
+          "example": "ニートワイの一日、晒す。起床14時。",
+          "intensity": 3,
+          "tags": [
+            "生活",
+            "晒し"
+          ]
+        },
+        {
+          "text": "今月の食費〇〇円のワイ",
+          "position": "opening",
+          "reality": "節約マウントか貧困告白か紙一重",
+          "example": "今月の食費8000円のワイ、健康が心配になる",
+          "intensity": 3,
+          "tags": [
+            "生活",
+            "食費"
+          ]
+        },
+        {
+          "text": "独身ワイの晩飯がこちら",
+          "position": "opening",
+          "reality": "質素な食事を晒して共感を得る",
+          "example": "独身ワイの晩飯がこちら。納豆ご飯のみ。",
+          "intensity": 3,
+          "tags": [
+            "生活",
+            "食事"
+          ]
+        },
+        {
+          "text": "実家暮らしワイ、〇〇",
+          "position": "opening",
+          "reality": "実家暮らしの利点と後ろめたさが交錯",
+          "example": "実家暮らしワイ、貯金が500万に到達",
+          "intensity": 3,
+          "tags": [
+            "生活",
+            "実家"
+          ]
+        },
+        {
+          "text": "社畜ワイ、本日も残業",
+          "position": "opening",
+          "reality": "労働環境の愚痴を匿名で吐き出す",
+          "example": "社畜ワイ、本日も22時退社。泣きたい。",
+          "intensity": 3,
+          "tags": [
+            "生活",
+            "社畜"
+          ]
+        },
+        {
+          "text": "〇〇買ったから晒す",
+          "position": "opening",
+          "reality": "匿名だからこそできる素直な購入報告",
+          "example": "PS5買ったから晒す。箱開ける瞬間が一番楽しい。",
+          "intensity": 2,
+          "tags": [
+            "生活",
+            "購入"
+          ]
+        },
+        {
+          "text": "今日の成果がこちら",
+          "position": "opening",
+          "reality": "しょぼい成果を晒すネタ",
+          "example": "今日の筋トレの成果がこちら。腕立て5回。",
+          "intensity": 2,
+          "tags": [
+            "生活",
+            "成果"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialect_slang",
+      "name": "ネットスラング構文",
+      "description": "5ch発祥で一般にも広がったスラング表現。",
+      "phrases": [
+        {
+          "text": "〇〇な件について",
+          "position": "opening",
+          "reality": "「件について」で問題提起風にするテクニック",
+          "example": "上司がワイの弁当を食った件について",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "件"
+          ]
+        },
+        {
+          "text": "〇〇奴www",
+          "position": "closing",
+          "reality": "「奴」で他者を見下しつつ笑う",
+          "example": "月曜日に有給取る奴www ワイやで。",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "奴"
+          ]
+        },
+        {
+          "text": "小並感",
+          "position": "closing",
+          "reality": "小学生並みの感想、の略。自覚的な語彙力不足表明",
+          "example": "すごいと思いました（小並感）",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "小並感"
+          ]
+        },
+        {
+          "text": "〇〇不可避",
+          "position": "closing",
+          "reality": "避けられないほど○○、という誇張表現",
+          "example": "深夜のラーメン、体重増加不可避",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "不可避"
+          ]
+        },
+        {
+          "text": "〇〇の鑑",
+          "position": "closing",
+          "reality": "その分野の模範的存在を指す表現",
+          "example": "毎日定時退社。社畜の鑑やな（逆の意味）。",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "鑑"
+          ]
+        },
+        {
+          "text": "〇〇定期",
+          "position": "closing",
+          "reality": "定期的に立つスレ・話題であることを指摘",
+          "example": "「東京と大阪どっちが住みやすい」定期",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "定期"
+          ]
+        },
+        {
+          "text": "ぐう畜",
+          "position": "closing",
+          "reality": "「ぐうの音も出ない畜生」の略。ひどい行為への定型",
+          "example": "友達の弁当盗み食いとかぐう畜やろ",
+          "intensity": 4,
+          "tags": [
+            "スラング",
+            "畜生"
+          ]
+        },
+        {
+          "text": "〇〇の模様",
+          "position": "closing",
+          "reality": "ニュース風に状況を客観的に描写する",
+          "example": "ワイ、本日も定時退社する模様。",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "模様"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debate",
+      "name": "議論・対立構文",
+      "description": "匿名掲示板ならではの議論・煽り合いの定型。",
+      "phrases": [
+        {
+          "text": "〇〇派と△△派、どっちが正解？",
+          "position": "opening",
+          "reality": "答えが出ない二項対立でスレを伸ばすテクニック",
+          "example": "きのこの山派とたけのこの里派、どっちが正解？",
+          "intensity": 3,
+          "tags": [
+            "議論",
+            "対立"
+          ]
+        },
+        {
+          "text": "反論できる奴おる？",
+          "position": "closing",
+          "reality": "反論されたら逃げる",
+          "example": "カレーに入れる肉は豚が最強。反論できる奴おる？",
+          "intensity": 4,
+          "tags": [
+            "議論",
+            "挑発"
+          ]
+        },
+        {
+          "text": "正直〇〇ってどうなん",
+          "position": "opening",
+          "reality": "自分の意見を持たず他人の反応を待つ",
+          "example": "正直タワマンってどうなん。住んでる奴おらんの？",
+          "intensity": 2,
+          "tags": [
+            "議論",
+            "質問"
+          ]
+        },
+        {
+          "text": "エアプ乙",
+          "position": "closing",
+          "reality": "経験せずに語る人を一刀両断する定型",
+          "example": "一人暮らし楽しいとか言ってる奴、エアプ乙。",
+          "intensity": 4,
+          "tags": [
+            "議論",
+            "煽り"
+          ]
+        },
+        {
+          "text": "論破完了",
+          "position": "closing",
+          "reality": "論破されているのは本人",
+          "example": "はい論破完了。お前の負け。",
+          "intensity": 5,
+          "tags": [
+            "議論",
+            "論破"
+          ]
+        },
+        {
+          "text": "お前それ〇〇の前でも同じこと言えんの？",
+          "position": "closing",
+          "reality": "権威を持ち出して議論を封殺する定型",
+          "example": "お前それイチローの前でも同じこと言えんの？",
+          "intensity": 4,
+          "tags": [
+            "議論",
+            "権威"
+          ]
+        },
+        {
+          "text": "ワイ将、正論を述べる",
+          "position": "opening",
+          "reality": "正論かどうかは周りが判断する",
+          "example": "ワイ将、正論を述べる。「残業は悪」",
+          "intensity": 3,
+          "tags": [
+            "議論",
+            "正論"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matome_reaction",
+      "name": "まとめ反応構文",
+      "description": "まとめサイトやSNS転載時に付くリアクション。",
+      "phrases": [
+        {
+          "text": "スレタイで草",
+          "position": "opening",
+          "reality": "スレッドタイトルだけで笑ったという反応",
+          "example": "スレタイで草。開く前に笑わせるな。",
+          "intensity": 2,
+          "tags": [
+            "反応",
+            "スレタイ"
+          ]
+        },
+        {
+          "text": ">>1 がすべてを語ってる",
+          "position": "opening",
+          "reality": "スレの最初のレスだけ読めば十分という指摘",
+          "example": ">>1 がすべてを語ってる。以下蛇足。",
+          "intensity": 2,
+          "tags": [
+            "反応",
+            "要約"
+          ]
+        },
+        {
+          "text": "良スレ",
+          "position": "closing",
+          "reality": "内容が面白いスレッドへの評価",
+          "example": "久々の良スレ。保存した。",
+          "intensity": 2,
+          "tags": [
+            "反応",
+            "評価"
+          ]
+        },
+        {
+          "text": "このスレは伸びる",
+          "position": "middle",
+          "reality": "話題性を予測する定型",
+          "example": "あーこのスレは伸びる。ポップコーン用意するわ。",
+          "intensity": 3,
+          "tags": [
+            "反応",
+            "予測"
+          ]
+        },
+        {
+          "text": "まとめに載りそう",
+          "position": "closing",
+          "reality": "まとめサイトへの転載を意識した発言",
+          "example": "このレスまとめに載りそう。アフィカスに使われるわ。",
+          "intensity": 3,
+          "tags": [
+            "反応",
+            "まとめ"
+          ]
+        },
+        {
+          "text": "ここまでテンプレ",
+          "position": "middle",
+          "reality": "毎回同じ流れになるスレへの冷めたツッコミ",
+          "example": "ここまでテンプレ。以下も同じ流れ。",
+          "intensity": 2,
+          "tags": [
+            "反応",
+            "テンプレ"
+          ]
+        }
+      ]
+    }
+  ]
+}

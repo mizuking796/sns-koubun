@@ -1,0 +1,415 @@
+{
+  "platform": "misskey",
+  "platform_name": "Misskey（ミスキー）",
+  "description": "日本発の分散型SNS。MFM（Misskey Flavored Markdown）による装飾テキスト文化、独自リアクション絵文字、「にゃーん」系のゆるい挨拶が特徴。ActivityPubプロトコルによるFediverse（連合宇宙）の一員として、独自の内輪ノリと技術コミュニティが共存する。サーバー（インスタンス）ごとに異なる文化が形成される多様性と排他性の同居空間。",
+  "categories": [
+    {
+      "id": "greeting",
+      "name": "ゆるい挨拶構文",
+      "description": "Misskeyの日常的な挨拶。猫語や擬音語が標準語として機能する不思議な空間。",
+      "phrases": [
+        {
+          "text": "にゃーん",
+          "position": "opening",
+          "reality": "Misskeyにおける「こんにちは」。猫語が公用語として定着した稀有なプラットフォーム",
+          "example": "にゃーん（深夜3時のタイムライン）",
+          "intensity": 2,
+          "tags": ["挨拶", "猫語"]
+        },
+        {
+          "text": "ぽえ〜",
+          "position": "opening",
+          "reality": "意味のない擬音が挨拶として成立する。言語の脱構築が日常",
+          "example": "ぽえ〜 おはよう世界",
+          "intensity": 2,
+          "tags": ["挨拶", "擬音"]
+        },
+        {
+          "text": "やっはろー",
+          "position": "opening",
+          "reality": "テンション高めの挨拶。深夜でも朝でもこのテンション",
+          "example": "やっはろー！今日も一日がんばるぞい",
+          "intensity": 2,
+          "tags": ["挨拶", "元気"]
+        },
+        {
+          "text": "おはみす",
+          "position": "opening",
+          "reality": "「おはようMisskey」の略。プラットフォーム名を挨拶に組み込む帰属意識",
+          "example": "おはみす☀️ 今日は天気いいね",
+          "intensity": 2,
+          "tags": ["挨拶", "Misskey"]
+        },
+        {
+          "text": "ちゅっ",
+          "position": "closing",
+          "reality": "キスの擬音が日常会話で使われる。リアルでは言えない親愛表現の解放区",
+          "example": "みんな今日もお疲れ様。ちゅっ",
+          "intensity": 2,
+          "tags": ["挨拶", "親愛"]
+        },
+        {
+          "text": "ねむねむ",
+          "position": "closing",
+          "reality": "眠いアピールが共感を生む。ただし投稿できるくらいには起きている矛盾",
+          "example": "ねむねむ…でもTL見ちゃう…",
+          "intensity": 1,
+          "tags": ["挨拶", "日常"]
+        }
+      ]
+    },
+    {
+      "id": "mfm_culture",
+      "name": "MFM装飾構文",
+      "description": "Misskey独自のテキスト装飾記法（MFM）を活用した表現文化。",
+      "phrases": [
+        {
+          "text": "$[spin テキスト]",
+          "position": "middle",
+          "reality": "テキストを回転させるMFM。内容より回転させること自体が楽しい",
+          "example": "$[spin にゃーん] ←回ってるよ",
+          "intensity": 3,
+          "tags": ["MFM", "装飾"]
+        },
+        {
+          "text": "$[rainbow テキスト]",
+          "position": "middle",
+          "reality": "虹色に光るテキスト。何でもない文章を虹色にすることで祝祭感を演出",
+          "example": "$[rainbow おはようございます]",
+          "intensity": 3,
+          "tags": ["MFM", "装飾"]
+        },
+        {
+          "text": "$[shake テキスト]",
+          "position": "middle",
+          "reality": "テキストを震わせる。感情の震えを視覚的に表現するMFMの妙技",
+          "example": "$[shake 推しが尊い]",
+          "intensity": 3,
+          "tags": ["MFM", "装飾"]
+        },
+        {
+          "text": "$[x2 テキスト]",
+          "position": "opening",
+          "reality": "テキストを拡大。大声を文字サイズで表現するインターネットの伝統芸",
+          "example": "$[x2 たすけて]",
+          "intensity": 2,
+          "tags": ["MFM", "装飾"]
+        },
+        {
+          "text": "MFMで遊ぶの楽しい",
+          "position": "closing",
+          "reality": "装飾すること自体がコンテンツ。内容よりも表現技法で勝負する世界",
+          "example": "MFMで遊ぶの楽しい。Misskeyでしかできない。",
+          "intensity": 3,
+          "tags": ["MFM", "メタ"]
+        },
+        {
+          "text": "$[tada テキスト]",
+          "position": "opening",
+          "reality": "祝福のMFM。何でもない報告を大袈裟に祝う文化",
+          "example": "$[tada お昼ごはん食べた]",
+          "intensity": 2,
+          "tags": ["MFM", "装飾"]
+        }
+      ]
+    },
+    {
+      "id": "reaction_emoji",
+      "name": "カスタムリアクション構文",
+      "description": "Misskeyの独自リアクション絵文字文化。いいねの代わりに多彩な絵文字で反応。",
+      "phrases": [
+        {
+          "text": "リアクションで会話する",
+          "position": "middle",
+          "reality": "テキストを打たずに絵文字リアクションだけで意思疎通する省エネコミュニケーション",
+          "example": "言葉はいらない。リアクションで会話する文化が好き。",
+          "intensity": 3,
+          "tags": ["リアクション", "文化"]
+        },
+        {
+          "text": "カスタム絵文字申請しました",
+          "position": "opening",
+          "reality": "自作絵文字をサーバーに申請。絵文字の数がサーバーの文化レベルを示す",
+          "example": "新しいカスタム絵文字申請しました！使ってね。",
+          "intensity": 2,
+          "tags": ["リアクション", "カスタム"]
+        },
+        {
+          "text": ":blobcat_nya:",
+          "position": "middle",
+          "reality": "猫系のblob絵文字はMisskey標準装備。使用頻度が異常に高い",
+          "example": ":blobcat_nya: ←かわいい（自画自賛）",
+          "intensity": 2,
+          "tags": ["リアクション", "猫"]
+        },
+        {
+          "text": "いいねじゃなくてリアクション",
+          "position": "middle",
+          "reality": "「いいね」だけのSNSを見下す選民意識。多彩な感情表現=文化的優位",
+          "example": "Misskeyのいいねじゃなくてリアクションで気持ち伝えられるの最高。",
+          "intensity": 4,
+          "tags": ["リアクション", "比較"]
+        },
+        {
+          "text": "この絵文字しか勝たん",
+          "position": "closing",
+          "reality": "特定のカスタム絵文字への偏愛。絵文字にも推しができる世界",
+          "example": "この絵文字しか勝たん :petthex_blobcat:",
+          "intensity": 3,
+          "tags": ["リアクション", "推し"]
+        }
+      ]
+    },
+    {
+      "id": "fediverse_pride",
+      "name": "Fediverse意識高い構文",
+      "description": "分散型SNS（Fediverse）の一員であることを誇る構文。",
+      "phrases": [
+        {
+          "text": "Fediverseの可能性を感じる",
+          "position": "opening",
+          "reality": "可能性を感じるだけで具体的に何が可能かは説明できないことが多い",
+          "example": "サーバー間のやりとり見てると、Fediverseの可能性を感じる。",
+          "intensity": 4,
+          "tags": ["Fediverse", "意識高い"]
+        },
+        {
+          "text": "中央集権型SNSには戻れない",
+          "position": "closing",
+          "reality": "戻れないと言いつつXもインスタもアカウント持っている二重生活",
+          "example": "一度分散型を知ると、もう中央集権型SNSには戻れない。",
+          "intensity": 5,
+          "tags": ["Fediverse", "意識高い"]
+        },
+        {
+          "text": "ActivityPubは偉大",
+          "position": "closing",
+          "reality": "プロトコル名を出すことで技術理解をアピール。実装は読んでいない",
+          "example": "MisskeyとMastodonで繋がれるのすごくない？ActivityPubは偉大。",
+          "intensity": 4,
+          "tags": ["Fediverse", "テクノロジー"]
+        },
+        {
+          "text": "自分でサーバー建てた",
+          "position": "opening",
+          "reality": "自鯖民の最上位マウント。サーバー運営の苦労と引き換えに得る絶対的自由",
+          "example": "自分でサーバー建てた。データが自分の手にある安心感。",
+          "intensity": 5,
+          "tags": ["Fediverse", "自鯖"]
+        },
+        {
+          "text": "連合タイムラインが面白い",
+          "position": "opening",
+          "reality": "他サーバーの投稿が流れてくる連合TL。情報の洪水を「面白い」と呼ぶ適応力",
+          "example": "連合タイムラインが面白い。知らない世界が流れてくる。",
+          "intensity": 2,
+          "tags": ["Fediverse", "TL"]
+        }
+      ]
+    },
+    {
+      "id": "server_culture",
+      "name": "サーバー（インスタンス）文化構文",
+      "description": "サーバーごとに異なるルールや雰囲気に関する構文。",
+      "phrases": [
+        {
+          "text": "うちの鯖では",
+          "position": "opening",
+          "reality": "「うちの鯖」という帰属意識。サーバーが故郷であり国であり村",
+          "example": "うちの鯖ではこの絵文字が流行ってる。",
+          "intensity": 2,
+          "tags": ["サーバー", "帰属"]
+        },
+        {
+          "text": "鯖引っ越し検討中",
+          "position": "opening",
+          "reality": "サーバー移住は分散型SNSの醍醐味であり面倒臭さでもある",
+          "example": "鯖引っ越し検討中。でもフォロワー関係がリセットされるの辛い。",
+          "intensity": 2,
+          "tags": ["サーバー", "移住"]
+        },
+        {
+          "text": "io鯖の住民です",
+          "position": "opening",
+          "reality": "misskey.io は最大手サーバー。所属を名乗ることが自己紹介の一部",
+          "example": "io鯖の住民です。よろしくお願いします。",
+          "intensity": 1,
+          "tags": ["サーバー", "自己紹介"]
+        },
+        {
+          "text": "鯖缶（サーバー管理者）に感謝",
+          "position": "closing",
+          "reality": "サーバー管理者への感謝。無料で運営してくれる個人への敬意と依存",
+          "example": "鯖缶さんいつもありがとうございます。サーバー代カンパしなきゃ。",
+          "intensity": 2,
+          "tags": ["サーバー", "感謝"]
+        },
+        {
+          "text": "おひとり鯖",
+          "position": "middle",
+          "reality": "自分だけのサーバーを建てる究極の自由。孤独と自由のトレードオフ",
+          "example": "おひとり鯖快適すぎる。ルールは自分が決める。",
+          "intensity": 3,
+          "tags": ["サーバー", "自鯖"]
+        },
+        {
+          "text": "鯖落ちてる？",
+          "position": "opening",
+          "reality": "サーバーダウンは日常茶飯事。安定性と自由のトレードオフを受け入れる民",
+          "example": "鯖落ちてる？ 繋がらないんだけど…",
+          "intensity": 2,
+          "tags": ["サーバー", "トラブル"]
+        }
+      ]
+    },
+    {
+      "id": "uchi_nori",
+      "name": "内輪ノリ構文",
+      "description": "Misskeyコミュニティ内部でしか通じない内輪ネタや独自ミーム。",
+      "phrases": [
+        {
+          "text": "Misskeyは最高のSNS",
+          "position": "closing",
+          "reality": "定期的に投稿される信仰告白。プラットフォーム愛がアイデンティティ",
+          "example": "今日も平和。Misskeyは最高のSNS。",
+          "intensity": 4,
+          "tags": ["内輪", "愛着"]
+        },
+        {
+          "text": "しゅいろちゃん",
+          "position": "middle",
+          "reality": "Misskeyのマスコットキャラへの愛着。公式キャラを「ちゃん」付けで呼ぶ親しみ",
+          "example": "しゅいろちゃんかわいい。今日も推す。",
+          "intensity": 2,
+          "tags": ["内輪", "マスコット"]
+        },
+        {
+          "text": "ノート（投稿）がこっちの言い方",
+          "position": "middle",
+          "reality": "「ツイート」ではなく「ノート」。用語の違いに誇りを持つ文化",
+          "example": "ツイートじゃなくてノートね。Misskeyだから。",
+          "intensity": 3,
+          "tags": ["内輪", "用語"]
+        },
+        {
+          "text": "リノート（RT）しといた",
+          "position": "middle",
+          "reality": "リツイートではなくリノート。独自用語が仲間意識を醸成する",
+          "example": "いい投稿だったからリノートしといた。",
+          "intensity": 1,
+          "tags": ["内輪", "用語"]
+        },
+        {
+          "text": "藍ちゃんBOTかわいい",
+          "position": "middle",
+          "reality": "Misskeyの公式AIアシスタント（藍）への愛着。BOTと会話するのが日常",
+          "example": "藍ちゃんBOTかわいい。今日も絡んでもらった。",
+          "intensity": 2,
+          "tags": ["内輪", "BOT"]
+        }
+      ]
+    },
+    {
+      "id": "platform_comparison",
+      "name": "プラットフォーム比較構文",
+      "description": "他のSNS（特にX、Mastodon）と比較してMisskeyの優位性を主張する構文。",
+      "phrases": [
+        {
+          "text": "Misskeyの方が楽しい",
+          "position": "closing",
+          "reality": "楽しさは主観だが、Misskeyの「楽しさ」は機能の多さと内輪感に支えられている",
+          "example": "Xに比べてMisskeyの方が100倍楽しい。",
+          "intensity": 3,
+          "tags": ["比較", "優位性"]
+        },
+        {
+          "text": "Mastodonより機能が多い",
+          "position": "middle",
+          "reality": "同じFediverseのMastodonとの差別化。機能の多さ=良さという信仰",
+          "example": "MFMもリアクションもある。Mastodonより機能が多い。",
+          "intensity": 4,
+          "tags": ["比較", "Mastodon"]
+        },
+        {
+          "text": "Xにはない自由がある",
+          "position": "closing",
+          "reality": "自由度の高さは認めるが、自由すぎてカオスになることもある",
+          "example": "文字数制限もないし装飾もできる。Xにはない自由がある。",
+          "intensity": 3,
+          "tags": ["比較", "自由"]
+        },
+        {
+          "text": "Misskeyに来なよ",
+          "position": "closing",
+          "reality": "布教活動。しかし「来なよ」と言われても始め方がわからない新規が多い",
+          "example": "X辞めたい人、Misskeyに来なよ。世界が変わるから。",
+          "intensity": 4,
+          "tags": ["比較", "布教"]
+        },
+        {
+          "text": "広告がないSNS",
+          "position": "middle",
+          "reality": "広告がないのはビジネスモデルが確立していないから。持続可能性は未知数",
+          "example": "広告がないSNSって最高。TLが純粋。",
+          "intensity": 3,
+          "tags": ["比較", "広告"]
+        }
+      ]
+    },
+    {
+      "id": "developer_culture",
+      "name": "開発者文化構文",
+      "description": "Misskeyがオープンソースであることに関連する技術コミュニティの構文。",
+      "phrases": [
+        {
+          "text": "PR出した",
+          "position": "opening",
+          "reality": "プルリクエストを出す=開発に貢献する誇り。OSS文化の体現",
+          "example": "Misskeyにバグ修正のPR出した。マージされるかな。",
+          "intensity": 3,
+          "tags": ["開発", "OSS"]
+        },
+        {
+          "text": "新機能きた！",
+          "position": "opening",
+          "reality": "アップデートのたびに祝祭。開発の過程をリアルタイムで見守る参加型SNS",
+          "example": "新機能きた！ノートの編集機能、最高では？",
+          "intensity": 2,
+          "tags": ["開発", "アップデート"]
+        },
+        {
+          "text": "しゅいろ（開発者）ありがとう",
+          "position": "closing",
+          "reality": "個人開発者への直接的な感謝。企業SNSでは得られない距離感の近さ",
+          "example": "この機能ずっと欲しかった。しゅいろさんありがとう。",
+          "intensity": 2,
+          "tags": ["開発", "感謝"]
+        },
+        {
+          "text": "Issueに書いておいた",
+          "position": "closing",
+          "reality": "バグや要望をGitHubのIssueに書く文化。ユーザーが開発プロセスに直接参加",
+          "example": "この不具合、Issueに書いておいた。再現手順も添えた。",
+          "intensity": 2,
+          "tags": ["開発", "OSS"]
+        },
+        {
+          "text": "セルフホストするの楽しい",
+          "position": "opening",
+          "reality": "自分でサーバーを建てて運用する楽しさと苦労。技術力の証明",
+          "example": "Misskeyセルフホストするの楽しい。Docker便利。",
+          "intensity": 3,
+          "tags": ["開発", "自鯖"]
+        },
+        {
+          "text": "OSSだからこその安心感",
+          "position": "closing",
+          "reality": "ソースコードが公開されている=透明性の担保。実際にコードを読む人は少数",
+          "example": "何が起きてるかコードで確認できる。OSSだからこその安心感。",
+          "intensity": 3,
+          "tags": ["開発", "OSS"]
+        }
+      ]
+    }
+  ]
+}

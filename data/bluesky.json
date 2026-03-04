@@ -1,0 +1,407 @@
+{
+  "platform": "bluesky",
+  "platform_name": "Bluesky（ブルースカイ）",
+  "description": "Twitterの共同創業者ジャック・ドーシーが関わった分散型SNS。X（旧Twitter）からの移住者が多く、「Xから逃げてきた」アピールと「こっちの空気は最高」構文が蔓延。カスタムフィードやスターターパック文化が発展し、「意識の高いTwitter難民」のコミュニティが形成されている。",
+  "categories": [
+    {
+      "id": "migration",
+      "name": "脱X移住構文",
+      "description": "Xから逃げてきたことを誇らしげに語る構文。移住先で前の住所の悪口を言う引っ越し民の定番。",
+      "phrases": [
+        {
+          "text": "こっちの空気最高",
+          "position": "opening",
+          "reality": "空気が良いのではなく人が少ないだけ。過疎を治安と呼ぶ技術",
+          "example": "こっちの空気最高すぎる。なんで早く来なかったんだろう。",
+          "intensity": 4,
+          "tags": ["移住", "X批判"]
+        },
+        {
+          "text": "Xはもう無理",
+          "position": "opening",
+          "reality": "無理と言いつつXのアカウントは消していない。ROMは続けている",
+          "example": "Xはもう無理。インプレゾンビとAIスパムで終わってる。",
+          "intensity": 4,
+          "tags": ["移住", "X批判"]
+        },
+        {
+          "text": "やっとまともなSNSに出会えた",
+          "position": "closing",
+          "reality": "「まとも」は「自分と同じ思想の人しかいない」の言い換え",
+          "example": "BlueskyやっとまともなSNSに出会えた感ある。",
+          "intensity": 5,
+          "tags": ["移住", "理想化"]
+        },
+        {
+          "text": "X見るとストレスたまる",
+          "position": "opening",
+          "reality": "ストレスがたまると言いつつ比較のために定期的にXを巡回している",
+          "example": "久しぶりにX見たらストレスたまる。こっちに帰ってきた。",
+          "intensity": 3,
+          "tags": ["移住", "X批判"]
+        },
+        {
+          "text": "Xに戻る理由がない",
+          "position": "closing",
+          "reality": "フォロワー数とリーチ数の差は見て見ぬふり",
+          "example": "Bluesky始めて1ヶ月。もうXに戻る理由がない。",
+          "intensity": 4,
+          "tags": ["移住", "宣言"]
+        },
+        {
+          "text": "こっちに来てよかった",
+          "position": "closing",
+          "reality": "移住の正当化。引っ越し直後に「前の家より全然いい」と言うのと同じ心理",
+          "example": "TL穏やかで楽しい。こっちに来てよかった。",
+          "intensity": 3,
+          "tags": ["移住", "理想化"]
+        }
+      ]
+    },
+    {
+      "id": "feed_culture",
+      "name": "カスタムフィード自慢構文",
+      "description": "Blueskyの特徴であるカスタムフィードを活用していることをアピールする構文。",
+      "phrases": [
+        {
+          "text": "このフィード最高なので共有",
+          "position": "opening",
+          "reality": "フィードを共有する自分のキュレーションセンスを自慢したい",
+          "example": "このフィード最高なので共有します。猫好き必見。",
+          "intensity": 3,
+          "tags": ["フィード", "共有"]
+        },
+        {
+          "text": "スターターパック作りました",
+          "position": "opening",
+          "reality": "誰に頼まれたわけでもなく自分の交友関係の広さを可視化するツール",
+          "example": "〇〇界隈のスターターパック作りました！追加希望あればDMで。",
+          "intensity": 4,
+          "tags": ["スターターパック", "自慢"]
+        },
+        {
+          "text": "フィードのカスタマイズが楽しすぎる",
+          "position": "opening",
+          "reality": "機能を使いこなしている自分に酔っている。実際のTL滞在時間はXより短い",
+          "example": "フィードのカスタマイズが楽しすぎる。自分だけのTL最高。",
+          "intensity": 3,
+          "tags": ["フィード", "テクノロジー"]
+        },
+        {
+          "text": "アルゴリズムに支配されないTL",
+          "position": "middle",
+          "reality": "カスタムフィードも結局アルゴリズムだが、自分で選んだという納得感",
+          "example": "アルゴリズムに支配されないTLって本当に快適。",
+          "intensity": 4,
+          "tags": ["フィード", "テクノロジー"]
+        },
+        {
+          "text": "スターターパックに入れてもらえた",
+          "position": "opening",
+          "reality": "選ばれた嬉しさを報告。Bluesky版の「フォロワー〇万人」自慢",
+          "example": "〇〇さんのスターターパックに入れてもらえた！嬉しい。",
+          "intensity": 3,
+          "tags": ["スターターパック", "承認欲求"]
+        },
+        {
+          "text": "おすすめフィード教えて",
+          "position": "closing",
+          "reality": "教えてと言いつつ自分のおすすめを語りたいフリ質問",
+          "example": "みんなどんなフィード使ってる？おすすめフィード教えて！",
+          "intensity": 2,
+          "tags": ["フィード", "交流"]
+        }
+      ]
+    },
+    {
+      "id": "decentralized_pride",
+      "name": "分散型アピール構文",
+      "description": "分散型プロトコル（AT Protocol）であることを誇る構文。技術的理解は浅い。",
+      "phrases": [
+        {
+          "text": "分散型SNSの民度の高さ",
+          "position": "opening",
+          "reality": "民度が高いのではなく、技術リテラシーの入口で既にフィルタリングされているだけ",
+          "example": "分散型SNSの民度の高さよ。荒らしがいない世界。",
+          "intensity": 5,
+          "tags": ["分散型", "選民意識"]
+        },
+        {
+          "text": "データは自分のもの",
+          "position": "middle",
+          "reality": "データポータビリティの概念は理解しているが実際に移行する予定はない",
+          "example": "Blueskyはデータは自分のもの。イーロンに握られない安心感。",
+          "intensity": 4,
+          "tags": ["分散型", "テクノロジー"]
+        },
+        {
+          "text": "ATプロトコルの思想が好き",
+          "position": "opening",
+          "reality": "プロトコルの仕様書は読んでいない。雰囲気で思想に共感",
+          "example": "ATプロトコルの思想が好き。ユーザーファーストってこういうこと。",
+          "intensity": 5,
+          "tags": ["分散型", "テクノロジー", "意識高い"]
+        },
+        {
+          "text": "一企業に依存しないSNS",
+          "position": "middle",
+          "reality": "Bluesky PBCという一企業に依存している矛盾には目をつぶる",
+          "example": "一企業に依存しないSNSって大事だと思うんだよね。",
+          "intensity": 4,
+          "tags": ["分散型", "テクノロジー"]
+        },
+        {
+          "text": "これがWebの未来",
+          "position": "closing",
+          "reality": "未来と言いつつユーザー数はXの数十分の一。理想と現実の乖離",
+          "example": "分散型・ユーザー主権・オープンソース。これがWebの未来。",
+          "intensity": 5,
+          "tags": ["分散型", "意識高い"]
+        }
+      ]
+    },
+    {
+      "id": "newcomer_welcome",
+      "name": "新規歓迎構文",
+      "description": "Xからの移住者を温かく迎える構文。古参マウントの前段階。",
+      "phrases": [
+        {
+          "text": "Blueskyへようこそ！",
+          "position": "opening",
+          "reality": "歓迎することで「自分は先に来ていた」古参ポジションを確保",
+          "example": "Blueskyへようこそ！こっちは平和でいいですよ。",
+          "intensity": 3,
+          "tags": ["歓迎", "古参"]
+        },
+        {
+          "text": "最初はフォロー少なくて寂しいけど",
+          "position": "opening",
+          "reality": "「自分はもう寂しくない」マウントを慰めの形で提供",
+          "example": "最初はフォロー少なくて寂しいけど、すぐ楽しくなるよ！",
+          "intensity": 2,
+          "tags": ["歓迎", "アドバイス"]
+        },
+        {
+          "text": "フォローしてくれたらフォロバします",
+          "position": "closing",
+          "reality": "フォロワー数を増やしたい下心を「新規支援」で包装",
+          "example": "Bluesky始めたばかりの方、フォローしてくれたらフォロバします！",
+          "intensity": 3,
+          "tags": ["歓迎", "フォロワー"]
+        },
+        {
+          "text": "招待コード配ります",
+          "position": "opening",
+          "reality": "招待制時代の名残。配布することで恩を売る古き良きインターネット文化",
+          "example": "招待コード余ってるので欲しい方いたらDMください！",
+          "intensity": 3,
+          "tags": ["歓迎", "古参"]
+        },
+        {
+          "text": "こっちでも繋がりましょう",
+          "position": "closing",
+          "reality": "Xでの関係をBlueskyに複製。SNS移住の荷物が人間関係",
+          "example": "Xでフォローしてた方、こっちでも繋がりましょう！",
+          "intensity": 2,
+          "tags": ["歓迎", "移住"]
+        }
+      ]
+    },
+    {
+      "id": "tl_appreciation",
+      "name": "TL平和アピール構文",
+      "description": "タイムラインの穏やかさを称える構文。Xとの比較が常にセット。",
+      "phrases": [
+        {
+          "text": "TLが平和すぎる",
+          "position": "opening",
+          "reality": "「平和」は「反応が少ない」の婉曲表現でもある",
+          "example": "TLが平和すぎる。猫と飯と推ししか流れてこない。最高。",
+          "intensity": 3,
+          "tags": ["平和", "TL"]
+        },
+        {
+          "text": "荒らしがいない世界線",
+          "position": "middle",
+          "reality": "荒らしが来るほどユーザーがいないだけ。規模が拡大すれば同じことになる",
+          "example": "Blueskyは荒らしがいない世界線。これが普通であるべき。",
+          "intensity": 4,
+          "tags": ["平和", "理想化"]
+        },
+        {
+          "text": "インプレゾンビがいない幸せ",
+          "position": "middle",
+          "reality": "収益化プログラムがないからゾンビが来ないだけ。仕組みの問題",
+          "example": "リプ欄にインプレゾンビがいない幸せを噛み締めている。",
+          "intensity": 3,
+          "tags": ["平和", "X批判"]
+        },
+        {
+          "text": "このTLだけで生きていける",
+          "position": "closing",
+          "reality": "情報量が少なすぎて結局Xも見ている",
+          "example": "推しの絵師さんと猫アカウントと。このTLだけで生きていける。",
+          "intensity": 3,
+          "tags": ["平和", "TL"]
+        },
+        {
+          "text": "争いのないSNS",
+          "position": "middle",
+          "reality": "争いが起きるほどの多様性がまだないだけ。同質集団の平穏",
+          "example": "争いのないSNSって存在したんだ…ここにあった…",
+          "intensity": 4,
+          "tags": ["平和", "理想化"]
+        }
+      ]
+    },
+    {
+      "id": "handle_domain",
+      "name": "独自ドメインハンドル構文",
+      "description": "Blueskyではハンドルに独自ドメインを設定できる機能を活用した自慢。",
+      "phrases": [
+        {
+          "text": "ハンドルを独自ドメインにした",
+          "position": "opening",
+          "reality": "技術力の証明として独自ドメインを使うが、フォロワーからは何も変わって見えない",
+          "example": "ハンドルを独自ドメインにした！@example.com になりました。",
+          "intensity": 3,
+          "tags": ["ドメイン", "テクノロジー"]
+        },
+        {
+          "text": "ドメイン認証でなりすまし防止",
+          "position": "middle",
+          "reality": "なりすまされるほどの知名度はない。セキュリティ意識の高い自分アピール",
+          "example": "ドメイン認証でなりすまし防止できるのBlueskyの良いところ。",
+          "intensity": 4,
+          "tags": ["ドメイン", "テクノロジー"]
+        },
+        {
+          "text": "bsky.socialのままの人まだいるの",
+          "position": "opening",
+          "reality": "デフォルトドメインの人を見下す独自ドメイン民の選民意識",
+          "example": "bsky.socialのままの人まだいるの？独自ドメイン設定しようよ。",
+          "intensity": 5,
+          "tags": ["ドメイン", "マウント"]
+        },
+        {
+          "text": "ハンドルが名刺代わり",
+          "position": "middle",
+          "reality": "名刺代わりにするほどBlueskyでのプレゼンスがあるかは疑問",
+          "example": "独自ドメインのハンドルが名刺代わりになる時代。",
+          "intensity": 3,
+          "tags": ["ドメイン", "ブランディング"]
+        },
+        {
+          "text": "ドメイン設定の方法教えます",
+          "position": "opening",
+          "reality": "教えたがりの承認欲求。公式ドキュメントに書いてある",
+          "example": "Blueskyのドメイン設定の方法教えます！意外と簡単です。",
+          "intensity": 3,
+          "tags": ["ドメイン", "布教"]
+        }
+      ]
+    },
+    {
+      "id": "moderation",
+      "name": "モデレーション意識構文",
+      "description": "ラベリングやモデレーション機能への意識の高さをアピールする構文。",
+      "phrases": [
+        {
+          "text": "モデレーションが自分で選べるの最高",
+          "position": "opening",
+          "reality": "機能の存在を知っているだけで実際にはデフォルト設定のまま",
+          "example": "モデレーションが自分で選べるの最高。見たくないものは見ない。",
+          "intensity": 3,
+          "tags": ["モデレーション", "テクノロジー"]
+        },
+        {
+          "text": "ラベリング機能が民主的",
+          "position": "middle",
+          "reality": "民主的と言いつつ自分と違う意見にはラベルを付けたい本音",
+          "example": "ユーザー主導のラベリング機能が民主的で素晴らしい。",
+          "intensity": 4,
+          "tags": ["モデレーション", "意識高い"]
+        },
+        {
+          "text": "ブロックリストを共有します",
+          "position": "opening",
+          "reality": "ブロックリストの共有は集団的排除でもある。平和の裏の監視社会",
+          "example": "スパム垢のブロックリストを共有します。ご自由に使ってください。",
+          "intensity": 3,
+          "tags": ["モデレーション", "共有"]
+        },
+        {
+          "text": "自治ができるSNS",
+          "position": "closing",
+          "reality": "自治と言えば聞こえはいいが要は自警団。正義の暴走リスク",
+          "example": "自治ができるSNSこそ健全。Blueskyはそれを実現してる。",
+          "intensity": 4,
+          "tags": ["モデレーション", "意識高い"]
+        },
+        {
+          "text": "コンテンツ警告ちゃんとつけよう",
+          "position": "closing",
+          "reality": "マナー啓蒙で道徳的優位に立つ。つけてない人を暗に批判",
+          "example": "センシティブな話題にはコンテンツ警告ちゃんとつけよう。",
+          "intensity": 3,
+          "tags": ["モデレーション", "マナー"]
+        }
+      ]
+    },
+    {
+      "id": "x_comparison",
+      "name": "X比較マウント構文",
+      "description": "何かにつけてXと比較してBlueskyの優位性を主張する構文。",
+      "phrases": [
+        {
+          "text": "Xでは絶対できない",
+          "position": "middle",
+          "reality": "Xでもできることを「できない」と断言して差別化を図る",
+          "example": "こういう穏やかな会話、Xでは絶対できない。",
+          "intensity": 4,
+          "tags": ["X比較", "マウント"]
+        },
+        {
+          "text": "イーロンのいないSNS",
+          "position": "middle",
+          "reality": "イーロン・マスクを嫌うことがアイデンティティの一部になっている",
+          "example": "イーロンのいないSNSでのびのび発言できる幸せ。",
+          "intensity": 4,
+          "tags": ["X比較", "政治"]
+        },
+        {
+          "text": "Xのリプ欄見て改めて思った",
+          "position": "opening",
+          "reality": "わざわざXを見に行って「やっぱりダメだ」と確認する作業。比較依存",
+          "example": "Xのリプ欄見て改めて思ったけどBlueskyの空気感が好き。",
+          "intensity": 3,
+          "tags": ["X比較", "マウント"]
+        },
+        {
+          "text": "こっちに来ればいいのに",
+          "position": "closing",
+          "reality": "布教活動。Xに残っている友人への圧力を善意で包装",
+          "example": "Xで消耗してるフォロワーさん、こっちに来ればいいのに。",
+          "intensity": 4,
+          "tags": ["X比較", "布教"]
+        },
+        {
+          "text": "Xはオワコン",
+          "position": "opening",
+          "reality": "オワコンと言いつつXのユーザー数はBlueskyの数十倍ある現実",
+          "example": "もうXはオワコンでしょ。時代はBluesky。",
+          "intensity": 5,
+          "tags": ["X比較", "マウント"]
+        },
+        {
+          "text": "あの頃のTwitterみたい",
+          "position": "closing",
+          "reality": "初期Twitterへのノスタルジー。実際の初期Twitterも混沌としていた",
+          "example": "Blueskyはあの頃のTwitterみたいで居心地がいい。",
+          "intensity": 3,
+          "tags": ["X比較", "ノスタルジー"]
+        }
+      ]
+    }
+  ]
+}

@@ -246,7 +246,7 @@
       "phrases": [
         {
           "text": "それは素晴らしい",
-          "position": "standalone",
+          "position": "middle",
           "reality": "元ツイの内容を一切読んでいない定型リプ",
           "example": "それは素晴らしいですね！応援しています！",
           "intensity": 2,
@@ -257,7 +257,7 @@
         },
         {
           "text": "あなたの夢が叶いますように",
-          "position": "standalone",
+          "position": "middle",
           "reality": "文脈無視の名言風リプ。事故や災害のニュースにも付く",
           "example": "あなたの夢が叶いますように✨",
           "intensity": 2,
@@ -268,7 +268,7 @@
         },
         {
           "text": "昨日の自分を超えろ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "どこにでも貼り付けられる汎用名言",
           "example": "昨日の自分を超えろ。成長あるのみ。",
           "intensity": 2,
@@ -279,7 +279,7 @@
         },
         {
           "text": "元ツイートのコピペ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "バズったツイートをそのまま丸コピしてリプに貼る",
           "example": "（元ツイートと全く同じ文章）",
           "intensity": 1,
@@ -290,7 +290,7 @@
         },
         {
           "text": "絵文字の羅列",
-          "position": "standalone",
+          "position": "middle",
           "reality": "意味のある文章を書かず絵文字だけで占有面積を稼ぐ",
           "example": "🔥🔥🔥💯💯💯🙌🙌🙌",
           "intensity": 1,
@@ -301,7 +301,7 @@
         },
         {
           "text": "多言語混合の感嘆",
-          "position": "standalone",
+          "position": "middle",
           "reality": "翻訳ツールで複数言語の感嘆詞を並べただけ",
           "example": "すごい！ رائع Amazing！",
           "intensity": 1,
@@ -312,7 +312,7 @@
         },
         {
           "text": "関係ない画像や動画の貼り付け",
-          "position": "standalone",
+          "position": "middle",
           "reality": "目を引く画像で表示回数を稼ぐ",
           "example": "（全く関係ない猫動画やミーム画像）",
           "intensity": 1,
@@ -330,7 +330,7 @@
       "phrases": [
         {
           "text": "これ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "一文字で他人のコンテンツをシェアしてインプレを稼ぐ",
           "example": "これ。",
           "intensity": 2,
@@ -341,7 +341,7 @@
         },
         {
           "text": "これマジで大事",
-          "position": "standalone",
+          "position": "middle",
           "reality": "「大事」と言うだけで自分は何も付加していない",
           "example": "これマジで大事。全員読んで。",
           "intensity": 3,
@@ -352,7 +352,7 @@
         },
         {
           "text": "もっと早く知りたかった",
-          "position": "standalone",
+          "position": "middle",
           "reality": "共感を装って他人のバズに便乗",
           "example": "もっと早く知りたかった…。",
           "intensity": 2,
@@ -363,7 +363,7 @@
         },
         {
           "text": "何回でも言うけどこれ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "「何回でも言う」と言いつつ初めて見た内容",
           "example": "何回でも言うけどこれ。定期的に流したい。",
           "intensity": 3,
@@ -396,7 +396,7 @@
         },
         {
           "text": "これを見ろ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "命令形で注目を集めようとする",
           "example": "これを見ろ。答えが書いてある。",
           "intensity": 3,
@@ -1358,7 +1358,7 @@
         },
         {
           "text": "積み上げ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "日々の作業報告。互助会メンバー同士でいいねし合う",
           "example": "今日の積み上げ。ブログ1記事、Twitter30ツイート、読書1冊。",
           "intensity": 2,
@@ -1402,7 +1402,7 @@
         },
         {
           "text": "マジでこれ",
-          "position": "standalone",
+          "position": "middle",
           "reality": "1〜2語で他人のコンテンツに乗っかる",
           "example": "マジでこれ。",
           "intensity": 2,

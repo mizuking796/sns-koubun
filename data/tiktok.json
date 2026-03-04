@@ -1,0 +1,957 @@
+{
+  "platform": "tiktok",
+  "platform_name": "TikTok",
+  "description": "Z世代を中心としたショート動画プラットフォーム。キャプションやコメント欄には「知らない人損してる」系の煽り構文、あるある構文、大袈裟なリアクション要求が蔓延。アルゴリズムに最適化された定型フレーズが大量にコピーされ、独自のスラング文化を形成している。",
+  "categories": [
+    {
+      "id": "ignorance_shame",
+      "name": "無知煽り構文",
+      "description": "知らないことを恥ずかしいことかのように煽り、視聴を強制する構文。",
+      "phrases": [
+        {
+          "text": "知らない人やばい",
+          "position": "opening",
+          "reality": "知らなくても何も困らない情報",
+          "example": "知らない人やばい。この100均アイテムマジで神。",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "無知"
+          ]
+        },
+        {
+          "text": "知らないと損する〇〇",
+          "position": "opening",
+          "reality": "損するレベルの情報ではない",
+          "example": "知らないと損するiPhoneの裏技5選",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "損"
+          ]
+        },
+        {
+          "text": "まだ〇〇してないの？",
+          "position": "opening",
+          "reality": "していなくても問題ない",
+          "example": "まだこのアプリ使ってないの？情弱すぎん？",
+          "intensity": 5,
+          "tags": [
+            "煽り",
+            "見下し"
+          ]
+        },
+        {
+          "text": "これ知ってる人天才",
+          "position": "opening",
+          "reality": "天才とは一切関係ない",
+          "example": "これ知ってる人天才。昭和のお菓子シリーズ。",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "おだて"
+          ]
+        },
+        {
+          "text": "〇〇な人にしか分からない",
+          "position": "opening",
+          "reality": "ほぼ全員に分かる内容",
+          "example": "末っ子にしか分からないこの気持ち",
+          "intensity": 3,
+          "tags": [
+            "共感煽り",
+            "限定"
+          ]
+        },
+        {
+          "text": "え、みんな知ってた？",
+          "position": "opening",
+          "reality": "みんな知らなくていい情報",
+          "example": "え、みんな知ってた？コンビニの裏メニュー。",
+          "intensity": 3,
+          "tags": [
+            "煽り",
+            "驚き"
+          ]
+        },
+        {
+          "text": "99%の人が間違えてる",
+          "position": "opening",
+          "reality": "統計的根拠はゼロ",
+          "example": "99%の人が間違えてるスキンケアの順番",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "数字"
+          ]
+        },
+        {
+          "text": "学校では教えてくれない",
+          "position": "opening",
+          "reality": "学校で教える必要がないだけ",
+          "example": "学校では教えてくれないお金の真実",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "学校"
+          ]
+        },
+        {
+          "text": "知らなきゃ損レベル",
+          "position": "opening",
+          "reality": "損のレベルではない",
+          "example": "知らなきゃ損レベル。このアプリで月5万節約できる。",
+          "intensity": 4,
+          "tags": [
+            "煽り",
+            "損"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aruaru",
+      "name": "あるある構文",
+      "description": "共感を武器にバズを狙う「あるある」系。範囲が広すぎて共感も薄い。",
+      "phrases": [
+        {
+          "text": "〇〇あるある",
+          "position": "opening",
+          "reality": "あるあるの範囲が広すぎて共感できない",
+          "example": "社会人あるある：月曜日が来るのが早い",
+          "intensity": 2,
+          "tags": [
+            "あるある",
+            "共感"
+          ]
+        },
+        {
+          "text": "〇〇ってこういうことよな",
+          "position": "opening",
+          "reality": "独自の解釈を一般論として語る",
+          "example": "友情ってこういうことよな（寸劇開始）",
+          "intensity": 3,
+          "tags": [
+            "あるある",
+            "解釈"
+          ]
+        },
+        {
+          "text": "これうちだけ？",
+          "position": "opening",
+          "reality": "うちだけじゃないと分かって投稿している",
+          "example": "これうちだけ？お母さんが勝手にお菓子食べてる。",
+          "intensity": 2,
+          "tags": [
+            "あるある",
+            "共感乞い"
+          ]
+        },
+        {
+          "text": "分かる人にはわかる",
+          "position": "opening",
+          "reality": "ほぼ全員分かる",
+          "example": "分かる人にはわかる。テスト前日の謎の掃除欲。",
+          "intensity": 2,
+          "tags": [
+            "あるある",
+            "限定"
+          ]
+        },
+        {
+          "text": "〇〇のとき絶対これ",
+          "position": "opening",
+          "reality": "「絶対」ではない個人の行動パターン",
+          "example": "好きな人からLINE来たとき絶対これ",
+          "intensity": 3,
+          "tags": [
+            "あるある",
+            "断言"
+          ]
+        },
+        {
+          "text": "〇〇民集合〜！",
+          "position": "opening",
+          "reality": "コメント欄での仲間探しを煽る",
+          "example": "夜型人間民集合〜！朝起きれない人おいで",
+          "intensity": 3,
+          "tags": [
+            "あるある",
+            "集合"
+          ]
+        },
+        {
+          "text": "共感したらいいね♡",
+          "position": "closing",
+          "reality": "いいね乞いの直球ストレート",
+          "example": "月曜日つらすぎ問題。共感したらいいね♡",
+          "intensity": 3,
+          "tags": [
+            "あるある",
+            "いいね乞い"
+          ]
+        },
+        {
+          "text": "わかりみが深い",
+          "position": "closing",
+          "reality": "共感を独特の語彙で表現",
+          "example": "月曜の朝のだるさ…わかりみが深い。",
+          "intensity": 2,
+          "tags": [
+            "あるある",
+            "共感"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgen_slang",
+      "name": "Z世代スラング構文",
+      "description": "TikTokから広がったZ世代特有のスラング・言い回し。",
+      "phrases": [
+        {
+          "text": "〇〇すぎて草",
+          "position": "closing",
+          "reality": "何にでも「草」を付ける語彙力の欠如",
+          "example": "先生のモノマネ似すぎて草",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "草"
+          ]
+        },
+        {
+          "text": "それな",
+          "position": "closing",
+          "reality": "同意を示す最小コストの返答",
+          "example": "（コメント欄で）それな。マジでそれな。",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "同意"
+          ]
+        },
+        {
+          "text": "〇〇しか勝たん",
+          "position": "closing",
+          "reality": "勝ち負けの概念がない場面でも使う",
+          "example": "冬のコタツでアイスしか勝たん",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "推し"
+          ]
+        },
+        {
+          "text": "ガチで〇〇",
+          "position": "opening",
+          "reality": "ガチではない",
+          "example": "ガチで泣いた。この動画やばい。",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "誇張"
+          ]
+        },
+        {
+          "text": "はにゃ？",
+          "position": "middle",
+          "reality": "可愛く困惑するフリ",
+          "example": "先生に指名された瞬間、はにゃ？",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "可愛い"
+          ]
+        },
+        {
+          "text": "〇〇界隈",
+          "position": "opening",
+          "reality": "何でも界隈を付ければカテゴリ化できると思っている",
+          "example": "夜散歩界隈の人に届け",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "界隈"
+          ]
+        },
+        {
+          "text": "優勝",
+          "position": "closing",
+          "reality": "何の大会にも出ていない",
+          "example": "このラーメン優勝。毎週通うわ。",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "評価"
+          ]
+        },
+        {
+          "text": "〇〇ニキ/ネキ",
+          "position": "middle",
+          "reality": "見知らぬ他人に兄貴/姉貴呼び",
+          "example": "料理ニキの新作きた！",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "呼称"
+          ]
+        },
+        {
+          "text": "〇〇ガチ勢",
+          "position": "opening",
+          "reality": "ガチでやっている人を指すが基準は曖昧",
+          "example": "100均ガチ勢のワイ、棚全部100均",
+          "intensity": 2,
+          "tags": [
+            "スラング",
+            "ガチ"
+          ]
+        },
+        {
+          "text": "沼",
+          "position": "closing",
+          "reality": "ハマって抜け出せないことを一文字で表す",
+          "example": "推し活の沼にハマった。もう戻れない。",
+          "intensity": 3,
+          "tags": [
+            "スラング",
+            "沼"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engagement_bait",
+      "name": "エンゲージメント煽り構文",
+      "description": "コメント・保存・いいねを直接求める構文。アルゴリズム攻略目的。",
+      "phrases": [
+        {
+          "text": "最後まで見て！",
+          "position": "opening",
+          "reality": "最後まで見ても大したオチはない",
+          "example": "最後まで見て！衝撃の結末が…",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント",
+            "視聴維持"
+          ]
+        },
+        {
+          "text": "保存して後で見て！",
+          "position": "closing",
+          "reality": "保存率を上げてアルゴリズムに乗りたいだけ",
+          "example": "この情報は永久保存版。保存して後で見て！",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント",
+            "保存"
+          ]
+        },
+        {
+          "text": "コメント欄で教えて！",
+          "position": "closing",
+          "reality": "コメント数を稼いでバズりたい",
+          "example": "みんなの推しアイス、コメント欄で教えて！",
+          "intensity": 3,
+          "tags": [
+            "エンゲージメント",
+            "コメント"
+          ]
+        },
+        {
+          "text": "続きはプロフから！",
+          "position": "closing",
+          "reality": "プロフに誘導してフォローさせたい",
+          "example": "この方法の詳細は…続きはプロフから！",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント",
+            "誘導"
+          ]
+        },
+        {
+          "text": "友達にシェアして！",
+          "position": "closing",
+          "reality": "拡散目的のお願い",
+          "example": "これ広まってほしい。友達にシェアして！",
+          "intensity": 3,
+          "tags": [
+            "エンゲージメント",
+            "シェア"
+          ]
+        },
+        {
+          "text": "Part〇〇",
+          "position": "opening",
+          "reality": "シリーズ化して継続視聴させる戦略",
+          "example": "【Part47】毎日100円生活チャレンジ",
+          "intensity": 2,
+          "tags": [
+            "エンゲージメント",
+            "シリーズ"
+          ]
+        },
+        {
+          "text": "フォローしとくと得するよ",
+          "position": "closing",
+          "reality": "得しない",
+          "example": "こういう情報毎日出してるから、フォローしとくと得するよ✌️",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント",
+            "フォロー"
+          ]
+        },
+        {
+          "text": "いいねした人全員フォロバする",
+          "position": "closing",
+          "reality": "フォロバ目的のいいね稼ぎ",
+          "example": "今日限定！いいねした人全員フォロバする✌️",
+          "intensity": 4,
+          "tags": [
+            "エンゲージメント",
+            "フォロバ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controversy_bait",
+      "name": "炎上煽り構文",
+      "description": "わざと反論を誘発してコメント欄を盛り上げる確信犯的構文。",
+      "phrases": [
+        {
+          "text": "これ言ったら怒られるかもだけど",
+          "position": "opening",
+          "reality": "怒られることを期待して言っている",
+          "example": "これ言ったら怒られるかもだけど、大学行く意味ない。",
+          "intensity": 5,
+          "tags": [
+            "炎上",
+            "煽り"
+          ]
+        },
+        {
+          "text": "賛否両論あると思うけど",
+          "position": "opening",
+          "reality": "炎上を「賛否両論」と言い換えるテクニック",
+          "example": "賛否両論あると思うけど、結婚って無駄じゃない？",
+          "intensity": 4,
+          "tags": [
+            "炎上",
+            "保険"
+          ]
+        },
+        {
+          "text": "はい、論破",
+          "position": "closing",
+          "reality": "論破になっていない",
+          "example": "勉強しろって言う大人、自分は勉強してんの？はい、論破。",
+          "intensity": 5,
+          "tags": [
+            "炎上",
+            "論破"
+          ]
+        },
+        {
+          "text": "反論ある人コメントで来い",
+          "position": "closing",
+          "reality": "コメント欄を盛り上げたいだけ",
+          "example": "東京より大阪の方が住みやすい。反論ある人コメントで来い。",
+          "intensity": 5,
+          "tags": [
+            "炎上",
+            "挑発"
+          ]
+        },
+        {
+          "text": "これでも〇〇って言える？",
+          "position": "closing",
+          "reality": "極端な例を持ち出して議論を封殺",
+          "example": "こんな現実見ても日本は平和って言える？",
+          "intensity": 4,
+          "tags": [
+            "炎上",
+            "問いかけ"
+          ]
+        },
+        {
+          "text": "アンチは見なくていいよ♡",
+          "position": "closing",
+          "reality": "アンチのコメントが一番嬉しい",
+          "example": "私の考えだから。アンチは見なくていいよ♡",
+          "intensity": 4,
+          "tags": [
+            "炎上",
+            "挑発"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "overreaction",
+      "name": "大袈裟リアクション構文",
+      "description": "些細なことを世紀の大発見かのように表現する誇張文化。",
+      "phrases": [
+        {
+          "text": "神すぎる",
+          "position": "opening",
+          "reality": "「良い」程度のことに神を持ち出す",
+          "example": "この100均グッズ神すぎる。全人類買って。",
+          "intensity": 4,
+          "tags": [
+            "誇張",
+            "神"
+          ]
+        },
+        {
+          "text": "人生変わった",
+          "position": "closing",
+          "reality": "人生は変わっていない",
+          "example": "このシャンプーに変えたら人生変わった。",
+          "intensity": 5,
+          "tags": [
+            "誇張",
+            "人生"
+          ]
+        },
+        {
+          "text": "全人類やって",
+          "position": "closing",
+          "reality": "全人類がやる必要はない",
+          "example": "このストレッチ全人類やって。肩こり消えるから。",
+          "intensity": 5,
+          "tags": [
+            "誇張",
+            "全人類"
+          ]
+        },
+        {
+          "text": "やばい（語彙力）",
+          "position": "closing",
+          "reality": "語彙力がないことを自覚しつつ改善する気がない",
+          "example": "この景色…やばい（語彙力）",
+          "intensity": 3,
+          "tags": [
+            "誇張",
+            "語彙力"
+          ]
+        },
+        {
+          "text": "泣いた",
+          "position": "closing",
+          "reality": "泣いていない",
+          "example": "おばあちゃんの手紙読んで泣いた。",
+          "intensity": 3,
+          "tags": [
+            "誇張",
+            "感動"
+          ]
+        },
+        {
+          "text": "〇〇すぎて震えてる",
+          "position": "closing",
+          "reality": "震えていない",
+          "example": "推しの新曲良すぎて震えてる。",
+          "intensity": 4,
+          "tags": [
+            "誇張",
+            "震え"
+          ]
+        },
+        {
+          "text": "世界一〇〇",
+          "position": "opening",
+          "reality": "世界規模の調査はしていない",
+          "example": "世界一簡単なダイエット法見つけた",
+          "intensity": 4,
+          "tags": [
+            "誇張",
+            "世界一"
+          ]
+        },
+        {
+          "text": "マジで天才",
+          "position": "closing",
+          "reality": "天才のバーゲンセール",
+          "example": "これ考えた人マジで天才。ノーベル賞あげたい。",
+          "intensity": 4,
+          "tags": [
+            "誇張",
+            "天才"
+          ]
+        },
+        {
+          "text": "死ぬほど〇〇",
+          "position": "opening",
+          "reality": "死なない",
+          "example": "死ぬほど笑ったwww お腹痛い。",
+          "intensity": 4,
+          "tags": [
+            "誇張",
+            "死"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comment_culture",
+      "name": "コメント欄構文",
+      "description": "TikTokのコメント欄に溢れる定型コメント。",
+      "phrases": [
+        {
+          "text": "おすすめに出てきた",
+          "position": "opening",
+          "reality": "おすすめに出てくるのは当たり前",
+          "example": "なぜかおすすめに出てきたけど最後まで見てしまった",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "おすすめ"
+          ]
+        },
+        {
+          "text": "〇〇で来た人👋",
+          "position": "opening",
+          "reality": "出身地・属性で仲間を探す帰属意識",
+          "example": "福岡から来た人👋",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "仲間探し"
+          ]
+        },
+        {
+          "text": "編集お疲れ様です",
+          "position": "closing",
+          "reality": "内容への感想ではなく労いだけ",
+          "example": "毎回クオリティ高い。編集お疲れ様です。",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "労い"
+          ]
+        },
+        {
+          "text": "これ見てる人全員〇〇",
+          "position": "opening",
+          "reality": "勝手に視聴者を代表する",
+          "example": "これ見てる人全員推し活してるでしょ",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "決めつけ"
+          ]
+        },
+        {
+          "text": "何回見ても笑う",
+          "position": "closing",
+          "reality": "実際には2回目で飽きている",
+          "example": "何回見ても笑うwww 腹筋崩壊",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "誇張"
+          ]
+        },
+        {
+          "text": "待って、天才",
+          "position": "opening",
+          "reality": "天才のハードルが低すぎる",
+          "example": "待って、天才。この発想はなかった。",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "絶賛"
+          ]
+        },
+        {
+          "text": "これ広まってほしい",
+          "position": "closing",
+          "reality": "広まらなくても困らない内容",
+          "example": "もっと多くの人に知ってほしい。これ広まってほしい。",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "拡散"
+          ]
+        },
+        {
+          "text": "主のセンス好き",
+          "position": "closing",
+          "reality": "センスを褒めることで通ぶる",
+          "example": "BGMの選曲とか全部好き。主のセンス好き。",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "センス"
+          ]
+        },
+        {
+          "text": "これ推しに届け",
+          "position": "closing",
+          "reality": "届かない",
+          "example": "この動画バズれ。これ推しに届け。",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "推し"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transition_hook",
+      "name": "動画冒頭フック構文",
+      "description": "最初の1秒で離脱を防ぐためのフック。",
+      "phrases": [
+        {
+          "text": "ちょっと待って",
+          "position": "opening",
+          "reality": "待つ必要がない",
+          "example": "ちょっと待って、このコスメやばすぎるんだけど",
+          "intensity": 3,
+          "tags": [
+            "フック",
+            "冒頭"
+          ]
+        },
+        {
+          "text": "嘘でしょ…",
+          "position": "opening",
+          "reality": "嘘ではない些細な出来事",
+          "example": "嘘でしょ…ガチャで推し出た…",
+          "intensity": 3,
+          "tags": [
+            "フック",
+            "驚き"
+          ]
+        },
+        {
+          "text": "聞いてください",
+          "position": "opening",
+          "reality": "聞く義務はない",
+          "example": "聞いてください。彼氏にとんでもないことされた。",
+          "intensity": 3,
+          "tags": [
+            "フック",
+            "語り出し"
+          ]
+        },
+        {
+          "text": "やばいの見つけた",
+          "position": "opening",
+          "reality": "やばくない",
+          "example": "やばいの見つけた。このカフェ穴場すぎる。",
+          "intensity": 3,
+          "tags": [
+            "フック",
+            "発見"
+          ]
+        },
+        {
+          "text": "これバズるわ",
+          "position": "opening",
+          "reality": "自分でバズると予告する痛さ",
+          "example": "これバズるわ。うちの猫の寝方見て。",
+          "intensity": 4,
+          "tags": [
+            "フック",
+            "自信"
+          ]
+        },
+        {
+          "text": "見ないと後悔する",
+          "position": "opening",
+          "reality": "見なくても後悔しない",
+          "example": "見ないと後悔する。マジで人生変わる朝習慣。",
+          "intensity": 5,
+          "tags": [
+            "フック",
+            "煽り"
+          ]
+        },
+        {
+          "text": "あのさ…",
+          "position": "opening",
+          "reality": "語りかけ口調で親密感を演出",
+          "example": "あのさ…彼氏に裏切られた話していい？",
+          "intensity": 3,
+          "tags": [
+            "フック",
+            "語りかけ"
+          ]
+        },
+        {
+          "text": "絶対最後まで見て",
+          "position": "opening",
+          "reality": "最後のオチが弱いパターンが大半",
+          "example": "絶対最後まで見て。マジで鳥肌立つから。",
+          "intensity": 4,
+          "tags": [
+            "フック",
+            "煽り"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story_telling",
+      "name": "ストーリーテリング構文",
+      "description": "日常の出来事をドラマチックに語るナレーション風構文。",
+      "phrases": [
+        {
+          "text": "〇〇した結果…",
+          "position": "opening",
+          "reality": "結果を引っ張って視聴時間を稼ぐ",
+          "example": "上司にタメ口で話した結果…",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "引っ張り"
+          ]
+        },
+        {
+          "text": "1ヶ月〇〇してみた",
+          "position": "opening",
+          "reality": "3日で飽きたのを1ヶ月と言い張る",
+          "example": "1ヶ月砂糖断ちしてみた結果がやばい",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "チャレンジ"
+          ]
+        },
+        {
+          "text": "まさかの展開",
+          "position": "middle",
+          "reality": "予想通りの展開",
+          "example": "彼女にサプライズしたらまさかの展開に…",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "煽り"
+          ]
+        },
+        {
+          "text": "〇〇したら人生終わった",
+          "position": "opening",
+          "reality": "人生は終わっていない",
+          "example": "親にスマホの検索履歴見られたら人生終わった",
+          "intensity": 4,
+          "tags": [
+            "ストーリー",
+            "誇張"
+          ]
+        },
+        {
+          "text": "ここからが本題",
+          "position": "middle",
+          "reality": "前置きが長すぎる動画の言い訳",
+          "example": "前提話したけど、ここからが本題。",
+          "intensity": 2,
+          "tags": [
+            "ストーリー",
+            "構成"
+          ]
+        },
+        {
+          "text": "〇〇のはずが…",
+          "position": "opening",
+          "reality": "予定調和の「想定外」",
+          "example": "普通にデートのはずが…とんでもないことに。",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "どんでん返し"
+          ]
+        },
+        {
+          "text": "〇日目にして異変が",
+          "position": "middle",
+          "reality": "異変のハードルが低い",
+          "example": "水だけ生活3日目にして異変が…",
+          "intensity": 3,
+          "tags": [
+            "ストーリー",
+            "異変"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "self_deprecation",
+      "name": "自虐ネタ構文",
+      "description": "自分を下げて共感や笑いを取りに行くスタイル。",
+      "phrases": [
+        {
+          "text": "陰キャの日常",
+          "position": "opening",
+          "reality": "陰キャアピールで共感を集める戦略",
+          "example": "陰キャの日常。休み時間にトイレで時間つぶす。",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "陰キャ"
+          ]
+        },
+        {
+          "text": "ぼっち〇〇",
+          "position": "opening",
+          "reality": "ぼっちをネタにできる時点で余裕がある",
+          "example": "ぼっちクリスマスの過ごし方",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "ぼっち"
+          ]
+        },
+        {
+          "text": "非モテあるある",
+          "position": "opening",
+          "reality": "非モテの連帯感でコメント欄が盛り上がる",
+          "example": "非モテあるある。好きな人の前だけ挙動不審になる。",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "恋愛"
+          ]
+        },
+        {
+          "text": "コミュ障すぎて",
+          "position": "opening",
+          "reality": "TikTokに動画投稿できる時点でコミュ障ではない",
+          "example": "コミュ障すぎて美容院で雑談できない",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "コミュ障"
+          ]
+        },
+        {
+          "text": "社会不適合者の〇〇",
+          "position": "opening",
+          "reality": "自虐のハードルがインフレしている",
+          "example": "社会不適合者の朝ルーティン",
+          "intensity": 4,
+          "tags": [
+            "自虐",
+            "インフレ"
+          ]
+        },
+        {
+          "text": "ワイ、終わる",
+          "position": "opening",
+          "reality": "終わっていない",
+          "example": "テスト0点取ったワイ、終わる。",
+          "intensity": 3,
+          "tags": [
+            "自虐",
+            "なんJ風"
+          ]
+        }
+      ]
+    }
+  ]
+}

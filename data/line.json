@@ -1,0 +1,957 @@
+{
+  "platform": "line",
+  "platform_name": "LINE",
+  "description": "日本最大のメッセージングアプリ。「おじさんLINE」構文が社会現象化し、中高年男性の距離感バグ・絵文字乱用・唐突な食事誘いが「おじさん構文」として定型化。VOOM（旧タイムライン）では告知・宣伝構文も発達。既読スルー・未読スルーを巡る独自の文化圏も形成している。",
+  "categories": [
+    {
+      "id": "ojisan_greeting",
+      "name": "おじさん挨拶構文",
+      "description": "若い女性へのLINEに特徴的な、距離感のバグった挨拶。",
+      "phrases": [
+        {
+          "text": "〇〇チャン、おはよー😄",
+          "position": "opening",
+          "reality": "カタカナの「チャン」が気持ち悪さの核心",
+          "example": "ユキチャン、おはよー😄 今日も元気かな❓",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "〇〇チャンは関係ないけど",
+          "position": "opening",
+          "reality": "関係ないのに送ってくる時点で関係ある",
+          "example": "ユキチャンは関係ないけど、今日寒いね🥶",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "距離感"
+          ]
+        },
+        {
+          "text": "おっはー☀️",
+          "position": "opening",
+          "reality": "死語を現役で使うおじさんの時間感覚",
+          "example": "おっはー☀️ 今日もお仕事ガンバッテ💪",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "死語"
+          ]
+        },
+        {
+          "text": "元気にしてるかな❓😊",
+          "position": "opening",
+          "reality": "既読スルーされているのに懲りずに送る安否確認",
+          "example": "最近LINE来ないけど、元気にしてるかな❓😊",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "安否確認"
+          ]
+        },
+        {
+          "text": "久しぶり〜😆 覚えてる❓",
+          "position": "opening",
+          "reality": "一方的に覚えているだけ",
+          "example": "久しぶり〜😆 覚えてる❓前に飲み会で会った〇〇だよ！",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "唐突"
+          ]
+        },
+        {
+          "text": "お疲れさまぁ〜😘",
+          "position": "opening",
+          "reality": "波線と絵文字のコンボが気持ち悪さを倍増させる",
+          "example": "お疲れさまぁ〜😘 今日もお仕事大変だったでしょ？",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "気持ち悪い"
+          ]
+        },
+        {
+          "text": "〇〇チャンのこと気になっちゃって😅",
+          "position": "opening",
+          "reality": "一方的な好意の押し付け",
+          "example": "ユキチャンのこと気になっちゃって😅 迷惑じゃないかな❓",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "距離感"
+          ]
+        },
+        {
+          "text": "今日もカワイイね💕",
+          "position": "opening",
+          "reality": "アイコンしか見ていないのに容姿を褒める",
+          "example": "今日もカワイイね💕 写真見てそう思ったよ😊",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "容姿"
+          ]
+        },
+        {
+          "text": "やっほー🤗",
+          "position": "opening",
+          "reality": "テンション高めの挨拶で若さを演出したいおじさん",
+          "example": "やっほー🤗 今何してるのかな❓",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "挨拶"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ojisan_meal_invite",
+      "name": "おじさん食事誘い構文",
+      "description": "唐突に食事に誘う、おじさんLINEの真骨頂。",
+      "phrases": [
+        {
+          "text": "今度ご飯でもどう❓🍽️",
+          "position": "closing",
+          "reality": "「でも」で軽い感じを出しているが本気",
+          "example": "最近忙しい❓ 今度ご飯でもどう❓🍽️ おじさんが奢るよ😄",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "食事"
+          ]
+        },
+        {
+          "text": "美味しいお店見つけたんだけど",
+          "position": "opening",
+          "reality": "食事に誘うための口実",
+          "example": "美味しいお店見つけたんだけど、〇〇チャンも好きそうだなと思って💕",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "食事"
+          ]
+        },
+        {
+          "text": "おじさんが奢るよ😄",
+          "position": "closing",
+          "reality": "金で釣ろうとしている",
+          "example": "何でも好きなもの食べていいよ！おじさんが奢るよ😄",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "奢り"
+          ]
+        },
+        {
+          "text": "2人で飲みに行かない❓🍺",
+          "position": "closing",
+          "reality": "下心を「飲み」でオブラートに包む",
+          "example": "たまには2人で飲みに行かない❓🍺 相談乗るよ😊",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "飲み"
+          ]
+        },
+        {
+          "text": "〇〇チャンの好きなもの何かな❓",
+          "position": "middle",
+          "reality": "好みをリサーチして食事に誘う布石",
+          "example": "ユキチャンの好きな食べ物何かな❓ 和食派❓洋食派❓",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "リサーチ"
+          ]
+        },
+        {
+          "text": "都合のいい日教えて😊",
+          "position": "closing",
+          "reality": "断りにくい聞き方で追い詰める",
+          "example": "来週とか空いてたりする❓都合のいい日教えて😊",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "予定"
+          ]
+        },
+        {
+          "text": "焼肉でも行かない❓🥩",
+          "position": "closing",
+          "reality": "焼肉という高カロリーな誘い",
+          "example": "最近頑張ってるでしょ❓ご褒美に焼肉でも行かない❓🥩",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "食事"
+          ]
+        },
+        {
+          "text": "おじさんの行きつけの店があるんだけど",
+          "position": "opening",
+          "reality": "行きつけを自慢しつつデートに持ち込む",
+          "example": "おじさんの行きつけの店があるんだけど、〇〇チャンも絶対気に入ると思う😊",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "行きつけ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ojisan_emoji",
+      "name": "おじさん絵文字構文",
+      "description": "おじさんLINE特有の絵文字・顔文字の使い方。",
+      "phrases": [
+        {
+          "text": "😅💦",
+          "position": "closing",
+          "reality": "照れ隠しの絵文字セット",
+          "example": "ちょっと言いすぎたかな😅💦",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "絵文字"
+          ]
+        },
+        {
+          "text": "(^_^)",
+          "position": "closing",
+          "reality": "古い顔文字を現役で使い続けるセンス",
+          "example": "了解だよ(^_^) また連絡するね！",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "顔文字"
+          ]
+        },
+        {
+          "text": "❗❓",
+          "position": "closing",
+          "reality": "赤いビックリマークとハテナを多用する",
+          "example": "マジで❗❓ それはビックリだね❗",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "記号"
+          ]
+        },
+        {
+          "text": "🤣🤣🤣",
+          "position": "closing",
+          "reality": "笑い転げる絵文字を3連打する過剰反応",
+          "example": "それ面白すぎ🤣🤣🤣 おじさん笑っちゃったよ",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "絵文字"
+          ]
+        },
+        {
+          "text": "💕",
+          "position": "closing",
+          "reality": "ハートを気軽に使うことへの無自覚さ",
+          "example": "〇〇チャン可愛いなぁ💕",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "ハート"
+          ]
+        },
+        {
+          "text": "(笑)(汗)(泣)",
+          "position": "closing",
+          "reality": "カッコ書き感情表現のおじさん三種の神器",
+          "example": "明日月曜日か(泣) 頑張るしかないね(笑)",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "カッコ"
+          ]
+        },
+        {
+          "text": "ナンチャッテ😜",
+          "position": "closing",
+          "reality": "寒いボケやキモい発言の保険",
+          "example": "俺の彼女にならない❓ナンチャッテ😜",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "保険"
+          ]
+        },
+        {
+          "text": "😍",
+          "position": "closing",
+          "reality": "相手の写真や発言にこの絵文字を送る破壊力",
+          "example": "プロフィール写真変えた❓可愛い😍",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "気持ち悪い"
+          ]
+        },
+        {
+          "text": "🥺",
+          "position": "closing",
+          "reality": "上目遣いの懇願絵文字。おじさんが使うと破壊力が倍増",
+          "example": "お願いがあるんだけど…🥺 今度時間くれない❓",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "絵文字"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ojisan_self_talk",
+      "name": "おじさん自分語り構文",
+      "description": "聞かれてもいないのに自分の情報を送りつけるスタイル。",
+      "phrases": [
+        {
+          "text": "今〇〇なう😁",
+          "position": "opening",
+          "reality": "死語「なう」を使い続ける時代錯誤",
+          "example": "今ゴルフなう😁 天気最高⛳",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "自分語り"
+          ]
+        },
+        {
+          "text": "今日はおじさん〇〇だよ😄",
+          "position": "opening",
+          "reality": "自分を「おじさん」と三人称で呼ぶ異常性",
+          "example": "今日はおじさん休みだよ😄 暇しちゃってさぁ〜",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "三人称"
+          ]
+        },
+        {
+          "text": "〇〇の写真送るね📸",
+          "position": "opening",
+          "reality": "頼んでいない写真が送られてくる恐怖",
+          "example": "旅行の写真送るね📸 綺麗でしょ❓",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "写真"
+          ]
+        },
+        {
+          "text": "実はおじさん〇〇でさぁ",
+          "position": "opening",
+          "reality": "聞いていないのに始まる身の上話",
+          "example": "実はおじさん若い頃バンドやっててさぁ🎸",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "自分語り"
+          ]
+        },
+        {
+          "text": "独り言だけど",
+          "position": "opening",
+          "reality": "独り言ならLINEで送らないでほしい",
+          "example": "独り言だけど、〇〇チャンみたいな子が娘だったらなぁ😊",
+          "intensity": 5,
+          "tags": [
+            "おじさん",
+            "距離感"
+          ]
+        },
+        {
+          "text": "おじさんも若い頃は〇〇だったんだよ",
+          "position": "opening",
+          "reality": "求めていない過去の武勇伝",
+          "example": "おじさんも若い頃はモテたんだよ😁 ナンチャッテ😜",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "武勇伝"
+          ]
+        },
+        {
+          "text": "〇〇チャンに報告したくて😄",
+          "position": "opening",
+          "reality": "報告する相手がいないことの裏返し",
+          "example": "嬉しいことがあったから〇〇チャンに報告したくて😄",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "報告"
+          ]
+        },
+        {
+          "text": "おじさんの趣味なんだけどさ",
+          "position": "opening",
+          "reality": "聞かれていない趣味アピール",
+          "example": "おじさんの趣味なんだけどさ、カメラ始めたんだ📷 今度撮ってあげようか❓",
+          "intensity": 4,
+          "tags": [
+            "おじさん",
+            "趣味"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "read_pressure",
+      "name": "既読プレッシャー構文",
+      "description": "既読スルーに対する反応や、返信を催促する構文。",
+      "phrases": [
+        {
+          "text": "既読ついてるよね❓",
+          "position": "opening",
+          "reality": "既読監視というストーカー行為",
+          "example": "既読ついてるよね❓忙しいのかな😅",
+          "intensity": 5,
+          "tags": [
+            "既読",
+            "催促"
+          ]
+        },
+        {
+          "text": "返事なくて心配になっちゃった😅",
+          "position": "opening",
+          "reality": "心配を装った返信催促",
+          "example": "返事なくて心配になっちゃった😅 体調大丈夫❓",
+          "intensity": 4,
+          "tags": [
+            "既読",
+            "心配装い"
+          ]
+        },
+        {
+          "text": "忙しいかな❓また暇な時にでも😊",
+          "position": "closing",
+          "reality": "「暇な時に」と言いつつ早急な返信を期待",
+          "example": "忙しいかな❓また暇な時にでも返事くれたら嬉しいな😊",
+          "intensity": 3,
+          "tags": [
+            "既読",
+            "催促"
+          ]
+        },
+        {
+          "text": "〇〇チャン生きてるー❓😂",
+          "position": "opening",
+          "reality": "冗談めかした催促だが切迫感がにじむ",
+          "example": "ユキチャン生きてるー❓😂 最近全然連絡ないからさぁ",
+          "intensity": 5,
+          "tags": [
+            "既読",
+            "催促"
+          ]
+        },
+        {
+          "text": "スタンプだけでもいいから😊",
+          "position": "closing",
+          "reality": "ハードルを下げて反応を引き出そうとする必死さ",
+          "example": "忙しいよね。スタンプだけでもいいから反応くれると嬉しいな😊",
+          "intensity": 4,
+          "tags": [
+            "既読",
+            "必死"
+          ]
+        },
+        {
+          "text": "もしかして嫌われちゃった❓😅",
+          "position": "opening",
+          "reality": "罪悪感を植え付けて返信させようとするテクニック",
+          "example": "もしかして嫌われちゃった❓😅 そうだったらごめんね",
+          "intensity": 5,
+          "tags": [
+            "既読",
+            "罪悪感"
+          ]
+        },
+        {
+          "text": "嫌なら言ってね❓ もう連絡しないから😅",
+          "position": "closing",
+          "reality": "連絡をやめる気はない。感情的な脅し",
+          "example": "迷惑だったかな❓嫌なら言ってね❓ もう連絡しないから😅",
+          "intensity": 5,
+          "tags": [
+            "既読",
+            "脅し"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_chat",
+      "name": "グループチャット構文",
+      "description": "LINEグループで飛び交う定型メッセージ。",
+      "phrases": [
+        {
+          "text": "了解です！",
+          "position": "closing",
+          "reality": "グループの全員が「了解です」を送る地獄",
+          "example": "（業務連絡に対して）了解です！",
+          "intensity": 1,
+          "tags": [
+            "グループ",
+            "了解"
+          ]
+        },
+        {
+          "text": "ありがとうございます🙏",
+          "position": "closing",
+          "reality": "とりあえず感謝しておく定型反応",
+          "example": "（幹事の連絡に対して）ありがとうございます🙏",
+          "intensity": 1,
+          "tags": [
+            "グループ",
+            "感謝"
+          ]
+        },
+        {
+          "text": "ノートに書いておきますね",
+          "position": "closing",
+          "reality": "ノートを使いこなしているアピール",
+          "example": "日程はノートに書いておきますね！確認お願いします。",
+          "intensity": 2,
+          "tags": [
+            "グループ",
+            "ノート"
+          ]
+        },
+        {
+          "text": "スタンプで返事ください！",
+          "position": "closing",
+          "reality": "出欠確認をスタンプで取る効率的だが雑な方法",
+          "example": "参加できる人はスタンプで返事ください！",
+          "intensity": 2,
+          "tags": [
+            "グループ",
+            "スタンプ"
+          ]
+        },
+        {
+          "text": "お疲れ様です！",
+          "position": "opening",
+          "reality": "業務グループの全投稿がこれで始まる",
+          "example": "お疲れ様です！明日の会議の件ですが…",
+          "intensity": 1,
+          "tags": [
+            "グループ",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "すみません、見落としてました🙇",
+          "position": "opening",
+          "reality": "既読スルーの言い訳",
+          "example": "すみません、見落としてました🙇 今から確認します！",
+          "intensity": 2,
+          "tags": [
+            "グループ",
+            "言い訳"
+          ]
+        },
+        {
+          "text": "↑に同じです",
+          "position": "closing",
+          "reality": "自分の意見を持たず同調するだけ",
+          "example": "↑に同じです！私もそれでいいと思います。",
+          "intensity": 2,
+          "tags": [
+            "グループ",
+            "同調"
+          ]
+        },
+        {
+          "text": "すみません、遅くなりました🙇",
+          "position": "opening",
+          "reality": "遅れた返信への定番の言い訳",
+          "example": "すみません、遅くなりました🙇 私も参加で大丈夫です！",
+          "intensity": 1,
+          "tags": [
+            "グループ",
+            "謝罪"
+          ]
+        },
+        {
+          "text": "幹事さんありがとうございます🙏",
+          "position": "closing",
+          "reality": "幹事への感謝は言うが幹事はやらない",
+          "example": "幹事さんありがとうございます🙏 助かります！",
+          "intensity": 1,
+          "tags": [
+            "グループ",
+            "感謝"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voom_announcement",
+      "name": "VOOM・タイムライン構文",
+      "description": "LINE VOOM（旧タイムライン）で使われる告知・宣伝の定型文。",
+      "phrases": [
+        {
+          "text": "お知らせです！",
+          "position": "opening",
+          "reality": "誰も待っていないお知らせ",
+          "example": "お知らせです！新商品が入荷しました🎉",
+          "intensity": 2,
+          "tags": [
+            "VOOM",
+            "告知"
+          ]
+        },
+        {
+          "text": "本日限定！",
+          "position": "opening",
+          "reality": "毎日「本日限定」をやっている",
+          "example": "本日限定！全品20%OFF🔥 お見逃しなく！",
+          "intensity": 3,
+          "tags": [
+            "VOOM",
+            "セール"
+          ]
+        },
+        {
+          "text": "友だち限定クーポン配布中🎁",
+          "position": "opening",
+          "reality": "友だち追加させるための餌",
+          "example": "友だち限定クーポン配布中🎁 今すぐ使えます！",
+          "intensity": 3,
+          "tags": [
+            "VOOM",
+            "クーポン"
+          ]
+        },
+        {
+          "text": "ご予約はLINEから！",
+          "position": "closing",
+          "reality": "LINE公式アカウントの存在意義",
+          "example": "空きがございます。ご予約はLINEから！",
+          "intensity": 2,
+          "tags": [
+            "VOOM",
+            "予約"
+          ]
+        },
+        {
+          "text": "シェアしてくれたら嬉しいです💕",
+          "position": "closing",
+          "reality": "タイムラインのシェア乞い",
+          "example": "この投稿、シェアしてくれたら嬉しいです💕",
+          "intensity": 3,
+          "tags": [
+            "VOOM",
+            "シェア"
+          ]
+        },
+        {
+          "text": "詳しくはプロフィールのリンクから",
+          "position": "closing",
+          "reality": "外部サイトへの誘導テンプレ",
+          "example": "詳しくはプロフィールのリンクからチェック👀",
+          "intensity": 2,
+          "tags": [
+            "VOOM",
+            "誘導"
+          ]
+        },
+        {
+          "text": "期間限定！お見逃しなく👀",
+          "position": "closing",
+          "reality": "期間限定が常態化している",
+          "example": "期間限定メニュー登場🎉 お見逃しなく👀",
+          "intensity": 3,
+          "tags": [
+            "VOOM",
+            "限定"
+          ]
+        },
+        {
+          "text": "お友達紹介で〇〇プレゼント🎁",
+          "position": "opening",
+          "reality": "紹介キャンペーンによるユーザー拡大策",
+          "example": "お友達紹介で500ポイントプレゼント🎁 今がチャンス！",
+          "intensity": 3,
+          "tags": [
+            "VOOM",
+            "紹介"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stamp_culture",
+      "name": "スタンプ構文",
+      "description": "LINEスタンプに関連する定型的なコミュニケーションパターン。",
+      "phrases": [
+        {
+          "text": "（スタンプ連打）",
+          "position": "closing",
+          "reality": "言葉で返すのが面倒なときのスタンプ爆撃",
+          "example": "（可愛い猫のスタンプ3連打）",
+          "intensity": 2,
+          "tags": [
+            "スタンプ",
+            "連打"
+          ]
+        },
+        {
+          "text": "このスタンプ可愛いでしょ❓",
+          "position": "opening",
+          "reality": "会話のきっかけ作りにスタンプを使う",
+          "example": "このスタンプ可愛いでしょ❓ 新しく買ったんだ😊",
+          "intensity": 2,
+          "tags": [
+            "スタンプ",
+            "話題"
+          ]
+        },
+        {
+          "text": "スタンプで返しちゃってごめん",
+          "position": "opening",
+          "reality": "スタンプ返信への後ろめたさ表明",
+          "example": "さっきスタンプで返しちゃってごめん！ちょっとバタバタしてて💦",
+          "intensity": 2,
+          "tags": [
+            "スタンプ",
+            "言い訳"
+          ]
+        },
+        {
+          "text": "（おじさんスタンプ）",
+          "position": "closing",
+          "reality": "中高年が好むダジャレ・親父ギャグ系スタンプ",
+          "example": "（「お仕事ガンバ！」スタンプ）",
+          "intensity": 3,
+          "tags": [
+            "スタンプ",
+            "おじさん"
+          ]
+        },
+        {
+          "text": "LINE着せかえ変えたの❓",
+          "position": "opening",
+          "reality": "相手の変化に気づくアピール",
+          "example": "LINE着せかえ変えたの❓ 可愛いね😊",
+          "intensity": 3,
+          "tags": [
+            "スタンプ",
+            "観察"
+          ]
+        },
+        {
+          "text": "このスタンプの意味なに❓🤔",
+          "position": "opening",
+          "reality": "若者のスタンプの使い方が理解できないおじさん",
+          "example": "このスタンプの意味なに❓🤔 おじさんわからないや😅",
+          "intensity": 3,
+          "tags": [
+            "スタンプ",
+            "世代差"
+          ]
+        },
+        {
+          "text": "（既読スルーの代わりにスタンプ）",
+          "position": "closing",
+          "reality": "返信が面倒な時にスタンプで済ませる文化",
+          "example": "（「了解！」系スタンプ1つで会話終了）",
+          "intensity": 2,
+          "tags": [
+            "スタンプ",
+            "省略"
+          ]
+        },
+        {
+          "text": "スタンプだけで会話する",
+          "position": "middle",
+          "reality": "文字を打つのが面倒な人間同士のスタンプラリー",
+          "example": "（猫スタンプ）→（犬スタンプ）→（おやすみスタンプ）",
+          "intensity": 2,
+          "tags": [
+            "スタンプ",
+            "会話"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weather_topic",
+      "name": "天気・季節ネタ構文",
+      "description": "話題がないときに天気を持ち出すおじさんの生存戦略。",
+      "phrases": [
+        {
+          "text": "今日暑いね〜☀️💦",
+          "position": "opening",
+          "reality": "天気の話しかできない会話力の限界",
+          "example": "今日暑いね〜☀️💦 〇〇チャンは夏バテしてない❓",
+          "intensity": 2,
+          "tags": [
+            "天気",
+            "話題"
+          ]
+        },
+        {
+          "text": "風邪ひかないようにね😊",
+          "position": "closing",
+          "reality": "気遣いを装ったLINEを送るための口実",
+          "example": "明日から寒くなるみたいだから、風邪ひかないようにね😊",
+          "intensity": 2,
+          "tags": [
+            "天気",
+            "気遣い"
+          ]
+        },
+        {
+          "text": "桜見に行かない❓🌸",
+          "position": "closing",
+          "reality": "季節イベントに便乗したデートの誘い",
+          "example": "もうすぐ桜の季節だね🌸 よかったら一緒に見に行かない❓",
+          "intensity": 4,
+          "tags": [
+            "天気",
+            "誘い"
+          ]
+        },
+        {
+          "text": "雨だけど気分は晴れ☀️",
+          "position": "opening",
+          "reality": "ポエム的な天気報告",
+          "example": "外は雨だけど気分は晴れ☀️ 〇〇チャンとLINEできるから😊",
+          "intensity": 5,
+          "tags": [
+            "天気",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "台風大丈夫❓",
+          "position": "opening",
+          "reality": "台風を口実にした安否確認LINE",
+          "example": "台風大丈夫❓ 心配になっちゃって😅 無事なら返事くれると嬉しいな",
+          "intensity": 4,
+          "tags": [
+            "天気",
+            "安否"
+          ]
+        },
+        {
+          "text": "いい天気だから〇〇したいなぁ",
+          "position": "opening",
+          "reality": "天気を入口にした暗黙の誘い",
+          "example": "いい天気だからドライブしたいなぁ🚗 〇〇チャンも好き❓",
+          "intensity": 3,
+          "tags": [
+            "天気",
+            "誘い"
+          ]
+        },
+        {
+          "text": "紅葉見に行こうよ🍁",
+          "position": "closing",
+          "reality": "秋の季節イベントに便乗したデート誘い",
+          "example": "紅葉の季節だね🍁 よかったら見に行こうよ！ドライブしよ🚗",
+          "intensity": 4,
+          "tags": [
+            "天気",
+            "誘い"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concern_performance",
+      "name": "心配パフォーマンス構文",
+      "description": "心配を装いながら自分の存在をアピールする構文。",
+      "phrases": [
+        {
+          "text": "無理しないでね😊",
+          "position": "closing",
+          "reality": "相手のことを気遣う体で接点を維持",
+          "example": "忙しそうだね。無理しないでね😊 いつでも相談のるよ！",
+          "intensity": 2,
+          "tags": [
+            "心配",
+            "気遣い"
+          ]
+        },
+        {
+          "text": "ちゃんと食べてる❓",
+          "position": "opening",
+          "reality": "食事を心配して食事に誘う布石",
+          "example": "最近忙しそうだけど、ちゃんと食べてる❓ 体壊すよ😅",
+          "intensity": 3,
+          "tags": [
+            "心配",
+            "食事"
+          ]
+        },
+        {
+          "text": "何かあったらいつでも言ってね",
+          "position": "closing",
+          "reality": "頼る気がない相手に対する一方的な宣言",
+          "example": "辛いことがあったら、何かあったらいつでも言ってね。おじさん飛んでいくから😊",
+          "intensity": 4,
+          "tags": [
+            "心配",
+            "距離感"
+          ]
+        },
+        {
+          "text": "寝不足じゃない❓",
+          "position": "opening",
+          "reality": "SNSの投稿時間を監視していることの暴露",
+          "example": "昨日夜遅くまでインスタ上げてたけど、寝不足じゃない❓",
+          "intensity": 5,
+          "tags": [
+            "心配",
+            "監視"
+          ]
+        },
+        {
+          "text": "おじさん心配しちゃうよ😅",
+          "position": "closing",
+          "reality": "心配する立場にないのに心配する宣言",
+          "example": "あんまり無理すると、おじさん心配しちゃうよ😅",
+          "intensity": 4,
+          "tags": [
+            "心配",
+            "おじさん"
+          ]
+        },
+        {
+          "text": "体調悪い時はちゃんと休んでね🙏",
+          "position": "closing",
+          "reality": "当たり前のことを言ってLINEする口実にしている",
+          "example": "風邪流行ってるみたいだから、体調悪い時はちゃんと休んでね🙏",
+          "intensity": 2,
+          "tags": [
+            "心配",
+            "定型"
+          ]
+        },
+        {
+          "text": "夜遅くにごめんね😅 でも心配で",
+          "position": "opening",
+          "reality": "夜遅くに送ってくる時点で迷惑の自覚がない",
+          "example": "夜遅くにごめんね😅 でも〇〇チャンのこと心配で、つい…",
+          "intensity": 5,
+          "tags": [
+            "心配",
+            "深夜"
+          ]
+        }
+      ]
+    }
+  ]
+}

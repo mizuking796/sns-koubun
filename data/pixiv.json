@@ -1,0 +1,407 @@
+{
+  "platform": "pixiv",
+  "platform_name": "Pixiv（ピクシブ）",
+  "description": "日本最大のイラスト・漫画・小説投稿プラットフォーム。キャプション（作品説明文）の謙遜構文、タグの独自文化「〇〇1000users入り」「なにこれかわいい」、ワンドロ（1時間ドローイング）文化が特徴。作品の良さとは別にタグとキャプションの「お作法」が存在し、それを守らないと暗黙のルール違反とみなされる独特の空間。",
+  "categories": [
+    {
+      "id": "caption_humble",
+      "name": "キャプション謙遜構文",
+      "description": "作品説明文で過度に謙遜する構文。上手い人ほど謙遜するという謎の美徳。",
+      "phrases": [
+        {
+          "text": "落書きです",
+          "position": "opening",
+          "reality": "フルカラーで背景まで描き込んだ「落書き」。本気の作品を「落書き」と呼ぶ文化",
+          "example": "落書きです。気が向いたら色塗ります。",
+          "intensity": 4,
+          "tags": ["謙遜", "定番"]
+        },
+        {
+          "text": "過去絵の再掲です",
+          "position": "opening",
+          "reality": "再掲であることの弁明。新作ではないことへの罪悪感",
+          "example": "過去絵の再掲です。少し修正しました。",
+          "intensity": 2,
+          "tags": ["謙遜", "再掲"]
+        },
+        {
+          "text": "自分絵注意",
+          "position": "opening",
+          "reality": "「自分絵」=「原作と絵柄が違う」への予防線。批判回避の保険",
+          "example": "自分絵注意。雰囲気で楽しんでください。",
+          "intensity": 3,
+          "tags": ["謙遜", "予防線"]
+        },
+        {
+          "text": "練習です",
+          "position": "opening",
+          "reality": "プロレベルの「練習」。練習でこのクオリティなら本気はどうなるのか",
+          "example": "手の練習です。苦手すぎる。",
+          "intensity": 3,
+          "tags": ["謙遜", "定番"]
+        },
+        {
+          "text": "※クオリティ注意",
+          "position": "opening",
+          "reality": "クオリティが低いと宣言して期待値を下げる戦略。実際は十分上手い",
+          "example": "※クオリティ注意※ 急いで描いたのでいろいろガタガタです。",
+          "intensity": 3,
+          "tags": ["謙遜", "予防線"]
+        },
+        {
+          "text": "時間かかりすぎた",
+          "position": "closing",
+          "reality": "時間がかかった=頑張った証拠。謙遜に見せかけた努力アピール",
+          "example": "背景に3日かかりました…。時間かかりすぎた。",
+          "intensity": 2,
+          "tags": ["謙遜", "努力"]
+        }
+      ]
+    },
+    {
+      "id": "tag_culture",
+      "name": "タグ構文",
+      "description": "Pixiv独自のタグ文化。感想をタグで伝える、評価をタグで可視化する独特の表現。",
+      "phrases": [
+        {
+          "text": "〇〇1000users入り",
+          "position": "middle",
+          "reality": "ブクマ数がタグ化される文化。数字が作品の価値を定量化する残酷なシステム",
+          "example": "東方Project 1000users入り",
+          "intensity": 3,
+          "tags": ["タグ", "評価"]
+        },
+        {
+          "text": "なにこれかわいい",
+          "position": "middle",
+          "reality": "Pixiv最古の感想タグの一つ。語彙力の消失を定型化した先駆的表現",
+          "example": "なにこれかわいい（タグ）",
+          "intensity": 2,
+          "tags": ["タグ", "感想"]
+        },
+        {
+          "text": "ふつくしい",
+          "position": "middle",
+          "reality": "「美しい」の崩し表記。正しい日本語を崩すことで感動の深さを表現",
+          "example": "ふつくしい…（タグ）",
+          "intensity": 2,
+          "tags": ["タグ", "感想"]
+        },
+        {
+          "text": "なにこれすごい",
+          "position": "middle",
+          "reality": "技術力への驚嘆をタグで表現。具体的に何がすごいかは書かない",
+          "example": "なにこれすごい 背景 風景",
+          "intensity": 2,
+          "tags": ["タグ", "感想"]
+        },
+        {
+          "text": "もっと評価されるべき",
+          "position": "middle",
+          "reality": "ブクマ数が少ない作品への応援タグ。付ける側の目利き力アピールでもある",
+          "example": "もっと評価されるべき（タグ）",
+          "intensity": 3,
+          "tags": ["タグ", "応援"]
+        },
+        {
+          "text": "〇〇10000users入り",
+          "position": "middle",
+          "reality": "1万ブクマの証。このタグが付く作品は全体の0.1%未満の選ばれし者",
+          "example": "初音ミク 10000users入り",
+          "intensity": 4,
+          "tags": ["タグ", "評価"]
+        }
+      ]
+    },
+    {
+      "id": "one_draw",
+      "name": "ワンドロ構文",
+      "description": "1時間以内に描く「ワンドロ」チャレンジの定型フレーズ。",
+      "phrases": [
+        {
+          "text": "〇〇ワンドロ",
+          "position": "opening",
+          "reality": "1時間制限という制約がクオリティの言い訳になる。実際は1時間超えている疑惑も",
+          "example": "FGOワンドロ お題「マシュ」",
+          "intensity": 2,
+          "tags": ["ワンドロ", "チャレンジ"]
+        },
+        {
+          "text": "1h",
+          "position": "middle",
+          "reality": "1時間で描いたことの証明。1時間でこのレベルは化け物アピール",
+          "example": "1hで描きました。時間なくて塗り残し…",
+          "intensity": 2,
+          "tags": ["ワンドロ", "制限時間"]
+        },
+        {
+          "text": "時間オーバーしました",
+          "position": "closing",
+          "reality": "正直に時間超過を告白。しかしクオリティが高いので許される",
+          "example": "1時間のはずが2時間…。時間オーバーしました。",
+          "intensity": 2,
+          "tags": ["ワンドロ", "告白"]
+        },
+        {
+          "text": "ワンドロのつもりが力入れすぎた",
+          "position": "closing",
+          "reality": "気合いの入り具合を「つもりが」で照れ隠し。本気で描きたかっただけ",
+          "example": "ワンドロのつもりが力入れすぎた。反省。",
+          "intensity": 3,
+          "tags": ["ワンドロ", "自虐"]
+        },
+        {
+          "text": "お題「〇〇」",
+          "position": "opening",
+          "reality": "お題があることで「自発的に描いた」ではなく「求められて描いた」ポジション",
+          "example": "深夜のお絵描き60分一本勝負 お題「雨」",
+          "intensity": 1,
+          "tags": ["ワンドロ", "お題"]
+        }
+      ]
+    },
+    {
+      "id": "request_response",
+      "name": "リクエスト対応構文",
+      "description": "リクエストやお題に対応する際の構文。",
+      "phrases": [
+        {
+          "text": "リクエストありがとうございます",
+          "position": "opening",
+          "reality": "リクエストをもらえる=需要がある自分、の確認。感謝と自信の混合",
+          "example": "リクエストありがとうございます！〇〇描きました。",
+          "intensity": 2,
+          "tags": ["リクエスト", "感謝"]
+        },
+        {
+          "text": "リク絵まとめ",
+          "position": "opening",
+          "reality": "リクエストの多さ=人気の証拠。まとめることでリクエストの量をアピール",
+          "example": "リク絵まとめです。全部描けなくてすみません。",
+          "intensity": 3,
+          "tags": ["リクエスト", "まとめ"]
+        },
+        {
+          "text": "イメージと違ったらすみません",
+          "position": "closing",
+          "reality": "リクエスト主の期待と違った場合の保険。先に謝っておく日本的防御術",
+          "example": "リクエストの〇〇です。イメージと違ったらすみません…",
+          "intensity": 3,
+          "tags": ["リクエスト", "予防線"]
+        },
+        {
+          "text": "リクエスト募集中",
+          "position": "closing",
+          "reality": "リクエストが来ない沈黙が怖い。自分から「描きます」と手を挙げる",
+          "example": "リクエスト募集中です！なんでも描きます！",
+          "intensity": 3,
+          "tags": ["リクエスト", "募集"]
+        },
+        {
+          "text": "フォロワー〇〇人記念リクエスト",
+          "position": "opening",
+          "reality": "フォロワー数の節目を祝う儀式。リクエストを口実にフォロワー数を公開",
+          "example": "フォロワー1000人記念リクエスト企画！好きなキャラ描きます。",
+          "intensity": 3,
+          "tags": ["リクエスト", "記念"]
+        }
+      ]
+    },
+    {
+      "id": "ship_disclaimer",
+      "name": "カップリング注意構文",
+      "description": "二次創作BL/百合/NLのカップリング表記と注意書き。地雷回避のための構文。",
+      "phrases": [
+        {
+          "text": "〇〇×△△",
+          "position": "opening",
+          "reality": "「×」の左右で攻め受けが決まる。逆カプは戦争になるピクシブの火種",
+          "example": "A×Bです。苦手な方はバックでお願いします。",
+          "intensity": 3,
+          "tags": ["カプ", "表記"]
+        },
+        {
+          "text": "苦手な方はバックでお願いします",
+          "position": "closing",
+          "reality": "「バック」=ブラウザバック。苦手なら見るなという穏やかな追放宣言",
+          "example": "腐向け注意。苦手な方はバックでお願いします。",
+          "intensity": 2,
+          "tags": ["カプ", "注意書き"]
+        },
+        {
+          "text": "解釈違いすみません",
+          "position": "closing",
+          "reality": "キャラの解釈は人それぞれだが「解釈違い」は重罪。先に謝罪する文化",
+          "example": "〇〇のイメージこんな感じです。解釈違いすみません。",
+          "intensity": 3,
+          "tags": ["カプ", "予防線"]
+        },
+        {
+          "text": "地雷の方すみません",
+          "position": "opening",
+          "reality": "「地雷」=苦手なカップリングや要素。謝りつつ投稿する絶妙なバランス",
+          "example": "モブ×〇〇です。地雷の方すみません。",
+          "intensity": 3,
+          "tags": ["カプ", "注意書き"]
+        },
+        {
+          "text": "固定です",
+          "position": "middle",
+          "reality": "攻め受けの固定宣言。「逆はありません」の暗黙の牽制",
+          "example": "A×B固定です。リバなし。",
+          "intensity": 3,
+          "tags": ["カプ", "宣言"]
+        }
+      ]
+    },
+    {
+      "id": "work_description",
+      "name": "作品説明テンプレ構文",
+      "description": "作品に添える説明文の定型パターン。",
+      "phrases": [
+        {
+          "text": "Twitter（X）にあげたやつのまとめ",
+          "position": "opening",
+          "reality": "Twitterの絵をPixivにまとめる作業。プラットフォーム間の作品管理",
+          "example": "Twitter（X）にあげたやつのまとめです。加筆修正あり。",
+          "intensity": 1,
+          "tags": ["説明", "まとめ"]
+        },
+        {
+          "text": "〇〇のアニメが最高だったので",
+          "position": "opening",
+          "reality": "アニメの感動を創作で表現する即日ファンアート。速度が命",
+          "example": "〇〇のアニメ最終回が最高だったので勢いで描きました。",
+          "intensity": 2,
+          "tags": ["説明", "感動"]
+        },
+        {
+          "text": "新刊サンプルです",
+          "position": "opening",
+          "reality": "同人誌の宣伝。Pixivは同人誌マーケティングの重要チャネル",
+          "example": "夏コミ新刊サンプルです。A×B長編。通販もあります。",
+          "intensity": 2,
+          "tags": ["説明", "宣伝"]
+        },
+        {
+          "text": "版権元に迷惑がかかるため転載禁止",
+          "position": "closing",
+          "reality": "転載禁止は正当な権利主張。二次創作のグレーゾーンでの自衛",
+          "example": "無断転載・AI学習禁止。版権元に迷惑がかかるため。",
+          "intensity": 3,
+          "tags": ["説明", "権利"]
+        },
+        {
+          "text": "描きたいものを描きました",
+          "position": "opening",
+          "reality": "需要や流行を気にせず好きなものを描いた宣言。評価を気にしない風を装う",
+          "example": "描きたいものを描きました。それだけです。",
+          "intensity": 2,
+          "tags": ["説明", "自由"]
+        },
+        {
+          "text": "支部に置いておきます",
+          "position": "closing",
+          "reality": "「支部」=Pixivの愛称。Twitterからの誘導文句",
+          "example": "高画質版は支部に置いておきます。",
+          "intensity": 1,
+          "tags": ["説明", "誘導"]
+        }
+      ]
+    },
+    {
+      "id": "ai_controversy",
+      "name": "AI学習拒否構文",
+      "description": "AI学習への作品使用を拒否する構文。2023年以降急増した防衛的フレーズ。",
+      "phrases": [
+        {
+          "text": "AI学習禁止",
+          "position": "closing",
+          "reality": "技術的には防げないが意思表示として重要。抑止力としての宣言",
+          "example": "AI学習禁止。無断転載禁止。",
+          "intensity": 4,
+          "tags": ["AI", "権利"]
+        },
+        {
+          "text": "AI生成ではありません",
+          "position": "opening",
+          "reality": "手描きの証明が必要になった時代。「人間が描きました」が付加価値に",
+          "example": "AI生成ではありません。全て手描きです。",
+          "intensity": 3,
+          "tags": ["AI", "証明"]
+        },
+        {
+          "text": "この作品をAI学習に使用しないでください",
+          "position": "closing",
+          "reality": "丁寧なお願い形式だが怒りを含んでいる。クリエイターの切実な防衛",
+          "example": "この作品をAI学習に使用しないでください。よろしくお願いします。",
+          "intensity": 3,
+          "tags": ["AI", "権利"]
+        },
+        {
+          "text": "手描きの温かみ",
+          "position": "middle",
+          "reality": "AI との差別化ポイントとして「温かみ」が持ち出される。技術 vs 感情の戦い",
+          "example": "やっぱり手描きの温かみが好きです。",
+          "intensity": 3,
+          "tags": ["AI", "価値観"]
+        },
+        {
+          "text": "Do not use for AI training",
+          "position": "closing",
+          "reality": "英語併記で海外のAI開発者にも届くようにする国際防衛",
+          "example": "無断転載禁止 / Do not repost / Do not use for AI training",
+          "intensity": 3,
+          "tags": ["AI", "権利", "英語"]
+        }
+      ]
+    },
+    {
+      "id": "self_promotion",
+      "name": "自己宣伝構文",
+      "description": "他プラットフォームやグッズ販売への誘導構文。",
+      "phrases": [
+        {
+          "text": "Twitterもやってます",
+          "position": "closing",
+          "reality": "Pixivからの流入をTwitterに誘導。SNS間の相互送客",
+          "example": "Twitterもやってます→@xxxx 良かったらフォローお願いします。",
+          "intensity": 2,
+          "tags": ["宣伝", "SNS"]
+        },
+        {
+          "text": "Skebやってます",
+          "position": "closing",
+          "reality": "有償依頼の窓口としてのPixiv活用。作品はポートフォリオ",
+          "example": "コミッション受付中です。Skebやってます。",
+          "intensity": 2,
+          "tags": ["宣伝", "依頼"]
+        },
+        {
+          "text": "通販始めました",
+          "position": "closing",
+          "reality": "同人誌・グッズの通販告知。Pixivがマーケティングプラットフォーム化",
+          "example": "BOOTHで通販始めました。在庫わずかです。",
+          "intensity": 2,
+          "tags": ["宣伝", "通販"]
+        },
+        {
+          "text": "FANBOXで先行公開してます",
+          "position": "closing",
+          "reality": "Pixiv本体は無料宣伝、FANBOXで課金誘導。フリーミアムモデル",
+          "example": "メイキングはFANBOXで先行公開してます。",
+          "intensity": 3,
+          "tags": ["宣伝", "課金"]
+        },
+        {
+          "text": "お仕事募集中です",
+          "position": "closing",
+          "reality": "商業案件の募集。Pixivは実質ポートフォリオサイト",
+          "example": "お仕事募集中です。DMまたはメールにてご連絡ください。",
+          "intensity": 2,
+          "tags": ["宣伝", "仕事"]
+        }
+      ]
+    }
+  ]
+}

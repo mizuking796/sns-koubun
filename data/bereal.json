@@ -1,0 +1,415 @@
+{
+  "platform": "bereal",
+  "platform_name": "BeReal（ビーリアル）",
+  "description": "「リアルな日常を共有する」をコンセプトにしたSNS。1日1回のランダム通知で2分以内に撮影する仕組みだが、実態は「遅れBeReal」の言い訳大会と「盛らないアピール」という新たな盛り方の発明。「素の自分を見せる」という建前が、逆に高度な自己演出の温床となっている。",
+  "categories": [
+    {
+      "id": "late_excuse",
+      "name": "遅れBeReal言い訳構文",
+      "description": "通知から2分以内に撮れなかった言い訳を添える構文。実際は「撮りたいシーン」を待っていただけ。",
+      "phrases": [
+        {
+          "text": "遅れたけど",
+          "position": "opening",
+          "reality": "遅れた理由は「映える瞬間を待っていた」から。リアルタイムを売りにするアプリで最も使われる定型句",
+          "example": "遅れたけど、今日のランチ☺️",
+          "intensity": 2,
+          "tags": ["遅延", "言い訳", "定番"]
+        },
+        {
+          "text": "通知気づかなかった😂",
+          "position": "opening",
+          "reality": "気づいていたが撮りたい場面ではなかった。気づかないフリで時間稼ぎ",
+          "example": "通知気づかなかった😂 もう夜になっちゃった",
+          "intensity": 3,
+          "tags": ["遅延", "言い訳"]
+        },
+        {
+          "text": "3時間遅れのBeReal",
+          "position": "opening",
+          "reality": "3時間かけて「盛らないけど最低限マシな瞬間」を厳選した結果",
+          "example": "3時間遅れのBeReal🫠 仕事忙しすぎた",
+          "intensity": 3,
+          "tags": ["遅延", "言い訳"]
+        },
+        {
+          "text": "寝てた😴",
+          "position": "opening",
+          "reality": "起きていたがパジャマ姿の自分を載せたくなかっただけ",
+          "example": "寝てた😴 今起きてBeReal撮った",
+          "intensity": 2,
+          "tags": ["遅延", "言い訳"]
+        },
+        {
+          "text": "会議中で撮れなかった",
+          "position": "opening",
+          "reality": "会議は10分前に終わっていたが、撮れる場面を探していた",
+          "example": "会議中で撮れなかった💦 やっと休憩",
+          "intensity": 2,
+          "tags": ["遅延", "言い訳", "仕事アピール"]
+        },
+        {
+          "text": "充電切れてた",
+          "position": "opening",
+          "reality": "充電は十分あったが「今の自分」を載せたくなかっただけ",
+          "example": "充電切れてた😭 復活したからBeReal！",
+          "intensity": 2,
+          "tags": ["遅延", "言い訳"]
+        }
+      ]
+    },
+    {
+      "id": "no_filter_appeal",
+      "name": "盛らないアピール構文",
+      "description": "「盛ってない」ことを強調することが新たな盛り方になっている矛盾。",
+      "phrases": [
+        {
+          "text": "ガチで何もしてない顔",
+          "position": "opening",
+          "reality": "最低限の身だしなみは整えてから撮影。「何もしてない」のハードルを下げる高等テクニック",
+          "example": "ガチで何もしてない顔だけど載せる",
+          "intensity": 4,
+          "tags": ["盛らない", "自己演出"]
+        },
+        {
+          "text": "すっぴんだけど許して",
+          "position": "opening",
+          "reality": "下地とアイブロウは塗っている。すっぴん風メイクの延長",
+          "example": "すっぴんだけど許して🙈 休日はこんな感じ",
+          "intensity": 4,
+          "tags": ["盛らない", "自己演出", "美容"]
+        },
+        {
+          "text": "リアルすぎてごめん",
+          "position": "opening",
+          "reality": "十分に計算された「リアル風」。本当にリアルな瞬間は撮らない",
+          "example": "リアルすぎてごめん😂 部屋散らかってる",
+          "intensity": 3,
+          "tags": ["盛らない", "自己演出"]
+        },
+        {
+          "text": "映えなさすぎて草",
+          "position": "opening",
+          "reality": "「映えない」ことを面白がれる余裕=普段は映えている暗示",
+          "example": "映えなさすぎて草　ただの天井",
+          "intensity": 3,
+          "tags": ["盛らない", "自虐"]
+        },
+        {
+          "text": "加工なしの現実",
+          "position": "opening",
+          "reality": "加工なしでも見せられる程度の状況を選んでいる。真の無加工は闇",
+          "example": "加工なしの現実がこちらです",
+          "intensity": 3,
+          "tags": ["盛らない", "自己演出"]
+        },
+        {
+          "text": "これがリアル",
+          "position": "middle",
+          "reality": "リアルの中でも比較的マシなリアルを厳選提供",
+          "example": "朝ごはんカップ麺。これがリアル。",
+          "intensity": 2,
+          "tags": ["盛らない", "日常"]
+        }
+      ]
+    },
+    {
+      "id": "real_self",
+      "name": "「リアルな自分」演出構文",
+      "description": "BeRealの趣旨に忠実なフリをしつつ、戦略的に「素」を見せる構文。",
+      "phrases": [
+        {
+          "text": "BeRealだから正直に言うけど",
+          "position": "opening",
+          "reality": "BeRealでなくても言えることを「このアプリだから言える」風に特別感を出す",
+          "example": "BeRealだから正直に言うけど、今日ずっとベッドにいた",
+          "intensity": 4,
+          "tags": ["正直", "演出", "プラットフォーム意識"]
+        },
+        {
+          "text": "BeRealだけに見せる顔",
+          "position": "opening",
+          "reality": "インスタでは見せない「素」がまた別の自己ブランディング素材",
+          "example": "BeRealだけに見せる顔。ジャージの私です。",
+          "intensity": 3,
+          "tags": ["正直", "演出"]
+        },
+        {
+          "text": "インスタには載せられない",
+          "position": "middle",
+          "reality": "インスタでの自分とBeRealでの自分を使い分ける二重人格SNS運用",
+          "example": "この角度インスタには載せられない😂",
+          "intensity": 4,
+          "tags": ["比較", "自虐", "プラットフォーム意識"]
+        },
+        {
+          "text": "盛ってるインスタより信じて",
+          "position": "closing",
+          "reality": "「盛っているインスタ」の存在を暗に宣伝。どちらも自己演出",
+          "example": "こっちが本当の私。盛ってるインスタより信じて。",
+          "intensity": 4,
+          "tags": ["比較", "演出"]
+        },
+        {
+          "text": "今の私そのまま",
+          "position": "middle",
+          "reality": "「そのまま」に見えるよう数秒間の調整を経た「そのまま」",
+          "example": "今の私そのまま。眠い。",
+          "intensity": 2,
+          "tags": ["正直", "日常"]
+        }
+      ]
+    },
+    {
+      "id": "mundane_flex",
+      "name": "日常自慢構文",
+      "description": "何気ない日常に見せかけて、実はさりげなく自慢している構文。",
+      "phrases": [
+        {
+          "text": "今日も推しカフェ",
+          "position": "opening",
+          "reality": "BeRealの通知が来るタイミングを計算してカフェに行っているのでは疑惑",
+          "example": "今日も推しカフェ☕ BeRealのタイミング神",
+          "intensity": 3,
+          "tags": ["自慢", "カフェ", "日常"]
+        },
+        {
+          "text": "たまたま映えた",
+          "position": "middle",
+          "reality": "たまたまではない。映える場所にいることが多い人間の日常",
+          "example": "ただの散歩なのにたまたま映えた🌅",
+          "intensity": 4,
+          "tags": ["自慢", "偶然装い"]
+        },
+        {
+          "text": "通知きた瞬間ちょうど",
+          "position": "opening",
+          "reality": "「ちょうど」を強調することで偶然感を演出。実際は遅れBeReal",
+          "example": "通知きた瞬間ちょうど海見てた🌊",
+          "intensity": 4,
+          "tags": ["自慢", "偶然装い"]
+        },
+        {
+          "text": "こんな日に限ってBeReal",
+          "position": "opening",
+          "reality": "良い日に撮れて嬉しいのを「こんな日に限って」で謙遜風に",
+          "example": "こんな日に限ってBeReal来るやつ🎂✨",
+          "intensity": 3,
+          "tags": ["自慢", "偶然装い"]
+        },
+        {
+          "text": "リアルが充実しすぎてる",
+          "position": "closing",
+          "reality": "充実をアピールするためにBeRealを使う本末転倒",
+          "example": "最近リアルが充実しすぎてるBeRealの意味",
+          "intensity": 5,
+          "tags": ["自慢", "リア充"]
+        },
+        {
+          "text": "BeRealに撮らされた",
+          "position": "opening",
+          "reality": "撮りたかったのに「アプリに撮らされた」受動態で照れ隠し",
+          "example": "BeRealに撮らされた彼とのデート🫶",
+          "intensity": 4,
+          "tags": ["自慢", "恋愛"]
+        }
+      ]
+    },
+    {
+      "id": "bored_post",
+      "name": "虚無BeReal構文",
+      "description": "何もない日常を「何もない」と言いつつ投稿する構文。本当に何もないなら撮らない。",
+      "phrases": [
+        {
+          "text": "天井",
+          "position": "opening",
+          "reality": "「天井を撮るほど退屈な私」を演出。実は布団の中でスマホを弄っている",
+          "example": "天井。以上。",
+          "intensity": 2,
+          "tags": ["虚無", "ミニマル"]
+        },
+        {
+          "text": "今日なんもしてない",
+          "position": "opening",
+          "reality": "「何もしていない自分」を共有すること自体が行動",
+          "example": "今日なんもしてない。ずっとこのベッド。",
+          "intensity": 2,
+          "tags": ["虚無", "日常"]
+        },
+        {
+          "text": "映えるもの何もない",
+          "position": "middle",
+          "reality": "映えないことを面白コンテンツに変換する才能",
+          "example": "家の中映えるもの何もないんだが",
+          "intensity": 2,
+          "tags": ["虚無", "自虐"]
+        },
+        {
+          "text": "BeRealやめたい",
+          "position": "closing",
+          "reality": "やめたいと言いつつ毎日投稿。やめたいアピールがコンテンツ化",
+          "example": "こんなの誰が見るの。BeRealやめたい。",
+          "intensity": 3,
+          "tags": ["虚無", "メタ"]
+        },
+        {
+          "text": "毎日同じ構図",
+          "position": "opening",
+          "reality": "変わらない日常の安定感を裏返しにアピール",
+          "example": "毎日同じ構図なのウケる。デスクと私。",
+          "intensity": 2,
+          "tags": ["虚無", "ルーティン"]
+        }
+      ]
+    },
+    {
+      "id": "reaction_bait",
+      "name": "リアクション釣り構文",
+      "description": "RealMojiや「見たよ」のリアクションを誘発するための構文。",
+      "phrases": [
+        {
+          "text": "今日のBeReal当てて",
+          "position": "opening",
+          "reality": "クイズ形式にすることでリアクション率を上げる計算",
+          "example": "今日のBeRealどこでしょう？当てて！",
+          "intensity": 3,
+          "tags": ["リアクション", "参加型"]
+        },
+        {
+          "text": "RealMoji送って！",
+          "position": "closing",
+          "reality": "リアクションを直接要求。承認欲求の直球ストレート",
+          "example": "寂しいからRealMoji送って！",
+          "intensity": 4,
+          "tags": ["リアクション", "承認欲求"]
+        },
+        {
+          "text": "みんなのBeRealも見たい",
+          "position": "closing",
+          "reality": "自分のを見てもらうための交換条件。見せ合い圧力",
+          "example": "私のリアルこれ。みんなのBeRealも見たい！",
+          "intensity": 3,
+          "tags": ["リアクション", "相互"]
+        },
+        {
+          "text": "変顔しか撮れない",
+          "position": "middle",
+          "reality": "変顔は可愛く撮れる顔の人だけが使える構文",
+          "example": "毎回変顔しか撮れないの才能だと思う",
+          "intensity": 3,
+          "tags": ["リアクション", "自虐"]
+        },
+        {
+          "text": "どっちがインカメでしょう",
+          "position": "opening",
+          "reality": "前後カメラ同時撮影を利用したエンゲージメント稼ぎ",
+          "example": "どっちがインカメでしょう🤔",
+          "intensity": 2,
+          "tags": ["リアクション", "参加型"]
+        }
+      ]
+    },
+    {
+      "id": "friend_flex",
+      "name": "友達・恋人アピール構文",
+      "description": "BeRealの「リアル」を盾にリア充アピールを正当化する構文。",
+      "phrases": [
+        {
+          "text": "BeRealの通知が来る時いつも一緒",
+          "position": "opening",
+          "reality": "常に一緒にいることをカジュアルに見せかけた強烈なリア充アピール",
+          "example": "BeRealの通知が来る時いつもこの人と一緒🥰",
+          "intensity": 5,
+          "tags": ["恋愛", "リア充"]
+        },
+        {
+          "text": "巻き込みBeReal",
+          "position": "opening",
+          "reality": "友達を撮ることで「友達が多い自分」を演出",
+          "example": "巻き込みBeRealごめん🙏 みんな可愛すぎ",
+          "intensity": 3,
+          "tags": ["友達", "リア充"]
+        },
+        {
+          "text": "彼にBeReal撮られた",
+          "position": "opening",
+          "reality": "「撮られた」受動態で彼氏の存在をさりげなく…ではなく堂々と報告",
+          "example": "彼にBeReal撮られた😂 盛れてない",
+          "intensity": 4,
+          "tags": ["恋愛", "リア充"]
+        },
+        {
+          "text": "インカメ：友達　アウトカメ：絶景",
+          "position": "middle",
+          "reality": "友達と絶景の二重自慢。BeRealの二画面を最大限活用",
+          "example": "インカメ：友達　アウトカメ：海　最高すぎない？",
+          "intensity": 4,
+          "tags": ["友達", "旅行", "リア充"]
+        },
+        {
+          "text": "推しと同じ時間にBeReal",
+          "position": "opening",
+          "reality": "推しがBeRealを投稿した時間帯に自分も投稿して一方的な繋がりを感じる",
+          "example": "推しと同じ時間にBeReal撮れた運命🥹",
+          "intensity": 3,
+          "tags": ["推し", "偶然装い"]
+        }
+      ]
+    },
+    {
+      "id": "meta_commentary",
+      "name": "メタ構文",
+      "description": "BeRealというアプリ自体についてコメントする構文。アプリへの愛着と文句が同居。",
+      "phrases": [
+        {
+          "text": "BeRealのタイミングだけは読めない",
+          "position": "opening",
+          "reality": "読めないと言いつつ大体の時間帯は把握している常連ユーザー",
+          "example": "BeRealのタイミングだけは読めない。なぜ今。",
+          "intensity": 2,
+          "tags": ["メタ", "アプリ"]
+        },
+        {
+          "text": "BeRealの民度高くて好き",
+          "position": "opening",
+          "reality": "民度が高いのではなくユーザーが少ないだけ。過疎を平和と呼ぶ技術",
+          "example": "BeRealの民度高くて好き。インスタ疲れにはこれ。",
+          "intensity": 4,
+          "tags": ["メタ", "プラットフォーム比較"]
+        },
+        {
+          "text": "BeRealやってる人少なすぎ",
+          "position": "closing",
+          "reality": "少数派であることに優越感を感じつつ、寂しさも混在",
+          "example": "友達でBeRealやってる人少なすぎて見る専になりつつある",
+          "intensity": 3,
+          "tags": ["メタ", "過疎"]
+        },
+        {
+          "text": "これがSNSの正解",
+          "position": "closing",
+          "reality": "正解のSNSなのにユーザー数が伸びない矛盾には触れない",
+          "example": "盛らない、比べない。これがSNSの正解だと思う。",
+          "intensity": 5,
+          "tags": ["メタ", "意識高い"]
+        },
+        {
+          "text": "他のSNS全部やめてBeRealだけにしたい",
+          "position": "closing",
+          "reality": "やめない。インスタもXも続けながらBeRealを持ち上げるポーズ",
+          "example": "他のSNS全部やめてBeRealだけにしたい。これだけでいい。",
+          "intensity": 4,
+          "tags": ["メタ", "プラットフォーム比較"]
+        },
+        {
+          "text": "BeReal映え",
+          "position": "middle",
+          "reality": "「映えない」が売りのアプリで「映え」を追求する倒錯",
+          "example": "これBeReal映えじゃない？笑",
+          "intensity": 4,
+          "tags": ["メタ", "矛盾"]
+        }
+      ]
+    }
+  ]
+}

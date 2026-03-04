@@ -293,7 +293,7 @@
       "phrases": [
         {
           "text": "○○ | △△ | Helping [対象] [動詞]",
-          "position": "profile",
+          "position": "middle",
           "reality": "パイプ区切りで肩書きを盛る。実態より3倍立派に見える魔法の記号",
           "example": "CEO | Author | Speaker | Helping Leaders Transform Organizations",
           "intensity": 4,
@@ -304,7 +304,7 @@
         },
         {
           "text": "Empowering [対象] to [動詞]",
-          "position": "profile",
+          "position": "middle",
           "reality": "「Empower」はLinkedIn最頻出バズワード。具体的に何をしているか不明",
           "example": "Empowering entrepreneurs to build sustainable businesses",
           "intensity": 4,
@@ -315,7 +315,7 @@
         },
         {
           "text": "Passionate about [トピック]",
-          "position": "profile",
+          "position": "middle",
           "reality": "「情熱」を自称する時点で胡散臭い。リクルーターが最も嫌う表現の一つ",
           "example": "Passionate about innovation, digital transformation, and people development",
           "intensity": 3,
@@ -327,7 +327,7 @@
         },
         {
           "text": "Serial Entrepreneur",
-          "position": "profile",
+          "position": "middle",
           "reality": "複数回起業した＝複数回失敗した可能性。しかしLinkedInでは称号",
           "example": "Serial Entrepreneur | 3x Founder | Angel Investor",
           "intensity": 4,
@@ -338,7 +338,7 @@
         },
         {
           "text": "Thought Leader",
-          "position": "profile",
+          "position": "middle",
           "reality": "自称するものではない称号を自称する。本物のthought leaderはこう名乗らない",
           "example": "Thought Leader in Digital Transformation | Keynote Speaker",
           "intensity": 5,
@@ -349,7 +349,7 @@
         },
         {
           "text": "Results-driven",
-          "position": "profile",
+          "position": "middle",
           "reality": "結果重視じゃない人はいない。意味のない修飾語の代表格",
           "example": "Results-driven Marketing Leader with 15+ years of experience",
           "intensity": 2,
@@ -361,7 +361,7 @@
         },
         {
           "text": "Guru / Ninja / Rockstar",
-          "position": "profile",
+          "position": "middle",
           "reality": "LinkedIn黎明期に流行したが今や嘲笑対象。まだ使っている人がいる",
           "example": "Social Media Guru | Content Ninja | Marketing Rockstar",
           "intensity": 5,
@@ -373,7 +373,7 @@
         },
         {
           "text": "○○のプロフェッショナル",
-          "position": "profile",
+          "position": "middle",
           "reality": "日本語版のバズワード。具体的実績なしに「プロ」を自称",
           "example": "デジタルマーケティングのプロフェッショナル | DX推進 | 組織変革",
           "intensity": 3,

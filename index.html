@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SNS構文ミュージアム — テンプレ構文531個の標本展示室</title>
-  <meta name="description" content="SNS各プラットフォームの「いやらしい」テンプレ構文531個をデータベース化。閲覧・フローチャート・文章変換ジェネレーター。">
-  <meta property="og:title" content="SNS構文ミュージアム — 531個のテンプレ構文を丸裸に">
-  <meta property="og:description" content="X・Threads・Instagram・LinkedIn・noteの「いやらしい」テンプレ構文を標本展示。あなたのTLにも潜んでいます。">
+  <title>SNS構文ミュージアム — テンプレ構文の標本展示室</title>
+  <meta name="description" content="21プラットフォームのSNS「いやらしい」テンプレ構文をデータベース化。閲覧・フローチャート・文章変換ジェネレーター。">
+  <meta property="og:title" content="SNS構文ミュージアム — テンプレ構文を丸裸に">
+  <meta property="og:description" content="X・Threads・Instagram・LinkedIn・note・5ch・TikTok他、21プラットフォームのテンプレ構文を標本展示。">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -18,15 +18,15 @@
       <p class="subtitle">テンプレ構文 531個の標本展示室</p>
       <div class="header-stats">
         <div class="header-stat">
-          <div class="header-stat-num">531</div>
+          <div class="header-stat-num" id="stat-phrases">-</div>
           <div class="header-stat-label">構文収録</div>
         </div>
         <div class="header-stat">
-          <div class="header-stat-num">5</div>
+          <div class="header-stat-num" id="stat-platforms">-</div>
           <div class="header-stat-label">プラットフォーム</div>
         </div>
         <div class="header-stat">
-          <div class="header-stat-num">67</div>
+          <div class="header-stat-num" id="stat-categories">-</div>
           <div class="header-stat-label">カテゴリ</div>
         </div>
       </div>
@@ -49,6 +49,22 @@
         <button class="platform-btn" data-platform="instagram">Instagram</button>
         <button class="platform-btn" data-platform="linkedin">LinkedIn</button>
         <button class="platform-btn" data-platform="note_blog">note/Blog</button>
+        <button class="platform-btn" data-platform="facebook">Facebook</button>
+        <button class="platform-btn" data-platform="tiktok">TikTok</button>
+        <button class="platform-btn" data-platform="youtube">YouTube</button>
+        <button class="platform-btn" data-platform="fivech">5ch</button>
+        <button class="platform-btn" data-platform="niconico">ニコニコ</button>
+        <button class="platform-btn" data-platform="line">LINE</button>
+        <button class="platform-btn" data-platform="mercari">メルカリ</button>
+        <button class="platform-btn" data-platform="bereal">BeReal</button>
+        <button class="platform-btn" data-platform="bluesky">Bluesky</button>
+        <button class="platform-btn" data-platform="girls_channel">ガルちゃん</button>
+        <button class="platform-btn" data-platform="komachi">発言小町</button>
+        <button class="platform-btn" data-platform="yahoo_chiebukuro">知恵袋</button>
+        <button class="platform-btn" data-platform="hatena">はてな</button>
+        <button class="platform-btn" data-platform="pixiv">Pixiv</button>
+        <button class="platform-btn" data-platform="lemon8">Lemon8</button>
+        <button class="platform-btn" data-platform="misskey">Misskey</button>
       </div>
 
       <div class="filters">
@@ -89,6 +105,22 @@
         <button class="platform-btn" data-platform="instagram">Instagram</button>
         <button class="platform-btn" data-platform="linkedin">LinkedIn</button>
         <button class="platform-btn" data-platform="note_blog">note/Blog</button>
+        <button class="platform-btn" data-platform="facebook">Facebook</button>
+        <button class="platform-btn" data-platform="tiktok">TikTok</button>
+        <button class="platform-btn" data-platform="youtube">YouTube</button>
+        <button class="platform-btn" data-platform="fivech">5ch</button>
+        <button class="platform-btn" data-platform="niconico">ニコニコ</button>
+        <button class="platform-btn" data-platform="line">LINE</button>
+        <button class="platform-btn" data-platform="mercari">メルカリ</button>
+        <button class="platform-btn" data-platform="bereal">BeReal</button>
+        <button class="platform-btn" data-platform="bluesky">Bluesky</button>
+        <button class="platform-btn" data-platform="girls_channel">ガルちゃん</button>
+        <button class="platform-btn" data-platform="komachi">発言小町</button>
+        <button class="platform-btn" data-platform="yahoo_chiebukuro">知恵袋</button>
+        <button class="platform-btn" data-platform="hatena">はてな</button>
+        <button class="platform-btn" data-platform="pixiv">Pixiv</button>
+        <button class="platform-btn" data-platform="lemon8">Lemon8</button>
+        <button class="platform-btn" data-platform="misskey">Misskey</button>
       </div>
       <p class="fc-instruction">文頭・文中・文末のパーツをそれぞれ1つずつ選んでください。3つ揃うと例文を自動生成します。</p>
       <div class="flowchart-controls">
@@ -117,6 +149,22 @@
             <button class="style-btn" data-style="instagram">Instagram風</button>
             <button class="style-btn" data-style="linkedin">LinkedIn風</button>
             <button class="style-btn" data-style="note_blog">note風</button>
+            <button class="style-btn" data-style="facebook">Facebook風</button>
+            <button class="style-btn" data-style="tiktok">TikTok風</button>
+            <button class="style-btn" data-style="youtube">YouTube風</button>
+            <button class="style-btn" data-style="fivech">5ch風</button>
+            <button class="style-btn" data-style="niconico">ニコニコ風</button>
+            <button class="style-btn" data-style="line">LINE風</button>
+            <button class="style-btn" data-style="mercari">メルカリ風</button>
+            <button class="style-btn" data-style="bereal">BeReal風</button>
+            <button class="style-btn" data-style="bluesky">Bluesky風</button>
+            <button class="style-btn" data-style="girls_channel">ガルちゃん風</button>
+            <button class="style-btn" data-style="komachi">発言小町風</button>
+            <button class="style-btn" data-style="yahoo_chiebukuro">知恵袋風</button>
+            <button class="style-btn" data-style="hatena">はてな風</button>
+            <button class="style-btn" data-style="pixiv">Pixiv風</button>
+            <button class="style-btn" data-style="lemon8">Lemon8風</button>
+            <button class="style-btn" data-style="misskey">Misskey風</button>
           </div>
         </div>
         <div class="generator-actions">
@@ -138,7 +186,7 @@
   </main>
 
   <footer class="footer">
-    <p>SNS構文ミュージアム — 531個のテンプレ構文を標本として展示しています</p>
+    <p>SNS構文ミュージアム — 21プラットフォームのテンプレ構文を標本として展示しています</p>
   </footer>
 
   <script src="js/database.js"></script>

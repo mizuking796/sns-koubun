@@ -1,0 +1,970 @@
+{
+  "platform": "facebook",
+  "platform_name": "Facebook",
+  "description": "中高年男性ユーザーを中心に独特の「おじさん構文」が花開いたSNS。長文ポエム、自慢の謙遜偽装、唐突な感謝表明、絵文字の過剰使用が特徴。近況報告に見せかけた自己顕示欲の発露が日常的に行われ、コメント欄は互いの長文ポエムへの「いいね」交換場と化している。",
+  "categories": [
+    {
+      "id": "gratitude_poem",
+      "name": "感謝ポエム構文",
+      "description": "日常の出来事を壮大に語り、最後に「感謝」で締める中高年定番構文。",
+      "phrases": [
+        {
+          "text": "今日は〇〇な一日でした。感謝。",
+          "position": "closing",
+          "reality": "普通の一日を感動的に演出しているだけ",
+          "example": "今日は素晴らしい仲間と再会できた一日でした。感謝。",
+          "intensity": 3,
+          "tags": [
+            "感謝",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "改めて、人との繋がりに感謝です😄",
+          "position": "closing",
+          "reality": "飲み会に行っただけ",
+          "example": "久しぶりに同期と集まりました。改めて、人との繋がりに感謝です😄",
+          "intensity": 3,
+          "tags": [
+            "感謝",
+            "絵文字"
+          ]
+        },
+        {
+          "text": "こうして振り返ると、",
+          "position": "opening",
+          "reality": "大した振り返りではない",
+          "example": "こうして振り返ると、自分は本当に恵まれているなと感じます。",
+          "intensity": 2,
+          "tags": [
+            "ポエム",
+            "自己陶酔"
+          ]
+        },
+        {
+          "text": "全てに感謝🙏",
+          "position": "closing",
+          "reality": "具体的に何に感謝しているか不明",
+          "example": "今年も残りわずか。全てに感謝🙏",
+          "intensity": 4,
+          "tags": [
+            "感謝",
+            "絵文字"
+          ]
+        },
+        {
+          "text": "〇〇に心から感謝です",
+          "position": "closing",
+          "reality": "「心から」を付けることで深みを演出",
+          "example": "支えてくれた家族に心から感謝です。",
+          "intensity": 3,
+          "tags": [
+            "感謝",
+            "定型"
+          ]
+        },
+        {
+          "text": "出会いに感謝❗",
+          "position": "closing",
+          "reality": "名刺交換しただけの関係",
+          "example": "素敵な方々との出会いに感謝❗これからもよろしくお願いします😊",
+          "intensity": 3,
+          "tags": [
+            "感謝",
+            "社交辞令"
+          ]
+        },
+        {
+          "text": "当たり前の日常がいかにありがたいか",
+          "position": "middle",
+          "reality": "ちょっと体調を崩しただけ",
+          "example": "風邪を引いて気づきました。当たり前の日常がいかにありがたいか。",
+          "intensity": 3,
+          "tags": [
+            "ポエム",
+            "気づき"
+          ]
+        },
+        {
+          "text": "この歳になって改めて思うのは",
+          "position": "opening",
+          "reality": "年齢マウントを交えた感謝ポエムの前振り",
+          "example": "この歳になって改めて思うのは、健康が一番の財産だということ。",
+          "intensity": 2,
+          "tags": [
+            "年齢",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "ありがとう、ただそれだけ。",
+          "position": "closing",
+          "reality": "ポエム的に締めたいだけで具体性ゼロ",
+          "example": "色々あったけど…ありがとう、ただそれだけ。",
+          "intensity": 4,
+          "tags": [
+            "感謝",
+            "ポエム"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "humble_brag",
+      "name": "謙遜偽装マウント構文",
+      "description": "謙遜のフリをしながら自慢を忍ばせる高度なテクニック。",
+      "phrases": [
+        {
+          "text": "自慢とかではないのですが",
+          "position": "opening",
+          "reality": "完全に自慢",
+          "example": "自慢とかではないのですが、部長に昇進しました😄",
+          "intensity": 4,
+          "tags": [
+            "謙遜偽装",
+            "自慢"
+          ]
+        },
+        {
+          "text": "たまたまなんですが",
+          "position": "opening",
+          "reality": "全くたまたまではない計画的投稿",
+          "example": "たまたまなんですが、ハワイで撮った写真が出てきました🌺",
+          "intensity": 3,
+          "tags": [
+            "謙遜偽装",
+            "旅行"
+          ]
+        },
+        {
+          "text": "まだまだ未熟ですが",
+          "position": "opening",
+          "reality": "成果を見せびらかしたいだけ",
+          "example": "まだまだ未熟ですが、フルマラソン完走できました💪",
+          "intensity": 3,
+          "tags": [
+            "謙遜偽装",
+            "達成"
+          ]
+        },
+        {
+          "text": "恥ずかしながら",
+          "position": "opening",
+          "reality": "全く恥ずかしくない良い報告",
+          "example": "恥ずかしながら、本を出版させていただきました📕",
+          "intensity": 4,
+          "tags": [
+            "謙遜偽装",
+            "自慢"
+          ]
+        },
+        {
+          "text": "身に余る光栄ですが",
+          "position": "opening",
+          "reality": "自ら受賞報告をSNSに上げる時点で謙虚さはない",
+          "example": "身に余る光栄ですが、〇〇賞をいただきました🏆",
+          "intensity": 4,
+          "tags": [
+            "謙遜偽装",
+            "受賞"
+          ]
+        },
+        {
+          "text": "お恥ずかしい話ですが",
+          "position": "opening",
+          "reality": "本当に恥ずかしいことは書かない",
+          "example": "お恥ずかしい話ですが、取材を受けました📺",
+          "intensity": 4,
+          "tags": [
+            "謙遜偽装",
+            "メディア"
+          ]
+        },
+        {
+          "text": "まだまだ勉強中ですが",
+          "position": "opening",
+          "reality": "十分できることを見せたいだけ",
+          "example": "まだまだ勉強中ですが、ゴルフでベストスコア更新しました⛳",
+          "intensity": 3,
+          "tags": [
+            "謙遜偽装",
+            "趣味"
+          ]
+        },
+        {
+          "text": "大したことではないのですが",
+          "position": "opening",
+          "reality": "大したことだと思っているから投稿している",
+          "example": "大したことではないのですが、娘が東大に合格しました🌸",
+          "intensity": 5,
+          "tags": [
+            "謙遜偽装",
+            "家族自慢"
+          ]
+        },
+        {
+          "text": "分不相応ですが",
+          "position": "opening",
+          "reality": "相応だと思っているから投稿している",
+          "example": "分不相応ですが、ベンツ納車しました🚗",
+          "intensity": 5,
+          "tags": [
+            "謙遜偽装",
+            "自慢"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emoji_abuse",
+      "name": "絵文字乱用構文",
+      "description": "中高年特有の絵文字センスで文章を装飾。関連性の低い絵文字を大量投入する。",
+      "phrases": [
+        {
+          "text": "😄💕❓",
+          "position": "closing",
+          "reality": "絵文字の意味を理解せず雰囲気で使っている",
+          "example": "今日も元気にがんばるぞ😄💕❓",
+          "intensity": 3,
+          "tags": [
+            "絵文字",
+            "おじさん"
+          ]
+        },
+        {
+          "text": "ナンチャッテ😜",
+          "position": "closing",
+          "reality": "寒いボケへの保険",
+          "example": "俺もまだまだイケるかな❓ナンチャッテ😜",
+          "intensity": 4,
+          "tags": [
+            "絵文字",
+            "おじさん",
+            "寒い"
+          ]
+        },
+        {
+          "text": "（笑）（汗）（泣）",
+          "position": "closing",
+          "reality": "カッコ付き感情表現を未だに多用",
+          "example": "歳は取りたくないね（笑）（汗）",
+          "intensity": 3,
+          "tags": [
+            "おじさん",
+            "旧世代"
+          ]
+        },
+        {
+          "text": "💪😤🔥",
+          "position": "closing",
+          "reality": "やる気を絵文字で補強しないと伝わらないと思っている",
+          "example": "来月のマラソン大会に向けて練習開始💪😤🔥",
+          "intensity": 3,
+          "tags": [
+            "絵文字",
+            "やる気"
+          ]
+        },
+        {
+          "text": "🍺🍻🎶",
+          "position": "closing",
+          "reality": "飲み会報告に必須の3点セット",
+          "example": "今夜は同期と久々の飲み🍺🍻🎶",
+          "intensity": 2,
+          "tags": [
+            "絵文字",
+            "飲み会"
+          ]
+        },
+        {
+          "text": "⤴️⤴️✨",
+          "position": "closing",
+          "reality": "テンション上がってる感を演出したい中高年の必死さ",
+          "example": "気分上々⤴️⤴️✨明日も頑張ろう！",
+          "intensity": 3,
+          "tags": [
+            "絵文字",
+            "テンション"
+          ]
+        },
+        {
+          "text": "🌸🌸🌸",
+          "position": "middle",
+          "reality": "季節の絵文字を3連打するのがおじさんの様式美",
+          "example": "桜が満開でした🌸🌸🌸 春ですね〜",
+          "intensity": 2,
+          "tags": [
+            "絵文字",
+            "季節"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "status_update",
+      "name": "近況報告構文",
+      "description": "誰も聞いていない近況を詳細に報告する定番スタイル。",
+      "phrases": [
+        {
+          "text": "ご無沙汰しております。実は…",
+          "position": "opening",
+          "reality": "ご無沙汰を詫びつつ自分語りを始めるテンプレ",
+          "example": "ご無沙汰しております。実は、転職いたしました。",
+          "intensity": 2,
+          "tags": [
+            "近況",
+            "報告"
+          ]
+        },
+        {
+          "text": "ご報告です！",
+          "position": "opening",
+          "reality": "誰にも求められていない一方的な報告",
+          "example": "ご報告です！この度、独立して会社を設立しました🎉",
+          "intensity": 3,
+          "tags": [
+            "報告",
+            "自慢"
+          ]
+        },
+        {
+          "text": "近況をアップします",
+          "position": "opening",
+          "reality": "日記代わりにSNSを使っている",
+          "example": "近況をアップします。先日〇〇に行ってきました。",
+          "intensity": 2,
+          "tags": [
+            "近況",
+            "日記"
+          ]
+        },
+        {
+          "text": "この場を借りてご報告させていただきます",
+          "position": "opening",
+          "reality": "Facebookを公式発表の場だと思っている",
+          "example": "この場を借りてご報告させていただきます。結婚いたしました💒",
+          "intensity": 3,
+          "tags": [
+            "報告",
+            "公式感"
+          ]
+        },
+        {
+          "text": "今さらですが",
+          "position": "opening",
+          "reality": "タイムリーに投稿できなかった言い訳",
+          "example": "今さらですが、先月のハワイ旅行の写真をアップします🌴",
+          "intensity": 2,
+          "tags": [
+            "近況",
+            "遅延"
+          ]
+        },
+        {
+          "text": "久々の投稿です",
+          "position": "opening",
+          "reality": "復帰宣言だが誰も気にしていない",
+          "example": "久々の投稿です。元気にしてますよ〜😊",
+          "intensity": 2,
+          "tags": [
+            "近況",
+            "復帰"
+          ]
+        },
+        {
+          "text": "私事ですが",
+          "position": "opening",
+          "reality": "SNSの投稿は全て私事である",
+          "example": "私事ですが、孫が生まれました👶",
+          "intensity": 2,
+          "tags": [
+            "報告",
+            "私事"
+          ]
+        },
+        {
+          "text": "〇〇歳になりました",
+          "position": "opening",
+          "reality": "誕生日に大量の「おめでとう」コメントを集める儀式",
+          "example": "55歳になりました🎂 まだまだ若いつもりです（笑）",
+          "intensity": 3,
+          "tags": [
+            "誕生日",
+            "年齢"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life_philosophy",
+      "name": "人生訓ポエム構文",
+      "description": "経験から得た（つもりの）教訓を語りたがる中高年の定番。",
+      "phrases": [
+        {
+          "text": "人生で大事なのは",
+          "position": "opening",
+          "reality": "ネットで見た名言の受け売り",
+          "example": "人生で大事なのは、お金じゃない。信頼だ。",
+          "intensity": 3,
+          "tags": [
+            "人生訓",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "つくづく思う。",
+          "position": "opening",
+          "reality": "深い思索の結果ではなく酒を飲んで感傷的になっただけ",
+          "example": "つくづく思う。仲間って大事だな。",
+          "intensity": 3,
+          "tags": [
+            "ポエム",
+            "感傷"
+          ]
+        },
+        {
+          "text": "若い頃の自分に言いたい。",
+          "position": "opening",
+          "reality": "若い人に対するマウント",
+          "example": "若い頃の自分に言いたい。もっと挑戦しろ、と。",
+          "intensity": 4,
+          "tags": [
+            "人生訓",
+            "マウント"
+          ]
+        },
+        {
+          "text": "〇〇年生きてきて思うこと",
+          "position": "opening",
+          "reality": "年齢を経験値として振りかざす",
+          "example": "50年生きてきて思うこと。結局、人は一人では生きられない。",
+          "intensity": 4,
+          "tags": [
+            "人生訓",
+            "年齢マウント"
+          ]
+        },
+        {
+          "text": "歳を重ねるほどに",
+          "position": "opening",
+          "reality": "老化を肯定的に語りたいだけ",
+          "example": "歳を重ねるほどに、人の温かさが身に沁みる。",
+          "intensity": 3,
+          "tags": [
+            "ポエム",
+            "年齢"
+          ]
+        },
+        {
+          "text": "これだけは覚えておいてほしい",
+          "position": "opening",
+          "reality": "説教したいだけ",
+          "example": "これだけは覚えておいてほしい。努力は裏切らない。",
+          "intensity": 4,
+          "tags": [
+            "人生訓",
+            "説教"
+          ]
+        },
+        {
+          "text": "…それが人生というものだ。",
+          "position": "closing",
+          "reality": "締めの言葉が壮大すぎて内容が追いついていない",
+          "example": "うまくいく日もあれば、そうでない日もある。…それが人生というものだ。",
+          "intensity": 4,
+          "tags": [
+            "ポエム",
+            "壮大"
+          ]
+        },
+        {
+          "text": "結局、最後に残るのは〇〇だけ",
+          "position": "closing",
+          "reality": "壮大に語るが内容は薄い",
+          "example": "結局、最後に残るのは人間関係だけなんだよな。",
+          "intensity": 4,
+          "tags": [
+            "人生訓",
+            "壮大"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food_report",
+      "name": "飲食レポート構文",
+      "description": "食事の写真と共に投稿される定型文。おじさんの食レポは情報量が少ない。",
+      "phrases": [
+        {
+          "text": "今日のランチ🍽️",
+          "position": "opening",
+          "reality": "誰も聞いていないランチ報告",
+          "example": "今日のランチ🍽️ 行きつけのイタリアンで。",
+          "intensity": 2,
+          "tags": [
+            "食事",
+            "報告"
+          ]
+        },
+        {
+          "text": "うまい！！！",
+          "position": "closing",
+          "reality": "語彙力が「うまい」しかない",
+          "example": "焼肉食べてきました。うまい！！！🥩🔥",
+          "intensity": 2,
+          "tags": [
+            "食事",
+            "語彙力"
+          ]
+        },
+        {
+          "text": "これ、絶品です👍",
+          "position": "closing",
+          "reality": "食レポとしての情報量がゼロ",
+          "example": "銀座の寿司屋に行きました。これ、絶品です👍",
+          "intensity": 2,
+          "tags": [
+            "食事",
+            "グルメ"
+          ]
+        },
+        {
+          "text": "至福のひととき☕",
+          "position": "closing",
+          "reality": "スタバでコーヒーを飲んでいるだけ",
+          "example": "休日のカフェタイム。至福のひととき☕",
+          "intensity": 3,
+          "tags": [
+            "食事",
+            "ポエム"
+          ]
+        },
+        {
+          "text": "今宵は",
+          "position": "opening",
+          "reality": "急に文語体を使い始める",
+          "example": "今宵は、赤ワインとチーズで乾杯🍷",
+          "intensity": 3,
+          "tags": [
+            "食事",
+            "文語体"
+          ]
+        },
+        {
+          "text": "自分へのご褒美💕",
+          "position": "closing",
+          "reality": "ご褒美の頻度が高すぎる",
+          "example": "頑張った自分へのご褒美💕 高級焼肉！",
+          "intensity": 3,
+          "tags": [
+            "食事",
+            "ご褒美"
+          ]
+        },
+        {
+          "text": "最高かよ✨",
+          "position": "closing",
+          "reality": "「最高」の安売り",
+          "example": "週末のBBQ。最高かよ✨🍖",
+          "intensity": 3,
+          "tags": [
+            "食事",
+            "テンション"
+          ]
+        },
+        {
+          "text": "大人の〇〇",
+          "position": "opening",
+          "reality": "「大人の」を付けることで上質感を演出したいおじさん",
+          "example": "大人のかき氷🍧 日本酒シロップが絶品でした。",
+          "intensity": 3,
+          "tags": [
+            "食事",
+            "大人"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "like_solicitation",
+      "name": "いいね乞い構文",
+      "description": "直接的・間接的に「いいね」やコメントを求める構文。",
+      "phrases": [
+        {
+          "text": "いいねしてくれると嬉しいです😊",
+          "position": "closing",
+          "reality": "承認欲求を直接ぶつけている",
+          "example": "写真アップしました！いいねしてくれると嬉しいです😊",
+          "intensity": 3,
+          "tags": [
+            "いいね乞い",
+            "承認欲求"
+          ]
+        },
+        {
+          "text": "シェアしていただけると幸いです",
+          "position": "closing",
+          "reality": "拡散してほしいという露骨なお願い",
+          "example": "こちらの記事、シェアしていただけると幸いです🙏",
+          "intensity": 3,
+          "tags": [
+            "シェア",
+            "拡散"
+          ]
+        },
+        {
+          "text": "皆さんはどう思いますか❓",
+          "position": "closing",
+          "reality": "コメント数を稼ぎたいだけ",
+          "example": "最近の若者は元気がない気がするけど、皆さんはどう思いますか❓",
+          "intensity": 3,
+          "tags": [
+            "いいね乞い",
+            "質問形式"
+          ]
+        },
+        {
+          "text": "コメントお待ちしてます！",
+          "position": "closing",
+          "reality": "エンゲージメントが欲しいと正直に言えない",
+          "example": "旅行の写真まとめました📸 コメントお待ちしてます！",
+          "intensity": 3,
+          "tags": [
+            "いいね乞い",
+            "コメント"
+          ]
+        },
+        {
+          "text": "良かったらフォローお願いします🤲",
+          "position": "closing",
+          "reality": "友達が増えないことへの焦り",
+          "example": "これからも日常を発信していきます。良かったらフォローお願いします🤲",
+          "intensity": 3,
+          "tags": [
+            "フォロー",
+            "お願い"
+          ]
+        },
+        {
+          "text": "共感してくれたらいいね👍",
+          "position": "closing",
+          "reality": "いいねの条件を提示することで押させやすくする心理テクニック",
+          "example": "朝活って最高だよね。共感してくれたらいいね👍",
+          "intensity": 4,
+          "tags": [
+            "いいね乞い",
+            "条件付き"
+          ]
+        },
+        {
+          "text": "拡散希望🙏",
+          "position": "opening",
+          "reality": "Facebookで拡散を求める中高年の必死さ",
+          "example": "拡散希望🙏 地元のイベントです！",
+          "intensity": 4,
+          "tags": [
+            "拡散",
+            "お願い"
+          ]
+        },
+        {
+          "text": "友達にもシェアしてね！",
+          "position": "closing",
+          "reality": "リーチを広げたい露骨なお願い",
+          "example": "この情報は大事！友達にもシェアしてね！",
+          "intensity": 3,
+          "tags": [
+            "シェア",
+            "拡散"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "event_report",
+      "name": "イベント報告構文",
+      "description": "セミナー・勉強会・交流会の参加報告。集合写真と共に投稿される。",
+      "phrases": [
+        {
+          "text": "〇〇に参加してきました！学びが多い！",
+          "position": "opening",
+          "reality": "具体的に何を学んだか書かない",
+          "example": "マーケティングセミナーに参加してきました！学びが多い！",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "学び"
+          ]
+        },
+        {
+          "text": "刺激をもらいました🔥",
+          "position": "closing",
+          "reality": "刺激の具体的内容は不明",
+          "example": "異業種交流会に参加。刺激をもらいました🔥",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "刺激"
+          ]
+        },
+        {
+          "text": "最高の仲間たちと📸",
+          "position": "opening",
+          "reality": "名刺交換しただけの相手を「仲間」と呼ぶ",
+          "example": "最高の仲間たちと📸 また集まろう！",
+          "intensity": 4,
+          "tags": [
+            "イベント",
+            "仲間"
+          ]
+        },
+        {
+          "text": "素敵なご縁をいただきました",
+          "position": "closing",
+          "reality": "二度と会わない人との社交辞令",
+          "example": "交流会で素敵なご縁をいただきました。感謝🙏",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "ご縁"
+          ]
+        },
+        {
+          "text": "インプットの一日！",
+          "position": "closing",
+          "reality": "アウトプットは永遠に来ない",
+          "example": "セミナー3本ハシゴ。インプットの一日！",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "意識高い"
+          ]
+        },
+        {
+          "text": "気づきの連続でした",
+          "position": "closing",
+          "reality": "当たり前のことを再発見しただけ",
+          "example": "リーダーシップ研修を受講。気づきの連続でした。",
+          "intensity": 3,
+          "tags": [
+            "イベント",
+            "気づき"
+          ]
+        },
+        {
+          "text": "ワクワクが止まらない！",
+          "position": "closing",
+          "reality": "3日後にはその熱量はゼロ",
+          "example": "新しいプロジェクトの打ち合わせ。ワクワクが止まらない！",
+          "intensity": 4,
+          "tags": [
+            "イベント",
+            "テンション"
+          ]
+        },
+        {
+          "text": "アウトプットしていきます💪",
+          "position": "closing",
+          "reality": "アウトプットは永遠にされない",
+          "example": "学んだことをしっかりアウトプットしていきます💪",
+          "intensity": 4,
+          "tags": [
+            "イベント",
+            "意識高い"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasonal_greeting",
+      "name": "季節の挨拶構文",
+      "description": "年賀状の延長でSNSに投稿される季節の定型文。",
+      "phrases": [
+        {
+          "text": "あけましておめでとうございます🎍",
+          "position": "opening",
+          "reality": "全SNSに同じ文面をコピペ",
+          "example": "あけましておめでとうございます🎍 今年もよろしくお願いします！",
+          "intensity": 2,
+          "tags": [
+            "季節",
+            "正月"
+          ]
+        },
+        {
+          "text": "今年の抱負は〇〇です",
+          "position": "opening",
+          "reality": "去年の抱負の達成報告は一切ない",
+          "example": "今年の抱負は「挑戦」です。攻めの一年にします💪",
+          "intensity": 3,
+          "tags": [
+            "季節",
+            "抱負"
+          ]
+        },
+        {
+          "text": "桜が綺麗ですね🌸",
+          "position": "opening",
+          "reality": "桜の写真を撮らないと春を迎えられない強迫観念",
+          "example": "桜が綺麗ですね🌸 今年もこの季節がやってきました。",
+          "intensity": 2,
+          "tags": [
+            "季節",
+            "桜"
+          ]
+        },
+        {
+          "text": "今年もあと〇日",
+          "position": "opening",
+          "reality": "カウントダウンすることで一年を振り返る風を装う",
+          "example": "今年もあと3日。色々あったけど、良い一年でした。",
+          "intensity": 2,
+          "tags": [
+            "季節",
+            "年末"
+          ]
+        },
+        {
+          "text": "夏バテしてませんか❓😅",
+          "position": "opening",
+          "reality": "自分の投稿のきっかけ作りに季節を利用",
+          "example": "夏バテしてませんか❓😅 私は元気にゴルフしてます⛳",
+          "intensity": 3,
+          "tags": [
+            "季節",
+            "おじさん"
+          ]
+        },
+        {
+          "text": "今年一年ありがとうございました🙇",
+          "position": "opening",
+          "reality": "年末恒例の感謝長文ポエムの始まり",
+          "example": "今年一年ありがとうございました🙇 振り返ると激動の一年でした…",
+          "intensity": 3,
+          "tags": [
+            "季節",
+            "年末",
+            "感謝"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comment_template",
+      "name": "コメント定型文構文",
+      "description": "他人の投稿へのコメントも完全にテンプレ化している。",
+      "phrases": [
+        {
+          "text": "素敵ですね✨",
+          "position": "closing",
+          "reality": "投稿を3秒しか見ていない",
+          "example": "（旅行写真に対して）素敵ですね✨",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "定型"
+          ]
+        },
+        {
+          "text": "さすがですね👏",
+          "position": "closing",
+          "reality": "とりあえず褒めておく社交辞令",
+          "example": "（昇進報告に対して）さすがですね👏 おめでとうございます！",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "社交辞令"
+          ]
+        },
+        {
+          "text": "今度ご一緒しましょう！",
+          "position": "closing",
+          "reality": "実現する確率はほぼゼロ",
+          "example": "美味しそう！今度ご一緒しましょう！",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "社交辞令"
+          ]
+        },
+        {
+          "text": "いつも応援してます📣",
+          "position": "closing",
+          "reality": "いいねを押す以外の応援はしない",
+          "example": "頑張ってますね！いつも応援してます📣",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "応援"
+          ]
+        },
+        {
+          "text": "元気そうで何よりです😊",
+          "position": "closing",
+          "reality": "特に心配していたわけではない",
+          "example": "お久しぶりです！元気そうで何よりです😊",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "定型"
+          ]
+        },
+        {
+          "text": "勉強になります🙏",
+          "position": "closing",
+          "reality": "何が勉強になったか具体的に言えない",
+          "example": "なるほど〜！勉強になります🙏",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "社交辞令"
+          ]
+        },
+        {
+          "text": "お体に気をつけて！",
+          "position": "closing",
+          "reality": "締めの言葉に困ったときの万能フレーズ",
+          "example": "お忙しそうですね。お体に気をつけて！",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "定型"
+          ]
+        },
+        {
+          "text": "いいですね〜👍",
+          "position": "closing",
+          "reality": "何がいいのか具体性ゼロ",
+          "example": "（BBQ写真に対して）いいですね〜👍 楽しそう！",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "定型"
+          ]
+        },
+        {
+          "text": "流石の一言です👏",
+          "position": "closing",
+          "reality": "「さすが」を漢字にすることで知性を演出",
+          "example": "（昇進報告に対して）流石の一言です👏",
+          "intensity": 2,
+          "tags": [
+            "コメント",
+            "社交辞令"
+          ]
+        },
+        {
+          "text": "刺激をもらいました！",
+          "position": "closing",
+          "reality": "何に刺激を受けたか不明",
+          "example": "（セミナー報告に対して）刺激をもらいました！私も頑張ります！",
+          "intensity": 3,
+          "tags": [
+            "コメント",
+            "刺激"
+          ]
+        }
+      ]
+    }
+  ]
+}

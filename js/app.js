@@ -20,6 +20,14 @@ const App = (() => {
 (async () => {
   await Database.loadAll();
 
+  // Dynamic header stats
+  const allPhrases = Database.getAllPhrases();
+  const platformCount = Object.keys(Database.allData).length;
+  const catSet = new Set(allPhrases.map(p => p.category));
+  document.getElementById('stat-phrases').textContent = allPhrases.length;
+  document.getElementById('stat-platforms').textContent = platformCount;
+  document.getElementById('stat-categories').textContent = catSet.size;
+
   Database.init();
   Flowchart.init();
   Generator.init();

@@ -1,0 +1,957 @@
+{
+  "platform": "niconico",
+  "platform_name": "ニコニコ動画",
+  "description": "動画上に流れるコメント（弾幕）文化を生み出した日本独自の動画プラットフォーム。「草」「8888」等の短文コメント、「〇〇してみた」等の動画タイトル構文、「もっと評価されるべき」等のタグ文化が特徴。初期ネット文化の空気を色濃く残し、ボカロ・MAD・歌ってみた等の投稿者文化が根付いている。",
+  "categories": [
+    {
+      "id": "danmaku_basic",
+      "name": "弾幕コメント基本構文",
+      "description": "動画上に流れる短文コメントの定番。一瞬で意味が伝わる簡潔さが命。",
+      "phrases": [
+        {
+          "text": "草",
+          "position": "middle",
+          "reality": "笑いの表現として完全に定着した一文字",
+          "example": "（面白い場面で）草",
+          "intensity": 1,
+          "tags": [
+            "弾幕",
+            "笑い"
+          ]
+        },
+        {
+          "text": "草草草",
+          "position": "middle",
+          "reality": "笑いの強度を文字数で表現",
+          "example": "（非常に面白い場面で）草草草草草草草",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "笑い"
+          ]
+        },
+        {
+          "text": "8888888888",
+          "position": "closing",
+          "reality": "拍手の擬音。動画終了時の定番",
+          "example": "（演奏終了後）88888888888",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "拍手"
+          ]
+        },
+        {
+          "text": "ここすき",
+          "position": "middle",
+          "reality": "特定の瞬間への愛を2文字で表現する効率",
+          "example": "（お気に入りの瞬間で）ここすき",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "好き"
+          ]
+        },
+        {
+          "text": "wwwww",
+          "position": "middle",
+          "reality": "「草」以前から存在する笑い表現の元祖",
+          "example": "（ネタ場面で）wwwwwwwww",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "笑い"
+          ]
+        },
+        {
+          "text": "うぽつ",
+          "position": "opening",
+          "reality": "「うp（アップロード）おつ（お疲れ）」の略",
+          "example": "うぽつです！待ってました！",
+          "intensity": 1,
+          "tags": [
+            "弾幕",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "おつ",
+          "position": "closing",
+          "reality": "動画終了時の「お疲れ様」の最短形",
+          "example": "おつおつ。次回も楽しみにしてる。",
+          "intensity": 1,
+          "tags": [
+            "弾幕",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "!?",
+          "position": "middle",
+          "reality": "驚きを記号だけで表現する弾幕",
+          "example": "（予想外の展開で）!?!?!?",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "驚き"
+          ]
+        },
+        {
+          "text": "すこ",
+          "position": "middle",
+          "reality": "「好き」の変形。一文字で愛を表す",
+          "example": "（お気に入り場面で）すこすこのすこ",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "好き"
+          ]
+        },
+        {
+          "text": "は？",
+          "position": "middle",
+          "reality": "困惑を一文字で表す弾幕の極致",
+          "example": "（理不尽な展開で）は？",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "困惑"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "danmaku_advanced",
+      "name": "弾幕コメント上級構文",
+      "description": "特定の場面で使われる文脈依存型のコメント。",
+      "phrases": [
+        {
+          "text": "主コメ",
+          "position": "opening",
+          "reality": "投稿者コメントを読むよう促す弾幕",
+          "example": "主コメ読め。ネタバレ注意って書いてあるぞ。",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "指示"
+          ]
+        },
+        {
+          "text": "ここからが本番",
+          "position": "middle",
+          "reality": "動画の盛り上がりポイントを予告する常連の弾幕",
+          "example": "ここからが本番。鳥肌注意。",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "予告"
+          ]
+        },
+        {
+          "text": "鳥肌たった",
+          "position": "middle",
+          "reality": "感動の最大級表現",
+          "example": "（サビで）鳥肌たった…",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "感動"
+          ]
+        },
+        {
+          "text": "ループ不可避",
+          "position": "closing",
+          "reality": "何度も見返してしまう中毒性への言及",
+          "example": "またここに来てしまった。ループ不可避。",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "中毒"
+          ]
+        },
+        {
+          "text": "神回",
+          "position": "closing",
+          "reality": "素晴らしい回への最上級評価",
+          "example": "これは神回。保存余裕でした。",
+          "intensity": 4,
+          "tags": [
+            "弾幕",
+            "評価"
+          ]
+        },
+        {
+          "text": "耳が幸せ",
+          "position": "middle",
+          "reality": "音楽系動画での定番コメント",
+          "example": "イヤホン推奨。耳が幸せ。",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "音楽"
+          ]
+        },
+        {
+          "text": "ここ泣ける",
+          "position": "middle",
+          "reality": "感動ポイントの共有",
+          "example": "何回見てもここ泣ける。",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "感動"
+          ]
+        },
+        {
+          "text": "定期的に見たくなる",
+          "position": "closing",
+          "reality": "懐かしい動画への回帰を表明",
+          "example": "半年ぶりに来た。定期的に見たくなる。",
+          "intensity": 2,
+          "tags": [
+            "弾幕",
+            "回帰"
+          ]
+        },
+        {
+          "text": "これがニコニコだよ",
+          "position": "closing",
+          "reality": "ニコニコらしさを感じた時の誇りの表明",
+          "example": "コメントアートすげぇ…これがニコニコだよ。",
+          "intensity": 3,
+          "tags": [
+            "弾幕",
+            "文化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video_title",
+      "name": "動画タイトル構文",
+      "description": "ニコニコ動画特有のタイトル付け文化。",
+      "phrases": [
+        {
+          "text": "〇〇してみた",
+          "position": "opening",
+          "reality": "ニコニコが本家の「やってみた」構文",
+          "example": "全力でラジオ体操してみた",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "してみた"
+          ]
+        },
+        {
+          "text": "〇〇を弾いてみた",
+          "position": "opening",
+          "reality": "演奏してみた系の定番",
+          "example": "千本桜をピアノで弾いてみた",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "演奏"
+          ]
+        },
+        {
+          "text": "〇〇歌ってみた",
+          "position": "opening",
+          "reality": "歌い手文化の原点",
+          "example": "シャルルを歌ってみた【初投稿】",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "歌ってみた"
+          ]
+        },
+        {
+          "text": "〇〇MAD",
+          "position": "opening",
+          "reality": "既存素材の再編集動画ジャンル",
+          "example": "ドラえもんMAD【音MAD】",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "MAD"
+          ]
+        },
+        {
+          "text": "【初投稿】",
+          "position": "opening",
+          "reality": "初投稿タグで温かいコメントを期待する",
+          "example": "【初投稿】ボカロ曲作ってみました",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "初投稿"
+          ]
+        },
+        {
+          "text": "〇〇作ってみた",
+          "position": "opening",
+          "reality": "技術系投稿の定番タイトル",
+          "example": "Arduinoで自動餌やり機作ってみた",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "作ってみた"
+          ]
+        },
+        {
+          "text": "〇〇踊ってみた",
+          "position": "opening",
+          "reality": "踊ってみた文化の定番",
+          "example": "恋ダンス踊ってみた【全力】",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "踊ってみた"
+          ]
+        },
+        {
+          "text": "〇〇を○○にしてみた",
+          "position": "opening",
+          "reality": "改変・リミックス系動画の定番",
+          "example": "ドラえもんのBGMをメタルにしてみた",
+          "intensity": 2,
+          "tags": [
+            "タイトル",
+            "改変"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tag_culture",
+      "name": "タグ構文",
+      "description": "ニコニコ独自のタグ文化。視聴者がタグを付けて動画を評価する。",
+      "phrases": [
+        {
+          "text": "もっと評価されるべき",
+          "position": "closing",
+          "reality": "再生数が少ない良作への応援タグ",
+          "example": "（タグ）もっと評価されるべき",
+          "intensity": 3,
+          "tags": [
+            "タグ",
+            "評価"
+          ]
+        },
+        {
+          "text": "野生のプロ",
+          "position": "closing",
+          "reality": "アマチュアなのにプロ並みの技術への賞賛",
+          "example": "（タグ）野生のプロ",
+          "intensity": 4,
+          "tags": [
+            "タグ",
+            "賞賛"
+          ]
+        },
+        {
+          "text": "才能の無駄遣い",
+          "position": "closing",
+          "reality": "くだらないことに高い技術を使う動画への褒め言葉",
+          "example": "（タグ）才能の無駄遣い",
+          "intensity": 4,
+          "tags": [
+            "タグ",
+            "賞賛"
+          ]
+        },
+        {
+          "text": "なぜベストを尽くしたのか",
+          "position": "closing",
+          "reality": "無駄に本気な動画への定番ツッコミタグ",
+          "example": "（タグ）なぜベストを尽くしたのか",
+          "intensity": 4,
+          "tags": [
+            "タグ",
+            "ツッコミ"
+          ]
+        },
+        {
+          "text": "プロの犯行",
+          "position": "closing",
+          "reality": "プロがガチで作った疑惑のある動画へのタグ",
+          "example": "（タグ）プロの犯行",
+          "intensity": 4,
+          "tags": [
+            "タグ",
+            "賞賛"
+          ]
+        },
+        {
+          "text": "神曲",
+          "position": "closing",
+          "reality": "素晴らしい楽曲への最上級評価タグ",
+          "example": "（タグ）神曲",
+          "intensity": 4,
+          "tags": [
+            "タグ",
+            "音楽"
+          ]
+        },
+        {
+          "text": "これは伸びる",
+          "position": "closing",
+          "reality": "再生数が伸びることを予言するタグ",
+          "example": "（タグ）これは伸びる",
+          "intensity": 3,
+          "tags": [
+            "タグ",
+            "予言"
+          ]
+        },
+        {
+          "text": "謎の技術",
+          "position": "closing",
+          "reality": "意味不明だが技術力が高い動画へのタグ",
+          "example": "（タグ）謎の技術",
+          "intensity": 3,
+          "tags": [
+            "タグ",
+            "技術"
+          ]
+        },
+        {
+          "text": "なぜ伸びない",
+          "position": "closing",
+          "reality": "再生数が少ない良作への嘆きタグ",
+          "example": "（タグ）なぜ伸びない",
+          "intensity": 3,
+          "tags": [
+            "タグ",
+            "嘆き"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocaloid_culture",
+      "name": "ボカロ・歌い手構文",
+      "description": "ボーカロイド・歌い手文化から生まれた構文。",
+      "phrases": [
+        {
+          "text": "本家様→sm〇〇",
+          "position": "opening",
+          "reality": "原曲へのリスペクトを示す定型リンク",
+          "example": "本家様→sm12345678 歌わせていただきました。",
+          "intensity": 1,
+          "tags": [
+            "歌い手",
+            "リスペクト"
+          ]
+        },
+        {
+          "text": "歌わせていただきました",
+          "position": "opening",
+          "reality": "謙譲表現で歌ってみた動画を投稿する作法",
+          "example": "大好きな曲を歌わせていただきました。",
+          "intensity": 2,
+          "tags": [
+            "歌い手",
+            "謙譲"
+          ]
+        },
+        {
+          "text": "MIX：〇〇様",
+          "position": "closing",
+          "reality": "概要欄にクレジットを記載する文化",
+          "example": "MIX：○○様 / Encode：△△様",
+          "intensity": 1,
+          "tags": [
+            "歌い手",
+            "クレジット"
+          ]
+        },
+        {
+          "text": "マイリス巡回推奨",
+          "position": "closing",
+          "reality": "投稿者の他の動画も見てほしいという意味",
+          "example": "この人の他の動画もやばい。マイリス巡回推奨。",
+          "intensity": 3,
+          "tags": [
+            "ボカロ",
+            "推奨"
+          ]
+        },
+        {
+          "text": "〇〇の新曲きたああ",
+          "position": "opening",
+          "reality": "推しボカロPの新曲への興奮表現",
+          "example": "まふまふの新曲きたああああああ！！！",
+          "intensity": 4,
+          "tags": [
+            "ボカロ",
+            "興奮"
+          ]
+        },
+        {
+          "text": "殿堂入り",
+          "position": "closing",
+          "reality": "10万再生達成を祝うタグ・コメント",
+          "example": "殿堂入りおめでとうございます！",
+          "intensity": 3,
+          "tags": [
+            "ボカロ",
+            "記録"
+          ]
+        },
+        {
+          "text": "ミリオンおめ！",
+          "position": "closing",
+          "reality": "100万再生達成のお祝い",
+          "example": "ミリオンおめ！この曲大好きです！",
+          "intensity": 3,
+          "tags": [
+            "ボカロ",
+            "記録"
+          ]
+        },
+        {
+          "text": "〇〇の本気",
+          "position": "middle",
+          "reality": "普段と違うクオリティの動画への驚きコメント",
+          "example": "ボカロPの本気。鳥肌立った。",
+          "intensity": 3,
+          "tags": [
+            "ボカロ",
+            "本気"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_commentary",
+      "name": "ゲーム実況構文",
+      "description": "ゲーム実況動画で使われる定番コメント。",
+      "phrases": [
+        {
+          "text": "part1から見てます",
+          "position": "opening",
+          "reality": "古参アピール",
+          "example": "part1から見てます。毎回楽しみにしてます。",
+          "intensity": 2,
+          "tags": [
+            "ゲーム",
+            "古参"
+          ]
+        },
+        {
+          "text": "プロの動き",
+          "position": "middle",
+          "reality": "上手いプレイへの賞賛コメント",
+          "example": "（神プレイに対して）プロの動き。",
+          "intensity": 3,
+          "tags": [
+            "ゲーム",
+            "賞賛"
+          ]
+        },
+        {
+          "text": "これはひどい",
+          "position": "middle",
+          "reality": "下手なプレイや理不尽な展開へのツッコミ",
+          "example": "（ミスプレイに対して）これはひどい",
+          "intensity": 2,
+          "tags": [
+            "ゲーム",
+            "ツッコミ"
+          ]
+        },
+        {
+          "text": "ここからが地獄",
+          "position": "middle",
+          "reality": "先の展開を知っている常連の予告",
+          "example": "初見の人へ。ここからが地獄。",
+          "intensity": 3,
+          "tags": [
+            "ゲーム",
+            "ネタバレ"
+          ]
+        },
+        {
+          "text": "初見殺し",
+          "position": "middle",
+          "reality": "初めてのプレイヤーが引っかかる罠への定番コメント",
+          "example": "（罠に引っかかった場面で）初見殺し乙",
+          "intensity": 2,
+          "tags": [
+            "ゲーム",
+            "初見"
+          ]
+        },
+        {
+          "text": "主の実況好き",
+          "position": "closing",
+          "reality": "実況スタイルへの愛着表明",
+          "example": "主の実況好き。声が聞きやすい。",
+          "intensity": 2,
+          "tags": [
+            "ゲーム",
+            "ファン"
+          ]
+        },
+        {
+          "text": "うまい！",
+          "position": "middle",
+          "reality": "上手いプレイへのシンプルな賞賛",
+          "example": "（神回避に対して）うまい！",
+          "intensity": 2,
+          "tags": [
+            "ゲーム",
+            "賞賛"
+          ]
+        },
+        {
+          "text": "主のツッコミセンス好き",
+          "position": "closing",
+          "reality": "実況者のトーク力への評価",
+          "example": "主のツッコミセンス好きだわwww",
+          "intensity": 2,
+          "tags": [
+            "ゲーム",
+            "センス"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time_travel",
+      "name": "時間旅行構文",
+      "description": "古い動画に後から訪れた視聴者のコメント。",
+      "phrases": [
+        {
+          "text": "〇年後から来ました",
+          "position": "opening",
+          "reality": "投稿年からの経過年数を記すことで時代の流れを感じさせる",
+          "example": "2026年から来ました。まだ色褪せない。",
+          "intensity": 2,
+          "tags": [
+            "時間",
+            "回帰"
+          ]
+        },
+        {
+          "text": "令和になっても見てる",
+          "position": "opening",
+          "reality": "元号を跨いでも見続けている自分を誇示",
+          "example": "令和になっても見てるやつ俺以外におる？",
+          "intensity": 3,
+          "tags": [
+            "時間",
+            "古参"
+          ]
+        },
+        {
+          "text": "何年経っても名作",
+          "position": "closing",
+          "reality": "古い動画への変わらぬ愛を表明",
+          "example": "何年経っても名作。これがニコニコだよ。",
+          "intensity": 3,
+          "tags": [
+            "時間",
+            "名作"
+          ]
+        },
+        {
+          "text": "懐かしすぎて泣いた",
+          "position": "closing",
+          "reality": "ノスタルジーによる感傷",
+          "example": "懐かしすぎて泣いた。あの頃に戻りたい。",
+          "intensity": 3,
+          "tags": [
+            "時間",
+            "ノスタルジー"
+          ]
+        },
+        {
+          "text": "ニコニコの原点",
+          "position": "closing",
+          "reality": "初期の名作動画への敬意",
+          "example": "これこそニコニコの原点。この文化を守りたい。",
+          "intensity": 3,
+          "tags": [
+            "時間",
+            "文化"
+          ]
+        },
+        {
+          "text": "まだ生きてたのかこの動画",
+          "position": "opening",
+          "reality": "削除されていないことへの驚き",
+          "example": "まだ生きてたのかこの動画。永久に残してくれ。",
+          "intensity": 2,
+          "tags": [
+            "時間",
+            "生存"
+          ]
+        },
+        {
+          "text": "古参ワイ、懐かしくて泣く",
+          "position": "closing",
+          "reality": "古参であることの自負とノスタルジー",
+          "example": "古参ワイ、懐かしくて泣く。ニコニコ全盛期だった。",
+          "intensity": 3,
+          "tags": [
+            "時間",
+            "古参"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creator_comment",
+      "name": "投稿者コメント構文",
+      "description": "動画投稿者が概要欄やコメントで使う定型文。",
+      "phrases": [
+        {
+          "text": "初投稿です。よろしくお願いします",
+          "position": "opening",
+          "reality": "コミュニティへの参入挨拶の定型",
+          "example": "初投稿です。よろしくお願いします。至らない点も多いですが…",
+          "intensity": 1,
+          "tags": [
+            "投稿者",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "リクエストがあればコメントで",
+          "position": "closing",
+          "reality": "視聴者参加型を演出",
+          "example": "次に弾いてほしい曲があればコメントで教えてください！",
+          "intensity": 2,
+          "tags": [
+            "投稿者",
+            "リクエスト"
+          ]
+        },
+        {
+          "text": "マイリス登録お願いします",
+          "position": "closing",
+          "reality": "ニコニコ版の「チャンネル登録」",
+          "example": "気に入ったらマイリス登録お願いします！",
+          "intensity": 2,
+          "tags": [
+            "投稿者",
+            "マイリス"
+          ]
+        },
+        {
+          "text": "前作→sm〇〇",
+          "position": "closing",
+          "reality": "シリーズ動画の導線を概要欄に記載",
+          "example": "前作→sm12345678 / 次作→まだ",
+          "intensity": 1,
+          "tags": [
+            "投稿者",
+            "シリーズ"
+          ]
+        },
+        {
+          "text": "宣伝ありがとうございます！",
+          "position": "closing",
+          "reality": "ニコニ広告（宣伝）してくれた人への感謝",
+          "example": "宣伝ありがとうございます！励みになります！",
+          "intensity": 2,
+          "tags": [
+            "投稿者",
+            "感謝"
+          ]
+        },
+        {
+          "text": "素材はお借りしました",
+          "position": "closing",
+          "reality": "使用素材のクレジット表記文化",
+          "example": "BGM・SE等の素材はお借りしました。詳細は動画内にて。",
+          "intensity": 1,
+          "tags": [
+            "投稿者",
+            "クレジット"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meme_phrase",
+      "name": "ネタ・ミーム構文",
+      "description": "ニコニコ発の定番ミーム・ネタフレーズ。",
+      "phrases": [
+        {
+          "text": "だいたいあってる",
+          "position": "closing",
+          "reality": "雑な再現やパロディへの寛容なツッコミ",
+          "example": "（雑コラに対して）だいたいあってる",
+          "intensity": 2,
+          "tags": [
+            "ミーム",
+            "ツッコミ"
+          ]
+        },
+        {
+          "text": "嫌な予感しかしない",
+          "position": "opening",
+          "reality": "タイトルやサムネから不穏さを察知",
+          "example": "このタイトル…嫌な予感しかしない。",
+          "intensity": 2,
+          "tags": [
+            "ミーム",
+            "予感"
+          ]
+        },
+        {
+          "text": "サムネホイホイ",
+          "position": "opening",
+          "reality": "サムネイルに釣られてクリックしたことの告白",
+          "example": "サムネホイホイ。釣られてしまった。",
+          "intensity": 2,
+          "tags": [
+            "ミーム",
+            "サムネ"
+          ]
+        },
+        {
+          "text": "わけがわからないよ",
+          "position": "closing",
+          "reality": "カオスな展開への定番リアクション",
+          "example": "（混沌とした動画に対して）わけがわからないよ",
+          "intensity": 3,
+          "tags": [
+            "ミーム",
+            "混乱"
+          ]
+        },
+        {
+          "text": "予想の斜め上",
+          "position": "middle",
+          "reality": "期待を超えた展開への評価",
+          "example": "オチが予想の斜め上すぎて草",
+          "intensity": 3,
+          "tags": [
+            "ミーム",
+            "展開"
+          ]
+        },
+        {
+          "text": "なにこれすごい",
+          "position": "middle",
+          "reality": "技術的に凄い動画への素直な感想",
+          "example": "なにこれすごい…どうやって作ったの…",
+          "intensity": 3,
+          "tags": [
+            "ミーム",
+            "驚嘆"
+          ]
+        },
+        {
+          "text": "そういうゲームじゃねぇからこれ！",
+          "position": "middle",
+          "reality": "ゲームの想定外の遊び方へのツッコミ",
+          "example": "（RTAで）そういうゲームじゃねぇからこれ！",
+          "intensity": 3,
+          "tags": [
+            "ミーム",
+            "ツッコミ"
+          ]
+        },
+        {
+          "text": "人類には早すぎる動画",
+          "position": "closing",
+          "reality": "理解不能なカオス動画へのタグ的コメント",
+          "example": "（意味不明な動画に対して）人類には早すぎる動画",
+          "intensity": 4,
+          "tags": [
+            "ミーム",
+            "カオス"
+          ]
+        },
+        {
+          "text": "公式が病気",
+          "position": "closing",
+          "reality": "公式がネタに走った動画へのツッコミタグ",
+          "example": "（公式チャンネルのカオス動画に対して）公式が病気",
+          "intensity": 4,
+          "tags": [
+            "ミーム",
+            "公式"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live_streaming",
+      "name": "生放送構文",
+      "description": "ニコニコ生放送（ニコ生）で使われる定番コメント。",
+      "phrases": [
+        {
+          "text": "わこつ",
+          "position": "opening",
+          "reality": "「枠取りお疲れ」の略。生放送開始時の挨拶",
+          "example": "わこつ！今日も楽しみにしてました。",
+          "intensity": 1,
+          "tags": [
+            "生放送",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "初見です",
+          "position": "opening",
+          "reality": "初めて放送を見に来た人の自己申告",
+          "example": "初見です。よろしくお願いします。",
+          "intensity": 1,
+          "tags": [
+            "生放送",
+            "挨拶"
+          ]
+        },
+        {
+          "text": "延長して！",
+          "position": "closing",
+          "reality": "放送時間の延長を求めるリスナーの声",
+          "example": "もう終わり？延長して！",
+          "intensity": 3,
+          "tags": [
+            "生放送",
+            "延長"
+          ]
+        },
+        {
+          "text": "コテハンつけていい？",
+          "position": "opening",
+          "reality": "固定ハンドルネームの使用許可を求める文化",
+          "example": "コテハンつけていい？「〇〇」で参加します。",
+          "intensity": 1,
+          "tags": [
+            "生放送",
+            "コテハン"
+          ]
+        },
+        {
+          "text": "タイムシフト勢です",
+          "position": "opening",
+          "reality": "リアルタイムではなく録画で見ていることの表明",
+          "example": "タイムシフト勢です。面白かった！",
+          "intensity": 1,
+          "tags": [
+            "生放送",
+            "タイムシフト"
+          ]
+        },
+        {
+          "text": "次の放送いつ？",
+          "position": "closing",
+          "reality": "次回の放送予定を聞く定番質問",
+          "example": "楽しかった！次の放送いつ？",
+          "intensity": 2,
+          "tags": [
+            "生放送",
+            "次回"
+          ]
+        }
+      ]
+    }
+  ]
+}
