@@ -697,6 +697,53 @@ body {
   border-color: var(--neon-purple);
 }
 
+/* ===== AI / RULE-BASED BADGES ===== */
+.ai-badge {
+  display: inline-block;
+  background: var(--grad-toxic);
+  color: #fff;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+.rule-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.08);
+  color: var(--text-dim);
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+/* Loading animation */
+.fc-gen-loading {
+  text-align: center;
+  color: var(--text-dim);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Flowchart generated annotations */
+.fc-gen-annotations {
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  padding: 0.8rem 1rem;
+  background: rgba(255, 45, 120, 0.03);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 45, 120, 0.08);
+  margin-bottom: 0.8rem;
+}
+
 /* ===== GENERATOR ===== */
 .generator-layout {
   max-width: 720px;

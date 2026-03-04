@@ -1,0 +1,9 @@
+name = "sns-koubun-api"
+main = "index.js"
+compatibility_date = "2024-09-23"
+
+[vars]
+ALLOWED_ORIGIN = "https://mizuking796.github.io"
+DAILY_LIMIT_PER_IP = 30
+DAILY_LIMIT_GLOBAL = 8000
+COOLDOWN_SECONDS = 3
