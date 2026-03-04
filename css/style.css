@@ -550,6 +550,153 @@ body {
   letter-spacing: 0.1em;
 }
 
+/* ===== FLOWCHART — New panels ===== */
+.fc-instruction {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+/* Combo formula (selected parts joined with +) */
+.combo-formula {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.combo-part { white-space: nowrap; }
+.combo-plus {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0.2rem;
+}
+
+/* Detail panel — shows selected nodes' info */
+.fc-detail-panel {
+  margin-bottom: 1rem;
+}
+.fc-detail-title {
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.6rem;
+}
+.fc-detail-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.7rem;
+}
+.fc-detail-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-left: 3px solid;
+  border-radius: var(--radius-sm);
+  padding: 0.8rem 1rem;
+}
+.fc-detail-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.fc-detail-card-text {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.fc-detail-reality {
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  font-style: italic;
+  margin-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid rgba(255, 45, 120, 0.3);
+}
+.fc-detail-example {
+  font-size: 0.82rem;
+  background: rgba(255,255,255,0.03);
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius-xs);
+}
+
+/* Generated sentence panel */
+.fc-generated {
+  background: var(--bg-elevated);
+  border: 1.5px solid var(--neon-purple);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 30px rgba(191, 90, 242, 0.1);
+  animation: fadeInUp 0.3s ease;
+}
+.fc-gen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.fc-gen-title {
+  font-weight: 800;
+  font-size: 0.9rem;
+  background: var(--grad-toxic);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.fc-gen-copy {
+  flex-shrink: 0;
+}
+.fc-gen-text {
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  padding: 1rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255,255,255,0.04);
+  margin-bottom: 0.8rem;
+}
+.fc-gen-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.fc-gen-retry {
+  font-size: 0.82rem;
+  padding: 0.5rem 1.2rem;
+}
+
+/* Card action button (DB → Flowchart link) */
+.card-actions {
+  margin-top: 0.7rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.card-action-btn {
+  background: none;
+  border: 1px solid rgba(191, 90, 242, 0.2);
+  color: var(--neon-purple);
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.card-action-btn:hover {
+  background: rgba(191, 90, 242, 0.1);
+  border-color: var(--neon-purple);
+}
+
 /* ===== GENERATOR ===== */
 .generator-layout {
   max-width: 720px;

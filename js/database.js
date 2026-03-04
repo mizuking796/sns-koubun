@@ -1,7 +1,7 @@
 // database.js — 構文DB閲覧機能
 const Database = (() => {
-  let allData = {};        // { platform_id: { platform_name, categories: [...] } }
-  let allPhrases = [];     // flattened: [{ text, position, ... , platform, platformName, category, categoryName }]
+  let allData = {};
+  let allPhrases = [];
   let currentPlatform = 'all';
   let currentCategory = null;
   let currentPosition = 'all';
@@ -17,6 +17,8 @@ const Database = (() => {
     middle: '文中',
     closing: '文末'
   };
+
+  const TOXIC_LABELS = { 1: '微毒', 2: '弱毒', 3: '中毒', 4: '猛毒', 5: '致死量' };
 
   async function loadAll() {
     const promises = PLATFORM_FILES.map(async (id) => {
@@ -111,10 +113,8 @@ const Database = (() => {
       return;
     }
 
-    const TOXIC_LABELS = { 1: '微毒', 2: '弱毒', 3: '中毒', 4: '猛毒', 5: '致死量' };
-
-    grid.innerHTML = filtered.map(p => `
-      <div class="phrase-card" data-intensity="${p.intensity}">
+    grid.innerHTML = filtered.map((p, i) => `
+      <div class="phrase-card" data-intensity="${p.intensity}" data-idx="${i}">
         <div class="phrase-card-inner">
           <div class="phrase-card-header">
             <span class="phrase-text">「${escHtml(p.text)}」</span>
@@ -130,9 +130,24 @@ const Database = (() => {
           <div class="phrase-reality">${escHtml(p.reality)}</div>
           <div class="phrase-example">${escHtml(p.example)}</div>
           ${p.tags ? `<div class="phrase-tags">${p.tags.map(t => `<span class="tag">#${escHtml(t)}</span>`).join('')}</div>` : ''}
+          <div class="card-actions">
+            <button class="card-action-btn btn-to-flow" data-platform="${p.platform}" data-text="${escAttr(p.text)}" data-position="${p.position}">
+              🔀 フローチャートで見る
+            </button>
+          </div>
         </div>
       </div>
     `).join('');
+
+    // Wire up "go to flowchart" buttons
+    grid.querySelectorAll('.btn-to-flow').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const { platform, text, position } = btn.dataset;
+        App.switchTab('flowchart');
+        Flowchart.navigateTo(platform, text, position);
+      });
+    });
   }
 
   function shortPlatform(id) {
@@ -146,13 +161,16 @@ const Database = (() => {
     return d.innerHTML;
   }
 
+  function escAttr(s) {
+    return s.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
   function render() {
     renderCategories();
     renderPhrases();
   }
 
   function init() {
-    // Platform buttons
     document.querySelectorAll('#tab-database .platform-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('#tab-database .platform-btn').forEach(b => b.classList.remove('active'));
@@ -163,7 +181,6 @@ const Database = (() => {
       });
     });
 
-    // Position filter
     document.querySelectorAll('[data-position]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-position]').forEach(b => b.classList.remove('active'));
@@ -173,7 +190,6 @@ const Database = (() => {
       });
     });
 
-    // Intensity filter
     document.querySelectorAll('[data-intensity]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-intensity]').forEach(b => b.classList.remove('active'));
@@ -183,7 +199,6 @@ const Database = (() => {
       });
     });
 
-    // Search
     const searchInput = document.getElementById('search-input');
     let searchTimer;
     searchInput.addEventListener('input', () => {
@@ -195,5 +210,5 @@ const Database = (() => {
     });
   }
 
-  return { loadAll, init, render, allData, getAllPhrases: () => allPhrases, POSITION_LABELS };
+  return { loadAll, init, render, allData, getAllPhrases: () => allPhrases, POSITION_LABELS, TOXIC_LABELS, escHtml };
 })();
