@@ -175,11 +175,11 @@ ${partsInstruction.join('\n')}
     if (on) {
       btn.disabled = true;
       regen.disabled = true;
-      btn.textContent = '⏳ 生成中...';
+      btn.textContent = '生成中...';
     } else {
       btn.disabled = false;
       regen.disabled = false;
-      btn.textContent = '🧪 変換する';
+      btn.textContent = '変換する';
     }
   }
 
@@ -264,8 +264,8 @@ ${config.desc}
       const text = document.getElementById('gen-result').textContent;
       navigator.clipboard.writeText(text).then(() => {
         const btn = document.getElementById('copy-btn');
-        btn.textContent = '✅ コピー済み';
-        setTimeout(() => { btn.textContent = '📋 コピー'; }, 1500);
+        btn.textContent = 'コピー済み';
+        setTimeout(() => { btn.textContent = 'コピー'; }, 1500);
       });
     });
   }

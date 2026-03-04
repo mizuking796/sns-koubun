@@ -213,12 +213,26 @@ body {
   position: relative;
 }
 .search-wrapper::before {
-  content: '🔍';
+  content: '';
   position: absolute;
   left: 1rem;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 0.9rem;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--text-muted);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.search-wrapper::after {
+  content: '';
+  position: absolute;
+  left: 1.65rem;
+  top: calc(50% + 6px);
+  width: 2px;
+  height: 6px;
+  background: var(--text-muted);
+  transform: rotate(-45deg);
   pointer-events: none;
 }
 .filter-row {
@@ -440,11 +454,14 @@ body {
   position: relative;
 }
 .phrase-example::before {
-  content: '💬';
+  content: 'ex.';
   position: absolute;
   top: -0.5rem;
   left: 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-style: italic;
 }
 .phrase-tags {
   display: flex;
@@ -917,10 +934,12 @@ body {
   position: relative;
 }
 .annotation-item::before {
-  content: '⚠';
+  content: '›';
   position: absolute;
   left: 0;
-  font-size: 0.65rem;
+  font-size: 0.85rem;
+  color: var(--neon-pink);
+  font-weight: 700;
 }
 .annotation-highlight {
   color: var(--neon-purple);

@@ -6,9 +6,9 @@ const Flowchart = (() => {
   let isGenerating = false;
 
   const COLUMN_CONFIG = {
-    opening: { label: '文頭パーツ', color: '#30d158', emoji: '🟢' },
-    middle:  { label: '文中パーツ', color: '#ffd60a', emoji: '🟡' },
-    closing: { label: '文末パーツ', color: '#ff453a', emoji: '🔴' }
+    opening: { label: '文頭パーツ', color: '#30d158' },
+    middle:  { label: '文中パーツ', color: '#ffd60a' },
+    closing: { label: '文末パーツ', color: '#ff453a' }
   };
 
   function getPhrasesByPosition(platform) {
@@ -53,7 +53,7 @@ const Flowchart = (() => {
         .attr('x', x)
         .attr('y', 25)
         .attr('text-anchor', 'middle')
-        .text(`${COLUMN_CONFIG[col].emoji} ${COLUMN_CONFIG[col].label}`);
+        .text(`${COLUMN_CONFIG[col].label}`);
       svg.append('text')
         .attr('x', x).attr('y', 42)
         .attr('text-anchor', 'middle')
@@ -193,9 +193,9 @@ const Flowchart = (() => {
     el.style.display = 'block';
     el.innerHTML = `
       <div class="fc-gen-header">
-        <span class="fc-gen-title">🧪 この組み合わせで生成</span>
+        <span class="fc-gen-title">この組み合わせで生成</span>
       </div>
-      <div class="fc-gen-text fc-gen-loading">⏳ AIが生成中...</div>
+      <div class="fc-gen-text fc-gen-loading">AIが生成中...</div>
     `;
 
     if (isGenerating) return;
@@ -221,8 +221,8 @@ const Flowchart = (() => {
     const el = document.getElementById('fc-generated');
     el.innerHTML = `
       <div class="fc-gen-header">
-        <span class="fc-gen-title">🧪 この組み合わせで生成 ${isAI ? '<span class="ai-badge">AI</span>' : '<span class="rule-badge">ルールベース</span>'}</span>
-        <button class="btn-copy fc-gen-copy" id="fc-copy-btn">📋 コピー</button>
+        <span class="fc-gen-title">この組み合わせで生成 ${isAI ? '<span class="ai-badge">AI</span>' : '<span class="rule-badge">ルールベース</span>'}</span>
+        <button class="btn-copy fc-gen-copy" id="fc-copy-btn">コピー</button>
       </div>
       <div class="fc-gen-text">${Database.escHtml(text)}</div>
       <div class="fc-gen-annotations">
@@ -236,14 +236,14 @@ const Flowchart = (() => {
         <span style="color:${COLUMN_CONFIG.middle.color}">文中: ${Database.escHtml(mid.text)}</span>
         <span style="color:${COLUMN_CONFIG.closing.color}">文末: ${Database.escHtml(cl.text)}</span>
       </div>
-      <button class="btn-secondary fc-gen-retry" id="fc-retry-btn">🔄 別パターン</button>
+      <button class="btn-secondary fc-gen-retry" id="fc-retry-btn">別パターン</button>
     `;
 
     document.getElementById('fc-copy-btn').addEventListener('click', () => {
       navigator.clipboard.writeText(text).then(() => {
         const btn = document.getElementById('fc-copy-btn');
-        btn.textContent = '✅ コピー済み';
-        setTimeout(() => { btn.textContent = '📋 コピー'; }, 1500);
+        btn.textContent = 'コピー済み';
+        setTimeout(() => { btn.textContent = 'コピー'; }, 1500);
       });
     });
 

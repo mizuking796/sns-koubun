@@ -109,7 +109,7 @@ const Database = (() => {
 
     const grid = document.getElementById('phrase-grid');
     if (filtered.length === 0) {
-      grid.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">該当する構文がありません</div></div>`;
+      grid.innerHTML = `<div class="empty-state"><div class="empty-state-icon"></div><div class="empty-state-text">該当する構文がありません</div></div>`;
       return;
     }
 
@@ -132,7 +132,7 @@ const Database = (() => {
           ${p.tags ? `<div class="phrase-tags">${p.tags.map(t => `<span class="tag">#${escHtml(t)}</span>`).join('')}</div>` : ''}
           <div class="card-actions">
             <button class="card-action-btn btn-to-flow" data-platform="${p.platform}" data-text="${escAttr(p.text)}" data-position="${p.position}">
-              🔀 フローチャートで見る
+              フローチャートで見る
             </button>
           </div>
         </div>

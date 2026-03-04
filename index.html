@@ -34,26 +34,26 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab active" data-tab="database"><span class="tab-emoji">📦</span>構文DB</button>
-    <button class="tab" data-tab="flowchart"><span class="tab-emoji">🔀</span>フローチャート</button>
-    <button class="tab" data-tab="generator"><span class="tab-emoji">🧪</span>ジェネレーター</button>
+    <button class="tab active" data-tab="database">構文DB</button>
+    <button class="tab" data-tab="flowchart">フローチャート</button>
+    <button class="tab" data-tab="generator">ジェネレーター</button>
   </nav>
 
   <main class="main">
     <!-- ===== DATABASE TAB ===== -->
     <section id="tab-database" class="tab-content active">
       <div class="platform-selector">
-        <button class="platform-btn active" data-platform="all"><span class="p-icon">🌐</span>ALL</button>
-        <button class="platform-btn" data-platform="x_twitter"><span class="p-icon">𝕏</span>X</button>
-        <button class="platform-btn" data-platform="threads"><span class="p-icon">🧵</span>Threads</button>
-        <button class="platform-btn" data-platform="instagram"><span class="p-icon">📷</span>Instagram</button>
-        <button class="platform-btn" data-platform="linkedin"><span class="p-icon">💼</span>LinkedIn</button>
-        <button class="platform-btn" data-platform="note_blog"><span class="p-icon">📝</span>note/Blog</button>
+        <button class="platform-btn active" data-platform="all">ALL</button>
+        <button class="platform-btn" data-platform="x_twitter">𝕏</button>
+        <button class="platform-btn" data-platform="threads">Threads</button>
+        <button class="platform-btn" data-platform="instagram">Instagram</button>
+        <button class="platform-btn" data-platform="linkedin">LinkedIn</button>
+        <button class="platform-btn" data-platform="note_blog">note/Blog</button>
       </div>
 
       <div class="filters">
         <div class="search-wrapper">
-          <input type="text" id="search-input" class="search-input" placeholder="構文を検索...（例: 断言、ぶっちゃけ、フォロワー）">
+          <input type="text" id="search-input" class="search-input" placeholder="構文を検索...">
         </div>
         <div class="filter-row">
           <div class="filter-group">
@@ -84,15 +84,15 @@
     <!-- ===== FLOWCHART TAB ===== -->
     <section id="tab-flowchart" class="tab-content">
       <div class="platform-selector flowchart-platform">
-        <button class="platform-btn active" data-platform="x_twitter"><span class="p-icon">𝕏</span>X</button>
-        <button class="platform-btn" data-platform="threads"><span class="p-icon">🧵</span>Threads</button>
-        <button class="platform-btn" data-platform="instagram"><span class="p-icon">📷</span>Instagram</button>
-        <button class="platform-btn" data-platform="linkedin"><span class="p-icon">💼</span>LinkedIn</button>
-        <button class="platform-btn" data-platform="note_blog"><span class="p-icon">📝</span>note/Blog</button>
+        <button class="platform-btn active" data-platform="x_twitter">𝕏</button>
+        <button class="platform-btn" data-platform="threads">Threads</button>
+        <button class="platform-btn" data-platform="instagram">Instagram</button>
+        <button class="platform-btn" data-platform="linkedin">LinkedIn</button>
+        <button class="platform-btn" data-platform="note_blog">note/Blog</button>
       </div>
       <p class="fc-instruction">文頭・文中・文末のパーツをそれぞれ1つずつ選んでください。3つ揃うと例文を自動生成します。</p>
       <div class="flowchart-controls">
-        <button id="random-combo" class="btn-primary">🎰 ランダムガチャ</button>
+        <button id="random-combo" class="btn-primary">ランダムガチャ</button>
       </div>
       <div id="combo-result" class="combo-result" style="display:none;"></div>
       <div id="fc-generated" class="fc-generated" style="display:none;"></div>
@@ -113,20 +113,20 @@
           <label class="gen-section-label">変換先SNSスタイル</label>
           <div class="style-buttons">
             <button class="style-btn active" data-style="x_twitter">𝕏 X風</button>
-            <button class="style-btn" data-style="threads">🧵 Threads風</button>
-            <button class="style-btn" data-style="instagram">📷 Instagram風</button>
-            <button class="style-btn" data-style="linkedin">💼 LinkedIn風</button>
-            <button class="style-btn" data-style="note_blog">📝 note風</button>
+            <button class="style-btn" data-style="threads">Threads風</button>
+            <button class="style-btn" data-style="instagram">Instagram風</button>
+            <button class="style-btn" data-style="linkedin">LinkedIn風</button>
+            <button class="style-btn" data-style="note_blog">note風</button>
           </div>
         </div>
         <div class="generator-actions">
-          <button id="generate-btn" class="btn-primary">🧪 変換する</button>
-          <button id="regenerate-btn" class="btn-secondary" style="display:none;">🔄 もう一回</button>
+          <button id="generate-btn" class="btn-primary">変換する</button>
+          <button id="regenerate-btn" class="btn-secondary" style="display:none;">もう一回</button>
         </div>
         <div id="gen-output" class="gen-output" style="display:none;">
           <div class="gen-output-header">
             <span class="gen-output-label"></span>
-            <button id="copy-btn" class="btn-copy">📋 コピー</button>
+            <button id="copy-btn" class="btn-copy">コピー</button>
           </div>
           <div class="gen-result-wrapper">
             <div id="gen-result" class="gen-result"></div>
